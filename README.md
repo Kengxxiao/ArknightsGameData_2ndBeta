@@ -1,0 +1,2 @@
+# ArknightsGameData_2ndBeta
+明日方舟二测gamedata游戏数据
