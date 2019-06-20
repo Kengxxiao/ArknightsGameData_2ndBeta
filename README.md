@@ -1,2 +1,2 @@
 # ArknightsGameData_2ndBeta
-明日方舟二测gamedata游戏数据
+明日方舟二测gamedata目录下已加密游戏数据
