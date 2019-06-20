@@ -1,0 +1,131 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第二关（前）
+
+// Comments
+[Blocker(a=0.2, r=1, g=0.3, b=0.3, fadetime=0.5, block=true)]
+[Background(image="bg_cher_0", width=1, height=1, fadetime=1)]
+[PlayMusic(intro="$escape_intro", key="$escape_loop", volume=0.8, crossfade=1.5, delay=0.5)]
+[Delay(time=1)]
+
+[name="居民"]   不要！不要啊！！
+[name="居民"]   救命！！不！！不！！！
+[name="居民"]   为什么，为什么是我！！
+[name="居民"]   啊啊啊！！！
+[Blocker(a=1, r=0.93, g=0.75, b=0.32, fadetime=0.3, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.3, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.3, block=true)]
+[Dialog()]
+[Character(name="char_016_medic", name2="char_130_doberm_ex", focus=1)]
+[Blocker(a=0, fadetime=1, block=true)]
+[name="医疗干员"]   怎么会......
+[name="医疗干员"]   明明潜入时还是一片宁静......
+
+[Character(name="char_016_medic", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   刚刚你们身处核心地带，没法了解切城现在的局势。
+
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Image(image="bg_0_tv",x=0, y=-20, xScale=1.1, yScale=1.1, fadetime=0)]
+[ImageTween(xFrom=0, yFrom=-20, xTo=0, yTo=0, xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1, duration=7, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+
+//画面忽明忽暗
+[Blocker(a=0.1, r=0, g=0, b=0, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]
+[Blocker(a=0.05, r=0, g=0, b=0, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]
+[Blocker(a=0.1, r=0, g=0, b=0, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]
+
+
+
+[name="杜宾"]   事实上......整个城市都陷入了混乱。
+[name="杜宾"]   军队与治安队的抵抗也零零散散。
+[name="杜宾"]   可见，切尔诺伯格的指挥系统也许已经被整合运动彻底瘫痪了。
+
+
+[Blocker(a=0.1, r=0, g=0, b=0, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]
+
+
+[Character(name="char_002_amiya_1#6", name2="char_130_doberm_ex", focus=1)]
+
+[name="阿米娅"]   ......难道说，整合运动自一开始就在针对切城当局吗？
+
+[Blocker(a=0.1, r=0, g=0, b=0, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]
+
+
+[Character(name="char_002_amiya_1#6", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   是的。而且......
+[Blocker(a=0.05, r=0, g=0, b=0, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]
+
+[name="杜宾"]   我们入城时也太过顺利了，连一个切城守卫都没见到。
+[name="杜宾"]   由此推测——
+
+[Blocker(a=0.05, r=0, g=0, b=0, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]
+[Blocker(a=0.05, r=0, g=0, b=0, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]
+[Blocker(a=0.3, r=0, g=0, b=0, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]
+
+[name="杜宾"]   我们入城时整合运动就已经控制住了整个切城。
+[name="杜宾"]   只是他们选择在刚才动手。
+[name="杜宾"]   本以为整合运动作为感染者团体，再怎么示威游行也只是小打小闹。
+[name="杜宾"]   现在......只能庆幸要收拾切尔诺伯格这烂摊子的人不是我了。
+
+[image(fadetime=1)]
+[blocker(a=0, r=0, g=0, b=0, fadetime=1)]
+[Character(name="char_016_medic", name2="char_130_doberm_ex", focus=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[name="医疗干员"]   可是，整合运动究竟想要什么？为什么......
+
+[Character(name="char_002_amiya_1#7", name2="char_130_doberm_ex", focus=1)]
+
+[name="阿米娅"]   现在不是停下步伐分析局势的时候。
+[name="阿米娅"]   当务之急是撤出核心区......越快越好。
+[name="阿米娅"]   这样我们才能保证{@nickname}博士的安全。
+
+[Character(name="char_002_amiya_1#7", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   没错。
+[name="杜宾"]   而且——
+
+
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+
+[Dialog]
+[Character(name="char_002_amiya_1#7", name2="char_130_doberm_ex", focus=-1)]
+[Delay(time=0.5)]
+
+
+[Character(name="char_130_doberm_ex")]
+
+[name="杜宾"]   ——有敌袭！！小队临战姿态！！
+[Delay(time=0.6)]
+[Dialog]
+[Delay(time=0.5)]
+[Character(name="char_002_amiya_1", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]  呼......我听凯尔希说过很多次你的名字，Dr.{@nickname}。
+
+[Character(name="char_002_amiya_1#4", name2="char_130_doberm_ex", focus=1)]
+
+[name="阿米娅"]   别，别为难{@nickname}博士，杜宾......
+
+[Character(name="char_002_amiya_1#4", name2="char_130_doberm_ex", focus=2)]
+[name="杜宾"]   就算你这么说——
+[name="杜宾"]   这局势可不允许我们有所保留。
+
+[Character(name="char_130_doberm_ex")]
+
+[name="杜宾"]   来吧{@nickname}博士，现在，该是你来证明自己的时候了。
+[Delay(time=0.5)]
+
+[Dialog]
+[Blocker(block=true)]
+[Image]

@@ -1,0 +1,16 @@
+[HEADER(is_skippable=true)] 训练关卡5
+
+[Tutorial(focusX=-237, focusY=65, focusWidth=230, focusHeight=116, anchor="BottomRight", \
+          animStyle="Highlight", focusStyle="HighlightRect", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_sys")] \
+先锋干员不仅部署费用较低，而且大部分都拥有回复部署费用或支援后续干员的能力。
+
+[Tutorial(focusX=-237, focusY=65, focusWidth=230, focusHeight=116, anchor="BottomRight", \
+          animStyle="Highlight", focusStyle="HighlightRect", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_sys")] \
+作为战斗的先锋部队，他们是非常合适的选择。
+
+[PopupDialog(dialogHead="$avatar_sys")] \
+本次作战中部署费用不会自动回复，请合理安排干员的部署顺序，抵挡敌人的进攻。
+
+[Blocker(fadetime=0.3, block=true, a=0)]

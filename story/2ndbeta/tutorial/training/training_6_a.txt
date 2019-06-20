@@ -1,0 +1,6 @@
+[HEADER(is_skippable=true)] 训练关卡6a
+
+[PopupDialog(dialogHead="$avatar_sys")] 因为各种突发情况，有时我们不得不面对以少量的干员迎击敌人的困境。
+[PopupDialog(dialogHead="$avatar_sys")] 作为阿米娅选中的指挥专员，我相信你总有办法撑过去。
+
+[Blocker(fadetime=0.3, block=true, a=0)]

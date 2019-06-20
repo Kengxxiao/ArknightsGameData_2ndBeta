@@ -1,0 +1,343 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第十二关（后）
+
+// Comments
+
+[Background(image="bg_cher_3", width=1, height=1, fadetime=1)]
+[PlayMusic(intro="$chernormal_intro", key="$chernormal_loop", volume=0.8, crossfade=1, delay=0.5)]
+[Delay(time=1)]
+
+[Character(name="char_002_amiya_1#7", name2="char_1504_cqbw", focus=1)]
+
+[name="阿米娅"]   嘁——！
+
+[Character(name="char_002_amiya_1#7", name2="char_1504_cqbw", focus=2)]
+
+[name="W"]   你的成长该说是超出我的预期了呢。
+
+[Character(name="char_002_amiya_1#7", name2="char_1504_cqbw", focus=1)]
+
+[name="阿米娅"]   轮不到你来评判！
+
+[Character(name="char_1504_cqbw")]
+
+[name="W"]   好的好的~
+[name="W"]   你可以走了，快走吧。
+
+[Character(name="char_1002_nsabr_2")]
+
+[name="整合运动成员"]   W......？
+
+[Character(name="char_1504_cqbw")]
+
+[name="W"]   ——要留下来送死？
+[name="W"]   我没问题哦，你们爱怎么样就怎么样。
+
+[Character(name="char_1002_nsabr_2")]
+
+[name="整合运动成员"]   ......
+[name="整合运动成员"]   撤回下城区。放他们走。
+
+[Character(name="char_002_amiya_1#6")]
+
+[name="阿米娅"]   什么......？
+
+[Character(name="char_1504_cqbw")]
+
+[name="W"]   再拖下去事情就要变得没趣了。
+[name="W"]   我很讨厌无聊的，就这样。
+
+[name="W"]   我很期待下次再会哦，阿米娅。
+[PlayMusic(intro="$darkness01_intro", key="$darkness01_loop", volume=0.8, crossfade=1.5, delay=0.5)]
+[name="W"]   还有——那个人。
+
+[PlaySound(key="$d_gen_walk_n", volume=1.1)]
+[Dialog(fadetime=1)]
+[Character(fadetime=1)]
+[Delay(time=2)]
+
+
+[Character(name="char_002_amiya_1#6")]
+
+[name="阿米娅"]   ......为什么......她在......做什么？
+
+[Character(name="char_002_amiya_1", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   ————
+[name="杜宾"]   已经超出预定时间了。
+[name="杜宾"]   立刻撤回罗德岛。
+
+[Character(name="char_002_amiya_1#4", name2="char_130_doberm_ex", focus=1)]
+
+[name="阿米娅"]   ......
+[name="阿米娅"]   我来......护送后方干员。
+
+[Character(name="char_130_doberm_ex")]
+
+[name="杜宾"]   ......
+
+[Character(name="char_148_nearl_1")]
+
+[name="临光"]   ——好。
+
+[Dialog]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=1, block=true)]
+[Character(fadetime=0)]
+
+[PlayMusic(intro="$darkness01_intro", key="$darkness01_loop", volume=0.8, crossfade=1.5, delay=0.5)]
+[delay(time=1)]
+
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.5, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+
+//[Blocker(a=0, fadetime=1, block=true)]
+//[PlayMusic(intro="$darkness01_intro", key="$darkness01_loop", volume=0.8, crossfade=1, delay=0.5)]
+
+//[Character(name="char_016_medic", name2="char_002_amiya_1", focus=1)]
+
+//[name="医疗干员"]   阿米娅......
+
+//[Character(name="char_016_medic", name2="char_002_amiya_1", focus=2)]
+
+//[name="阿米娅"]   嗯？
+
+//[Character(name="char_016_medic", name2="char_002_amiya_1", focus=1)]
+
+//[name="医疗干员"]   阿米娅......我......
+//[name="医疗干员"]   阿米娅......他们......呜......
+
+//[Character(name="char_016_medic", name2="char_002_amiya_1#4", focus=2)]
+
+//[name="阿米娅"]   ......
+
+//[Character(name="char_002_amiya_1#4")]
+
+//[name="阿米娅"]   ......
+
+//[Dialog]
+//[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+//[Character(fadetime=0)]
+[cameraEffect(effect="Grayscale", keep=true, amount=1, fadetime=0)]
+[Background(image="bg_cher_7", width=1, height=1, fadetime=0)]
+
+[Character(name="char_014_riope", name2="char_013_riop", focus=2)]
+[Blocker(a=0, fadetime=3, block=false)]
+[name="罗德岛干员"]   .........
+[name="罗德岛干员"]   ...............
+[name="罗德岛干员"]   ......头儿......？
+[name="罗德岛干员"]   其他人呢......
+
+[Character(name="char_014_riope", name2="char_013_riop", focus=1)]
+[name="罗德岛精英干员"]   临光杜宾她们的小队，已经带着阿米娅和Dr.{@nickname}突破封锁。
+[name="罗德岛精英干员"]   而留下来断后的干员们......
+[name="罗德岛精英干员"]   ......都阵亡了。
+
+[Dialog]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Background(fadetime=0)]
+[Character(fadetime=0)]
+[cameraEffect(effect="Grayscale", keep=true, amount=0, fadetime=0)]
+[Blocker(a=0, fadetime=0.5, block=true)]
+
+//[Character(name="char_002_amiya_1#4")]
+
+//[name="阿米娅"]   ——————————
+//[name="阿米娅"]   ————！
+
+[Dialog]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Character(fadetime=0)]
+[cameraEffect(effect="Grayscale", keep=true, amount=1, fadetime=0)]
+[Background(image="bg_cher_7", width=1, height=1, fadetime=0)]
+[Blocker(a=0, fadetime=0.5, block=true)]
+
+
+[Character(name="char_014_riope", name2="char_013_riop", focus=2)]
+
+[name="罗德岛干员"]   ......什么......
+
+[Character(name="char_014_riope", name2="char_013_riop", focus=1)]
+
+[name="罗德岛精英干员"]   你我是最后两个活着的。
+
+[Character(name="char_014_riope", name2="char_013_riop", focus=2)]
+
+[name="罗德岛干员"]   ......我想起来了......那个......那个怪物塔露拉......仅仅一个人......
+[name="罗德岛干员"]   近卫们竟然眨眼间就像棋子一样迸散横飞.......
+[name="罗德岛干员"]   那个怪物像捏黄油一样捏碎了重装干员......
+
+[Character(name="char_014_riope", name2="char_013_riop", focus=1)]
+
+[name="罗德岛精英干员"]   别出声。你伤的很重。
+
+[Character(name="char_014_riope", name2="char_013_riop", focus=2)]
+
+[name="罗德岛干员"]   荒唐......太荒唐了！她就是天灾的化身......
+[name="罗德岛干员"]   否则，火力小队怎么可能一瞬间被焚烧成灰......！
+[name="罗德岛干员"]   ......惨叫......只剩下......惨叫......
+
+[Character(name="char_014_riope")]、
+[CameraShake(duration=0.5, xstrength=15, ystrength=12, vibrato=30, randomness=90, fadeout=true)]
+
+[name="罗德岛精英干员"]   少说点！
+
+[Character(name="char_013_riop")]
+
+[name="罗德岛干员"]   ......
+[name="罗德岛干员"]   ......抱歉......我......我没法......
+
+[Character(name="char_014_riope", name2="char_013_riop", focus=1)]
+
+[name="罗德岛精英干员"]   冷静。
+[name="罗德岛精英干员"]   我帮你应急处理了一下。
+
+[Character(name="char_014_riope", name2="char_013_riop", focus=2)]
+
+[name="罗德岛干员"]   ......头儿......你的手......？
+
+[Character(name="char_014_riope", name2="char_013_riop", focus=1)]
+
+[name="罗德岛精英干员"]   一只就够用了。
+
+[Character(name="char_014_riope", name2="char_013_riop", focus=-1)]
+
+[Dialog]
+[Delay(time=0.6)]
+
+[Character(name="char_014_riope", name2="char_013_riop", focus=2)]
+
+[name="罗德岛干员"]   ......头儿，逃吧。你的话，一定能够杀出去。
+
+[Character(name="char_014_riope", name2="char_013_riop", focus=1)]
+
+[name="罗德岛精英干员"]   我们只拖了那个怪物几分钟。阿米娅她们至少需要十五分钟才能突破。
+[name="罗德岛精英干员"]   Dr.{@nickname}和阿米娅安全之前，我不能走。
+
+[Dialog]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Background(fadetime=0)]
+[Character(fadetime=0)]
+[cameraEffect(effect="Grayscale", keep=true, amount=0, fadetime=0)]
+[Blocker(a=0, fadetime=0.5, block=true)]
+
+//[Character(name="char_002_amiya_1#4")]
+
+//[name="阿米娅"]   啊......呜......啊......！
+//[name="阿米娅"]   我......我......
+
+[Dialog]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Character(fadetime=0)]
+[cameraEffect(effect="Grayscale", keep=true, amount=1, fadetime=0)]
+[Background(image="bg_cher_7", width=1, height=1, fadetime=0)]
+[Blocker(a=0, fadetime=0.5, block=true)]
+
+
+[Character(name="char_014_riope", name2="char_013_riop", focus=1)]
+
+[name="罗德岛精英干员"]   我得先阻止那个怪物。
+
+[Character(name="char_014_riope", name2="char_013_riop", focus=2)]
+
+[name="罗德岛干员"]   头儿......我也......
+
+[Character(name="char_014_riope", name2="char_013_riop", focus=1)]
+
+[name="罗德岛精英干员"]   你的命是我废了一只手换回来的。
+[name="罗德岛精英干员"]   哪怕你只能再活一分钟，我也希望这只手至少值一分钟。
+
+[Character(name="char_014_riope", name2="char_013_riop", focus=2)]
+
+[name="罗德岛干员"]   ——
+
+[Character(name="char_014_riope")]
+
+[name="罗德岛精英干员"]   我去去就回。照顾好自己。
+
+[Dialog]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Background(fadetime=0)]
+[Character(fadetime=0)]
+[cameraEffect(effect="Grayscale", keep=true, amount=0, fadetime=0)]
+[Blocker(a=0, fadetime=0.5, block=true)]
+
+//[Character(name="char_002_amiya_1#4")]
+
+//[name="阿米娅"]   为什么......为什么......要让我看见！
+//[name="阿米娅"]   就只能这样而已吗......就只能......只能看着......而已吗......！
+
+[Dialog]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Character(fadetime=0)]
+[cameraEffect(effect="Grayscale", keep=true, amount=1, fadetime=0)]
+[Background(image="bg_cher_7", width=1, height=1, fadetime=0)]
+[Blocker(a=0, fadetime=0.5, block=true)]
+
+[Character(name="char_013_riop")]
+
+[name="罗德岛干员"]   头儿......
+[name="罗德岛干员"]   呵......我真......不争气。
+[name="罗德岛干员"]   阿米娅......
+
+[Character(fadetime=1)]
+
+[CameraShake(duration=0.5, xstrength=2, ystrength=3, vibrato=30, randomness=90, fadeout=true)]
+
+[name="罗德岛干员"]   你们一定能实现......大家的愿望......
+
+[Dialog]
+//[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.5, block=true)]
+//[Background(fadetime=0)]
+//[Character(fadetime=0)]
+//[cameraEffect(effect="Grayscale", keep=true, amount=0, fadetime=0)]
+//[Blocker(a=0, fadetime=0.5, block=true)]
+
+//[Character(name="char_002_amiya_1#4")]
+
+[name="阿米娅"]   ......
+
+//[name="阿米娅"]   ............我会的。
+//[name="阿米娅"]   ......我......一定会的。
+[name="？？？"]   他们......我......呜......
+[name="阿米娅"]   ............
+[name="？？？"]   ........阿米娅？
+[name="？？？"]   ............阿米娅？
+[StopMusic(fadetime=0.1)]
+[Background(image="bg_cher_3", width=1, height=1, fadetime=0, block=true)]
+[cameraEffect(effect="Grayscale", keep=true, amount=0, fadetime=0)]
+[Character(name="char_016_medic", name2="char_002_amiya_1#4" ,fadetime=0, focus=2)]
+
+[name="阿米娅"]   啊？
+
+[Character(name="char_016_medic", name2="char_002_amiya_1#4", focus=1)]
+
+[name="医疗干员"]   你怎么了......
+
+[Character(name="char_016_medic", name2="char_002_amiya_1#4", focus=2)]
+
+[name="阿米娅"]   ......没，没什么。只是刚才突然有些......
+[name="阿米娅"]   ......难受。
+
+[Character(name="char_016_medic", name2="char_002_amiya_1#4", focus=1)]
+
+[name="医疗干员"]   呜......嗯......
+
+[Character(name="char_016_medic", name2="char_002_amiya_1#7", focus=2)]
+
+[name="阿米娅"]   ......别哭。
+[name="阿米娅"]   以前有个人这么对我说......
+[name="阿米娅"]   眼泪......要留到战争结束之后。
+[name="阿米娅"]   现在......还不行。
+
+[Character(name="char_016_medic", name2="char_002_amiya_1#7", focus=1)]
+
+[name="医疗干员"]   嗯......呜......嗯......
+
+[Character(name="char_016_medic", name2="char_002_amiya_1#7", focus=2)]
+
+[name="阿米娅"]   走吧......
+[name="阿米娅"]   ......我们回家。
+
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(block=true)]
+[Image]

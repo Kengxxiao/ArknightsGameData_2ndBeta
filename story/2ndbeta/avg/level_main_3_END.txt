@@ -1,0 +1,90 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第三关（后）
+
+// Comments
+
+[Background(image="bg_cher_5", width=1, height=1, fadetime=1)]
+[PlayMusic(intro="$escape_intro", key="$escape_loop", volume=0.8, crossfade=1.5, delay=0.5)]
+[Delay(time=1)]
+
+[Character(name="char_002_amiya_1", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]  成功歼灭敌方小队。
+[name="杜宾"]  只有保证对方消息的阻塞，才能保障我们的安全。
+
+[Character(name="char_002_amiya_1", name2="char_130_doberm_ex", focus=1)]
+
+[name="阿米娅"]   ......我明白。
+
+[Character(name="char_016_medic", name2="char_013_riop", focus=1)]
+
+[name="医疗干员"]   伤口有开裂吗？
+
+[Character(name="char_016_medic", name2="char_013_riop", focus=2)]
+
+[name="罗德岛干员"]   没问题了，谢谢你。
+
+[Character(name="char_016_medic")]
+
+[name="医疗干员"]   没什么没什么。嗯？那边的伤员——喂，等等！
+[Dialog(fadetime=0.6)]
+[Character(fadetime=0.6)]
+[Delay(time=0.6)]
+
+[Character(name="char_002_amiya_1", name2="char_013_riop", focus=2)]
+
+[name="罗德岛干员"]   真是个天使。
+
+[Character(name="char_002_amiya_1", name2="char_013_riop", focus=1)]
+
+[name="阿米娅"]   每次看到她努力的样子，就觉得......
+
+[Character(name="char_002_amiya_1", name2="char_013_riop", focus=2)]
+
+[name="罗德岛干员"]   嗯......就会感觉，我们还没到驻足休憩的时候。
+
+[Character(name="char_002_amiya_1", name2="char_013_riop", focus=1)]
+
+[name="阿米娅"]   是的。我们不仅仅是在为了自己战斗。
+
+[Character(name="char_002_amiya_1", name2="char_013_riop", focus=2)]
+
+[name="罗德岛干员"]   刚才你们说得对。像我们罗德岛这样的是极少数。
+[name="罗德岛干员"]   世上大多数人都厌恶我们感染者。
+[name="罗德岛干员"]   所以我们也同样应该敌视普通人——我原本也有那样的偏见。
+[name="罗德岛干员"]   来到罗德岛才发现也有她这样的孩子。
+[name="罗德岛干员"]   明明是普通人......却不顾感染的威胁，和我们一起出生入死，为我们奔走......
+
+[Character(name="char_002_amiya_1#2", name2="char_013_riop", focus=1)]
+
+[name="阿米娅"]   罗德岛的每一位都是好人。
+[name="阿米娅"]   也许很多人因畏惧与敌意，相互间产生了种种隔阂......
+[name="阿米娅"]   但只要在罗德岛，大家一定能解开误会。
+
+[Character(name="char_002_amiya_1#2", name2="char_013_riop", focus=2)]
+
+[name="罗德岛干员"]   ......你说得对，阿米娅。
+[name="罗德岛干员"]   嘿......
+
+[Character(name="char_002_amiya_1#2", name2="char_013_riop", focus=1)]
+
+[name="阿米娅"]   小心，我来扶你......
+
+[Character(name="char_002_amiya_1#2", name2="char_013_riop", focus=2)]
+
+[name="罗德岛干员"]   不用......
+
+[Character(name="char_013_riop")]
+
+[name="罗德岛干员"]   啊，{@nickname}博士——
+[name="罗德岛干员"]   ——谢谢。
+[name="罗德岛干员"]   多亏了你，我们才能杀出来。
+[name="罗德岛干员"]   我相信你和阿米娅......相信罗德岛的诸位。
+
+[Character(name="char_002_amiya_1#2")]
+
+[name="阿米娅"]   我也相信你们。我们一定能突破困局的。
+
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(block=true)]
+[Image]

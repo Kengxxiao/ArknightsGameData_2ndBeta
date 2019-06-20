@@ -1,0 +1,193 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第九关（后）
+
+// Comments
+
+[Background(image="bg_cher_0", width=1, height=1, fadetime=1)]
+[PlayMusic(intro="$chernormal_intro", key="$chernormal_loop", volume=0.8, crossfade=1, delay=0.5)]
+[Delay(time=1)]
+
+[Character(name="char_1507_Mephisto_1")]
+
+[name="梅菲斯特"]   是的，他们不知道自己被浮士德跟踪。
+[name="梅菲斯特"]   罗德岛被困在了下城区。
+[Background(fadetime=2)]
+[name="梅菲斯特"]   虽然是些虫子，但他们可能趁着天灾降临而逃跑。
+[name="梅菲斯特"]   加上密钥的丢失......
+[name="梅菲斯特"]   以他们对切尔诺伯格的了解，说不定会干扰到我们的计划。
+
+[Character(fadetime=2)]
+[delay(time=1)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[Character(name="char_011_talula_1",fadetime=1)]
+
+[name="？？？"]   ————
+[Delay(time=0.6)]
+[Character(fadetime=2)]
+
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[Background(image="bg_cher_1", width=1, height=1, fadetime=0)]
+[Character(fadetime=0)]
+[Blocker(a=0, fadetime=0.6, block=true)]
+
+
+
+
+[Delay(time=1)]
+
+[Character(name="char_130_doberm_ex")]
+
+[name="杜宾"]   敌人没有停止攻击与前往避难的迹象！！
+[Delay(time=0.5)]
+
+
+[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, block=false)]
+[playsound(key="$p_imp_whip_h")]
+[Blocker(a=0.7, r=0.95, g=0.3, b=0.3, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+
+
+[name="杜宾"]   简直就像是......前仆后继的送死！！！
+[Delay(time=0.6)]
+
+[Character(name="char_148_nearl_1#3")]
+
+[name="临光"]   整合运动全都疯了吗！！
+[Delay(time=0.6)]
+
+
+[Dialog]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[Character(fadetime=0)]
+[Background(image="bg_cher_0", width=1, height=1, fadetime=0)]
+[Blocker(a=0.5, fadetime=0.6, block=true)]
+
+[StopMusic(fadetime=1)]
+[Background(fadetime=2)]
+[Character(name="char_011_talula_1", fadetime=0.5)]
+[Delay(time=0.5)]
+[name="？？？"]   ————
+[Delay(time=1)]
+[Character(name="char_1505_frstar_1")]
+[name="？？？"]   这就是罗德岛？呵......很英勇。
+[Delay(time=0.5)]
+[Character(name="char_1502_crowns")]
+[name="弑君者"]   ......
+[Delay(time=0.5)]
+[Dialog]
+[PlayMusic(intro="$calamity_intro", key="$calamity_loop", volume=0.8, crossfade=1.5, delay=0.5)]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[Character(fadetime=0)]
+[Background(image="bg_cher_1", width=1, height=1, fadetime=0)]
+[Blocker(a=0, fadetime=0.6, block=true)]
+
+[Character(name="char_014_riope", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   切——
+[name="杜宾"]   整合运动是要拖我们一起下水吗！！
+
+[Character(name="char_014_riope", name2="char_130_doberm_ex", focus=1)]
+
+[name="罗德岛精英干员"]   只是些狂热分子——
+[name="罗德岛精英干员"]   战斗起来毫无章法！
+
+[Character(name="char_013_riop", name2="char_148_nearl_1", focus=2)]
+
+[name="杜宾"]   ——想用炮灰拖住我们？！
+
+[Character(name="char_013_riop", name2="char_148_nearl_1", focus=1)]
+
+[name="罗德岛干员"]   防御阵地支撑不住了！！
+
+[PlaySound(key="$d_gen_explo_n")]
+[CameraShake(duration=1, xstrength=5, ystrength=3, vibrato=30, randomness=90, block=false)]
+[Blocker(a=0.7, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0.93, g=0.75, b=0.32, fadetime=0.2, block=true)]
+
+
+[PlaySound(key="$d_gen_explo_n", volume=0.1)]
+[name="罗德岛干员"]   ......
+[name="罗德岛干员"]   ......落石？
+[name="罗德岛干员"]   不对......是砸在建筑物上迸溅出来的......
+[PlaySound(key="$d_gen_explo_n", volume=0.4, delay=2)]
+[Character(name="char_130_doberm_ex")]
+
+[name="杜宾"]   ————
+[name="杜宾"]   糟了！该死，该死，该死——可恶！！
+[PlaySound(key="$d_gen_explo_n", volume=0.3)]
+[name="杜宾"]   天灾来了！！防护准备！！
+
+[Dialog]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.8, block=true)]
+[Character(fadetime=0)]
+[Background(fadetime=0)]
+[Blocker(a=0, fadetime=1, block=true)]
+
+
+[Image(image="avg_9_1",x=0, y=50,xScale=1.1, yScale=1.1, fadetime=2)]
+[ImageTween(xFrom=-50, yFrom=-50, xTo=0, yTo=0, xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1, duration=25, block=false)]
+
+[Delay(time=2)]
+
+[name="弑君者"]   ————要怎么做？
+[name="塔露拉"]   如果他们能活过天灾——
+[Blocker(a=0.1, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Blocker(a=0.05, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Blocker(a=0.05, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Delay(time=0.2)]
+
+[name="塔露拉"]   去吧。拦住他们中想逃的。
+[name="塔露拉"]   看看他们能拼命到什么程度。
+[Blocker(a=0.1, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Blocker(a=0.05, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[name="弑君者"]   ......
+[Dialog]
+[name="塔露拉"]   ————呵。
+[Blocker(a=0.05, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Blocker(a=0.2, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Blocker(a=0.1, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Delay(time=0.2)]
+[Blocker(a=0.05, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Blocker(a=0.05, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0.93, g=0.40, b=0.32, fadetime=0.1, block=true)]
+
+
+[Dialog]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=1, block=true)]
+[Image(fadetime=0)]
+[Background(image="bg_cher_1", width=1, height=1, fadetime=1)]
+[Blocker(a=0, fadetime=1, block=true)]
+
+[CameraShake(duration=1, xstrength=10, ystrength=8, vibrato=30, randomness=90, fadeout=true)]
+[Blocker(a=0.1, initr=2, r=0.7, g=0.3, b=0.2, fadetime=1, block=true)]
+[Character(name="char_130_doberm_ex")]
+
+[name="杜宾"]   来不及了！！
+
+[Character(name="char_016_medic")]
+
+[name="医疗干员"]   啊......啊......
+[name="医疗干员"]   那是......
+[PlaySound(key="$d_gen_thunders_amb")]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=1, block=true)]
+[Image(image="avg_9_3",x=0, y=50,xScale=1, yScale=1, fadetime=0)]
+[Blocker(a=0, fadetime=1, block=true)]
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   清醒点！
+[name="阿米娅"]   准备好......应对天灾！！
+[PlaySound(key="$d_gen_thunders_amb", volume=0.3)]
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(block=true)]
+[Image]

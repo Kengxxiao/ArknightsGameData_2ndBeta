@@ -1,0 +1,102 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第六关（后）
+
+// Comments
+
+[Background(image="bg_cher_5", width=1, height=1, fadetime=1)]
+[PlayMusic(intro="$escape_intro", key="$escape_loop", volume=0.8, crossfade=1.5, delay=0.5)]
+[Delay(time=1)]
+
+[Character(name="char_1507_Mephisto_1#4")]
+
+[name="梅菲斯特"]   这女人......怎么回事......
+[Dialog]
+[Character(name="char_148_nearl_1#3")]
+
+[name="临光"]   ————
+
+[Delay(time=0.6)]
+
+[Character(name="char_148_nearl_1")]
+
+[name="临光"]   果然你不是总指挥。
+[name="临光"]   制压切城军事据点的整合运动像机器一样高效——
+[name="临光"]   而你领着的这批各个都像神经错乱的暴徒。
+[name="临光"]   屠杀，纵火，围猎......只不过是满足你自己残忍的趣味而已吧？
+[name="临光"]   会在这时煽动如此不堪之事的人，没可能策划出足够击溃整座城市的方案。
+[name="临光"]   你的指挥官大概是命令你制造混乱吧？
+[name="临光"]   而你，就依着自己低劣的品味肆意妄为。
+[name="临光"]   ——这样幼稚狂妄的人，也就是个小头目而已。
+
+[Character(name="char_1507_Mephisto_1#2")]
+
+[name="梅菲斯特"]   ——
+[name="梅菲斯特"]   ——浮士德。
+[name="梅菲斯特"]   把她那张嘴给我打穿。
+
+[Character(name="char_1508_Faust_1#2")]
+
+[name="浮士德"]   ......
+
+[Character(name="char_148_nearl_1#4")]
+
+[name="临光"]   ！
+
+
+//射箭
+[CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[PlaySound(key="$d_sp_ballista")]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+
+[Character(name="char_148_nearl_1#3")]
+
+[name="临光"]   咳，咳......
+[name="临光"]   没教养的家伙！
+
+[Character(name="char_1507_Mephisto_1#4")]
+
+[name="梅菲斯特"]   挡住了？凭盾牌——？！
+
+[Character(name="char_1507_Mephisto_1#3")]
+
+[name="梅菲斯特"]   不可能......不可能！你在做什么！
+[name="梅菲斯特"]   再来！！把这家伙打成碎渣！
+
+[Character(name="char_1508_Faust_1#2")]
+
+[name="浮士德"]   ————！
+
+[Character(name="char_148_nearl_1#3")]
+
+[name="临光"]   啧——！
+
+[Character(name="char_014_riope")]
+
+[name="罗德岛精英干员"]   休想得逞！
+[CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[PlaySound(key="$d_sp_ballista")]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+
+[Character(name="char_1507_Mephisto_1#2")]
+
+[name="梅菲斯特"]   ——————我要把你们，通通————
+
+[Character(name="char_014_riope")]
+
+[name="罗德岛精英干员"]   临光，就是现在！
+
+[Character(name="char_148_nearl_1#3")]
+
+[name="临光"]   小队成员，随我冲击敌方阵形！阿米娅——
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   明白，小心敌方狙击手！注意借助烟尘隐蔽！
+[name="阿米娅"]   反击开始！
+
+
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(block=true)]
+[Image]

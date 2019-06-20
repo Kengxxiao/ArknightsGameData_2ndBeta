@@ -1,0 +1,67 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第四关（后）
+
+// Comments
+
+[Background(image="bg_cher_5", width=1, height=1, fadetime=1)]
+[PlayMusic(intro="$escape_intro", key="$escape_loop", volume=0.8, crossfade=1.5, delay=0.5)]
+[Delay(time=1)]
+
+[Character(name="char_002_amiya_1")]
+
+[name="阿米娅"]   呼......呼......
+[Delay(time=0.6)]
+
+[Character(name="char_002_amiya_1", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   我们已经接近切城<color=#ee4321>中城区</color>了。
+
+[Character(name="char_002_amiya_1", name2="char_130_doberm_ex", focus=1)]
+
+[name="阿米娅"]   ......灾云越聚越浓......短程通讯也被灾云干扰了吗......
+
+[Character(name="char_002_amiya_1#6", name2="char_130_doberm_ex", focus=1)]
+
+[name="阿米娅"]   ——难道！
+
+[Character(name="char_002_amiya_1#6", name2="char_013_riop", focus=2)]
+
+
+[name="罗德岛干员"]   怎么了阿米娅？
+
+[Character(name="char_002_amiya_1#7", name2="char_013_riop", focus=1)]
+
+[name="阿米娅"]   ——灾云现象足以干扰电波时，天灾发生在即！我们必须立刻撤出切城......！
+
+[Character(name="char_002_amiya_1#7", name2="char_013_riop", focus=2)]
+
+[name="罗德岛干员"]   但我们可能......很难逃得掉了。
+
+[Character(name="char_002_amiya_1#6", name2="char_013_riop", focus=1)]
+
+[name="阿米娅"]   你说什么......？
+
+[Character(name="char_002_amiya_1#6", name2="char_013_riop", focus=2)]
+
+[name="罗德岛干员"]   是敌人。而且......
+
+[Dialog]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.2, block=true)]
+[Character(fadetime=0)]
+[Background(fadetime=0)]
+[Blocker(a=0, fadetime=0.2, block=true)]
+
+[Character(name="char_1502_crowns#2")]
+
+[name="？？？"]   你们当然逃不掉。
+
+[Character(name="char_002_amiya_1#6")]
+
+[name="阿米娅"]   什么......！
+
+[Character(name="char_1502_crowns")]
+[name="？？？"]   追上你们了。
+
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(block=true)]
+[Image]

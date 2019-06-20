@@ -1,0 +1,6 @@
+[HEADER(is_skippable=true)] 主线028教学
+
+[PopupDialog(dialogHead="$avatar_sys")] 已在此战场发现多处近卫局留下的侦查哨站。
+[PopupDialog(dialogHead="$avatar_sys")] 哨站在充能完毕后可以探测出附近的隐形单位，建议加以灵活运用。
+
+[Blocker(fadetime=0.3, block=true, a=0)]

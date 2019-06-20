@@ -1,0 +1,148 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第十三关（前）
+
+// Comments
+
+[Background(image="bg_lungmen_n", width=1, height=1, fadetime=1)]
+
+[Delay(time=1)]
+
+[Character(name="char_002_amiya_1", fadetime=1)]
+[Delay(time=1)]
+[name="阿米娅"]   ......唔......嗯......
+
+[Character(name="char_002_amiya_1#6")]
+
+
+[Character(name="char_002_amiya_1#5")]
+
+[name="阿米娅"]   不、不好意思......
+[name="阿米娅"]   没关系？可是......
+
+[Character(name="char_002_amiya_1#5", focus=-1)]
+
+[Decision(options="你太累了", values="1")]
+
+[Predicate(references="1")]
+
+
+[Character(name="char_002_amiya_1")]
+
+[name="阿米娅"]   ......博士......
+
+[Character(name="char_002_amiya_1#2")]
+
+[name="阿米娅"]   我没问题的，谢谢你。
+
+[Character(name="char_002_amiya_1")]
+
+[name="阿米娅"]   我们已经......在龙门了吗？
+
+[Dialog]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[PlayMusic(intro="$mist_loop", key="$mist_loop", volume=0.8, crossfade=1.5, delay=0.5)]
+[Character(fadetime=0)]
+[Background(image="bg_lungmen_station", width=1, height=1, fadetime=0)]
+[Blocker(a=0, fadetime=0.6, block=true)]
+
+[PlaySound(key="$radio")]
+
+[name="广播"]   请注意——
+[name="广播"]   受天灾影响，龙门全域处于停航状态。龙门二号关口将于2小时后关闭。
+[name="广播"]   请积极配合工作人员进行矿石病检疫。
+[name="广播"]   一旦发现任何未经登记的感染者，请广大市民立刻向最近的警员通报。
+[name="广播"]   近卫局将依照《紧急处理法案》依法对其进行拘捕。
+[name="广播"]   请注意——
+
+[PlaySound(key="$radio")]
+
+[Character(name="char_002_amiya_1")]
+
+[name="阿米娅"]   和传闻中一样......
+
+[Character(name="char_002_amiya_1#2")]
+
+[name="阿米娅"]   走吧，博士。
+[name="阿米娅"]   我们到了。
+
+[Character(name="char_010_chen_1")]
+[Delay(time=1)]
+[name="？？？"]   罗德岛与近卫局约好在十点见面。
+[name="？？？"]   现在是十点十四。
+
+[Character(name="char_010_chen_1#4")]
+
+[name="？？？"]   你们迟到了十四分钟，无谓的浪费了我十四分钟时间。
+
+[Character(name="char_010_chen_1", name2="char_002_amiya_1", focus=2)]
+
+[name="阿米娅"]   ......抱歉，陈长官，我们被拥堵在检疫口外的人群拖延——
+
+[Character(name="char_010_chen_1", name2="char_002_amiya_1", focus=1)]
+
+[name="陈"]   够了。我不想听无谓的借口。
+[name="陈"]   ——这个人是？
+
+[Character(name="char_010_chen_1", name2="char_002_amiya_1", focus=2)]
+
+[name="阿米娅"]   Dr.{@nickname}是罗德岛的顾问。凯尔希医生应该通知过你们。
+
+[Character(name="char_010_chen_1", name2="char_002_amiya_1", focus=1)]
+
+
+[name="陈"]   哼。
+[name="陈"]   好了，跟我去见——
+
+[Character(name="char_010_chen_1", name2="char_015_lmg", focus=2)]
+
+[name="近卫局队员"]   陈组长！不好了！不好——感染者——那——
+
+[Character(name="char_010_chen_1#4", name2="char_015_lmg", focus=1)]
+
+[name="陈"]   慌什么！
+
+[Character(name="char_010_chen_1#2", name2="char_015_lmg", focus=1)]
+
+[name="陈"]   一队，戒备！狙击队员，立刻就位！
+
+[Dialog]
+[Character(fadetime=0)]
+
+[name="普通人"]   发生，发生什么了！
+
+[name="感染者"]   放开我！！
+
+[Character(name="char_010_chen_1", name2="char_015_lmg", focus=1)]
+
+[name="陈"]   啧......
+
+[Character(name="char_010_chen_1#5", name2="char_015_lmg", focus=1)]
+
+[name="陈"]   冷静点！汇报情况！
+
+[Dialog]
+[Character(fadetime=0)]
+
+[name="感染者"]   让我过去！！为什么要抓我！！
+[name="感染者"]   我们不是怪物！！！
+
+[Character(name="char_010_chen_1", name2="char_015_lmg", focus=2)]
+
+[name="近卫局队员"]   有感染者——暴动——我们——
+
+[Character(name="char_010_chen_1", name2="char_015_lmg", focus=1)]
+
+[name="陈"]   ......我自己都看到了。
+[name="陈"]   算了。
+[Character]
+[Dialog]
+[Delay(time=1)]
+
+[Character(name="char_010_chen_1#4")]
+
+[name="陈"]   你们这些罗德岛的，跟上！
+[name="陈"]   要是连这点小事都处理不好，这个任务我可没法放心交给你们。
+
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(block=true)]
+[Image]

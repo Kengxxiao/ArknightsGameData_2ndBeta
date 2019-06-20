@@ -1,0 +1,199 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第十关（前）
+
+// Comments
+[PlaySound(key="$d_gen_explo_n", volume=0.6)]
+[delay(time=0.5)]
+[PlayMusic(intro="$calamity_intro", key="$calamity_loop", volume=0.8, crossfade=1.5, delay=0.5)]
+[Blocker(a=1, r=1, g=0.7, b=0.2, fadetime=0.5, block=true)]
+[Background(image="bg_cher_4", width=1, height=1, fadetime=0)]
+[Blocker(a=0, r=1, g=0.7, b=0.2, fadetime=1, block=true)]
+
+
+[Character(name="char_130_doberm_ex")]
+
+[name="杜宾"]   防冲击准备！！
+[name="杜宾"]   各自散开！！！
+[name="杜宾"]   不行，不行，不行！糟了———！！！！
+
+[PlaySound(key="$d_gen_explo_n")]
+[CameraShake(duration=1, xstrength=10, ystrength=8, vibrato=30, randomness=90, fadeout=false)]
+[Blocker(a=0.7, r=0.93, g=0.7, b=0.2, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0.93, g=0.75, b=0.32, fadetime=0.2, block=true)]
+[Character(name="char_014_riope")]
+
+[name="罗德岛精英干员"]   ——！
+
+[Character(name="char_016_medic")]
+
+[name="医疗干员"]   ......！
+
+[PlaySound(key="$d_gen_explo_n", volume=0.2)]
+[CameraShake(duration=1, xstrength=10, ystrength=8, vibrato=30, randomness=90, fadeout=false)]
+[Blocker(a=0.7, r=0.93, g=0.7, b=0.2, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0.93, g=0.75, b=0.32, fadetime=0.2, block=true)]
+
+[Character(name="char_013_riop")]
+
+[name="罗德岛干员"]   坚持住！！
+
+[Dialog]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=1, block=true)]
+[Character(fadetime=0)]
+[Image(image="avg_9_3",x=130, y=100,xScale=1.2, yScale=1.2, fadetime=0)]
+[ImageTween(xFrom=130, yFrom=100, xTo=0, yTo=0, xScaleFrom=1.2, yScaleFrom=1.2, xScaleTo=1, yScaleTo=1, duration=25, block=false)]
+
+[PlaySound(key="$d_gen_thunders_amb")]
+[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=false)]
+[Blocker(a=0.7, r=0.93, g=0.7, b=0.2, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0.93, g=0.75, b=0.32, fadetime=0.2, block=true)]
+
+
+[name="整合运动成员"]   咕......！
+[name="整合运动成员"]   啊——！！
+[CameraShake(duration=1, xstrength=15, ystrength=20, vibrato=30, randomness=90, fadeout=true)]
+
+[name="整合运动成员"]   怎，怎么会！！我不想死......！
+[PlaySound(key="$d_gen_thunders_amb", delay=2, volume=0.3)]
+[Dialog]
+[Blocker(a=1, r=0.93, g=0.8, b=0.4, fadetime=0.1, block=true)]
+[Image(fadetime=0)]
+[Blocker(a=0, r=0.93, g=0.75, b=0.32, fadetime=0.2, block=true)]
+[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true)]
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   用法术击毁建筑做掩体！！
+[name="阿米娅"]   这里不是天灾中心区！能行！！
+
+[Character(name="char_148_nearl_1#3")]
+
+[name="临光"]   重装干员！
+[name="临光"]   保护术师！！
+
+[CameraShake(duration=1, xstrength=20, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=true)]
+
+[Character(name="char_148_nearl_1#3")]
+
+[name="临光"]   ——！！
+
+[Character(name="char_014_riope")]
+
+[name="罗德岛精英干员"]   有陨石撞击了临街建筑！卧倒！！
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   有坠岩——
+
+[Character(name="char_002_amiya_1#6")]
+
+[name="阿米娅"]   ——博士？！
+
+[Character(name="char_002_amiya_1#6", focus=-1)]
+
+[Decision(options="要求罗德岛术师射击坠石", values="1")]
+
+[Predicate(references="1")]
+[PlaySound(key="$d_gen_explo_n", volume=0.6)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[PlaySound(key="$d_gen_explo_n", volume=0.6)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+
+
+[CameraShake(duration=1, xstrength=15, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]
+
+[Character(name="char_002_amiya_1#6")]
+
+[name="阿米娅"]   怎么————
+
+[Dialog]
+[Character(fadetime=0)]
+
+[Decision(options="命令整合运动术师", values="1")]
+
+[Predicate(references="1")]
+[PlaySound(key="$d_gen_explo_n", volume=0.6)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+
+[CameraShake(duration=1, xstrength=15, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]
+[Delay(time=1)]
+[Character(name="char_1002_nsabr_2")]
+
+[name="整合运动成员"]   ......
+[name="整合运动成员"]   打爆它，打爆它啊，啊啊————！！
+
+[Dialog]
+[Character(fadetime=0)]
+[PlaySound(key="$d_gen_explo_n")]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[PlaySound(key="$d_gen_explo_n")]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+
+[CameraShake(duration=1, xstrength=15, ystrength=28, vibrato=30, randomness=90, fadeout=true, block=true)]
+
+
+[Character(name="char_002_amiya_1#6")]
+
+[name="阿米娅"]   交叉火力成功击碎了岩体？！
+
+
+[Character(name="char_148_nearl_1#3")]
+
+[name="临光"]   博士！！
+[Dialog]
+[CameraShake(duration=1, xstrength=15, ystrength=10, vibrato=30, randomness=90, fadeout=true)]
+[name="临光"]   咳哈......！
+[name="临光"]   下次我可不一定能救到你！！
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   整合运动伤亡惨重——！
+[name="阿米娅"]   如果不击碎落石的话，我们也要被波及——！
+
+[Character(name="char_1002_nsabr_2")]
+
+[name="整合运动成员"]   啊啊啊！！罗德岛！！别想走！！去死！！！
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   ——整合运动向我们发动进攻了？
+
+[Character(name="char_148_nearl_1#3")]
+
+[name="临光"]   这些混蛋，是被天灾逼疯了吗？！！
+
+[Character(name="char_148_nearl_1#3", focus=-1)]
+
+[Decision(options="命令临光带队向下城区出口移动", values="1")]
+
+[Predicate(references="1")]
+
+[Character(name="char_148_nearl_1#3")]
+
+[name="临光"]   ——明白！
+
+[Character(name="char_148_nearl_1#3", focus=-1)]
+
+[Decision(options="指挥战斗", values="1")]
+
+[Predicate(references="1")]
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   ......！
+
+[PlaySound(key="$d_gen_explo_n")]
+[CameraShake(duration=1, xstrength=15, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   交给你了，博士！！
+
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(block=true)]
+[Image]

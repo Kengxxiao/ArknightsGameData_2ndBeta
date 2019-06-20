@@ -1,0 +1,4 @@
+[HEADER(is_tutorial=true)] 引导关卡2_c
+
+[PopupDialog(dialogHead="$avatar_sys", animStyle="NoWait")] 一名近卫干员已就位。
+[Delay(time=4)]

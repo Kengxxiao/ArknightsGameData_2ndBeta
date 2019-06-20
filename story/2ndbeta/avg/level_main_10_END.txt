@@ -1,0 +1,148 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第十关（后）
+
+// Comments
+
+[Background(image="bg_cher_7", width=1, height=1, fadetime=1)]
+[PlayMusic(intro="$calamity_intro", key="$calamity_loop", volume=0.8, crossfade=1.5, delay=0.5)]
+[Delay(time=1)]
+
+
+[Character(name="char_148_nearl_1", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   哈，哈，哈.....
+
+[Character(name="char_148_nearl_1", name2="char_130_doberm_ex", focus=1)]
+
+[name="临光"]   撑过去了......！
+[name="临光"]   灾势减弱了——不，中心转移了！
+[name="临光"]   风暴眼不在我们所处的城区，还来得及！
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   小心碎片！快！脚步别停！
+
+[PlaySound(key="$d_gen_explo_n")]
+[CameraShake(duration=1, xstrength=3, ystrength=5, vibrato=30, randomness=90, fadeout=false)]
+
+[Character(name="char_014_riope", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   前方就是建筑密集区了！灾害中心区域在我们身后！我们完全能——
+[name="杜宾"]   ......能......
+
+[Character(name="char_014_riope", name2="char_130_doberm_ex", focus=1)]
+
+[name="罗德岛精英干员"]   他们来了。
+
+[Character(name="char_014_riope", name2="char_013_riop", focus=2)]
+
+[name="罗德岛干员"]   整合运动追上来了？！
+
+[Character(name="char_016_medic", name2="char_013_riop", focus=1)]
+
+
+[name="医疗干员"]   ......
+[name="医疗干员"]   ......什......么......
+[name="医疗干员"]   怎么......可能......
+[name="医疗干员"]   ......整合运动......有这么多人吗......
+
+
+[Character(name="char_016_medic", name2="char_148_nearl_1", focus=1)]
+
+[name="临光"]   ——
+[name="临光"]   别停下！在开阔地带停下等于找死！到目的地之后再整顿队形！
+
+[Character(name="char_002_amiya_1#7", name2="char_148_nearl_1", focus=1)]
+
+[name="阿米娅"]   （临光......）
+
+[Character(name="char_002_amiya_1#7", name2="char_148_nearl_1", focus=2)]
+
+[name="临光"]   （二八开。希望渺茫，但能行。只是......）
+
+[Dialog]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[Character(fadetime=0)]
+[Blocker(a=0, fadetime=0.6, block=true)]
+
+
+[Character(name="char_148_nearl_1")]
+
+[name="临光"]   防御阵形！
+
+[Character(name="char_148_nearl_1#3")]
+
+[name="临光"]   ......啧。
+[name="临光"]   太多了。
+[name="临光"]   实在太多了。
+[Character(fadetime=0)]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.3, block=true)]
+[name="整合运动成员"]   ......
+[Blocker(a=0.3, initr=2, r=1, g=0.8, b=0.2, fadetime=0.2, block=true)]
+//
+[CharacterCutin(widgetID="1", name="char_1002_nsabr_1", style="cutin", fadestyle= "horiz_expand_center", fadetime=0.2, offsetx=100, width=200, block=true)]
+[CharacterCutin(widgetID="2", name="char_1002_nsabr_1", style="cutin", fadestyle= "horiz_expand_center", fadetime=0.2, offsetx=-100, width=200, block=true)]
+[CharacterCutin(widgetID="3", name="char_1002_nsabr_1", style="cutin", fadestyle= "horiz_expand_center", fadetime=0.2, offsetx=300, width=200, block=true)]
+[CharacterCutin(widgetID="4", name="char_1002_nsabr_1", style="cutin", fadestyle= "horiz_expand_center", fadetime=0.2, offsetx=-300, width=200, block=true)]
+[CharacterCutin(widgetID="1", fadetime=0.2, block=true)]
+[CharacterCutin(widgetID="2", fadetime=0.2, block=true)]
+[CharacterCutin(widgetID="3", fadetime=0.2, block=true)]
+[CharacterCutin(widgetID="4", fadetime=0.2, block=true)]
+//
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.4, block=true)]
+[delay(time=0.5)]
+[Blocker(a=0, fadetime=2, block=true)]
+[Character(name="char_148_nearl_1", name2="char_130_doberm_ex", focus=1)]
+
+[name="临光"]   怎么可能！他们从哪......？
+
+[Character(name="char_148_nearl_1", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   这个数量......整合运动很看得起我们啊。
+
+[Character(name="char_013_riop", name2="char_130_doberm_ex", focus=1)]
+
+[name="罗德岛干员"]   大群敌人——
+[name="罗德岛干员"]   ......在安全距离外——
+[name="罗德岛干员"]   ......
+[name="罗德岛干员"]   竟然......停止了行动？
+[name="罗德岛干员"]   一名敌人正在接近！
+[name="罗德岛干员"]   射击准......备......
+
+
+[name="罗德岛干员"]   ——一个人？
+[Delay(time=0.6)]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, block=true, fadetime=1)]
+[Character(name="char_011_talula_1", fadetime=3, block=false)]
+
+[name="阿米娅"]   别轻举妄动！她是资料上整合运动的领袖之一......
+[Blocker(a=0.5, fadetime=8, block=false)]
+[name="阿米娅"]   不，现在看来她就是真正的领袖——
+[PlaySound(key="$d_gen_explo_n")]
+[CameraShake(duration=1, xstrength=5, ystrength=3, vibrato=30, randomness=90, block=false)]
+
+[name="阿米娅"]   塔露拉！
+[Delay(time=0.6)]
+
+[name="杜宾"]   整合运动的暴君吗，呵——
+[PlaySound(key="$d_gen_explo_n")]
+[CameraShake(duration=1, xstrength=5, ystrength=3, vibrato=30, randomness=90, block=false)]
+[name="罗德岛精英干员"]   我有很不好的预感。
+
+[Dialog]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, block=true, fadetime=1)]
+[Background]
+[stopmusic(fadetime=0.6)]
+[Blocker(a=1, initr=2, r=1, g=1, b=1, block=true, fadetime=0.3)]
+[Blocker(a=0, fadetime=0.3, block=false)]
+
+[name="塔露拉"]   ......
+[name="塔露拉"]   ————————！
+[Delay(time=1)]
+[Dialog]
+[PlaySound(key="$flashback", volume=1.3)]
+[Blocker(a=1, initr=2, r=255, g=255, b=255, fadetime=0.5, block=true)]
+
+[Delay(time=1)]
+[Dialog]
+[Blocker(block=true)]
+[Image]

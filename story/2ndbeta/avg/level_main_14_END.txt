@@ -1,0 +1,304 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第十四关（后）
+
+// Comments
+
+[Background(image="bg_lungmen_o", width=1, height=1, fadetime=1)]
+[PlayMusic(intro="$mist_loop", key="$mist_loop", volume=0.8, crossfade=1.5, delay=0.5)]
+[Delay(time=1)]
+
+[Character(name="char_2005_weiyw_1", name2="char_010_chen_1", focus=2)]
+
+[name="陈"]   ——以上就是此次战斗的全过程。
+
+[Character(name="char_2005_weiyw_1", name2="char_010_chen_1", focus=1)]
+
+[name="魏彦吾"]   你的评价？
+
+[Character(name="char_2005_weiyw_1", name2="char_010_chen_1", focus=2)]
+
+[name="陈"]   ——非常专业。
+[name="陈"]   迅速应激的姿态，富有效率的指挥，合理对地形与火力进行运用。
+[name="陈"]   他们的实力确实合格。
+
+[Character(name="char_2005_weiyw_1", name2="char_010_chen_1", focus=2)]
+
+[name="陈"]   但魏长官，无论是在战略层面，还是关于他们的身份，我都认为......
+
+[Character(name="char_2005_weiyw_1", name2="char_010_chen_1", focus=1)]
+
+[name="魏彦吾"]   可以了。
+
+[Character(name="char_2005_weiyw_1", name2="char_010_chen_1", focus=2)]
+
+[name="陈"]   ......龙门近卫局完全可以胜任接下来的任务。
+
+[Character(name="char_2005_weiyw_1", name2="char_010_chen_1", focus=1)]
+
+[name="魏彦吾"]   我们需要专家。
+
+[Character(name="char_2005_weiyw_1", name2="char_010_chen_1", focus=2)]
+
+[name="陈"]   ......
+
+[Character(name="char_2005_weiyw_1", name2="char_010_chen_1", focus=1)]
+
+[name="魏彦吾"]   对抗犯罪与侵略，近卫局绰绰有余，但罗德岛——却能提供更多的可能性。
+
+[Character(name="char_2005_weiyw_1", name2="char_010_chen_1", focus=2)]
+
+[name="陈"]   ......明白。
+
+[Character(name="char_2005_weiyw_1")]
+
+[name="魏彦吾"]   不过——
+
+[Character(name="char_003_kalts_1")]
+
+[name="凯尔希"]   魏先生有什么见解？
+
+[Character(name="char_003_kalts_1", name2="char_2005_weiyw_1", focus=2)]
+
+[name="魏彦吾"]   龙门拿出了自己的诚意，罗德岛也理应，嗯——拿出自己的。
+
+[Character(name="char_003_kalts_1", name2="char_2005_weiyw_1", focus=1)]
+
+[name="凯尔希"]   可以。罗德岛的情报显示。若不采取措施，整合运动将在未来一周内攻陷龙门。
+
+[Character(name="char_003_kalts_1", name2="char_010_chen_1#4", focus=2)]
+
+[name="陈"]   ......危言耸听。没有任何证据可以表明——
+
+[Character(name="char_003_kalts_1", name2="char_010_chen_1#4", focus=1)]
+
+[name="凯尔希"]   陈警官，我不是在论证可能性，而是在论证危险性。
+[name="凯尔希"]   想知道切尔诺伯格一夜失陷的真正原因吗？
+
+[Character(name="char_003_kalts_1", name2="char_2005_weiyw_1", focus=2)]
+
+[name="魏彦吾"]   请说。
+
+[Character(name="char_003_kalts_1", name2="char_2005_weiyw_1", focus=1)]
+
+[name="凯尔希"]   阿米娅。
+
+[Character(name="char_002_amiya_1")]
+
+[name="阿米娅"]   啊......好的。
+[name="阿米娅"]   罗德岛不仅亲历了切尔诺伯格事件，而且......
+[name="阿米娅"]   我们经历了天灾，并且自灾难中活了下来。
+
+
+
+[Character(name="char_003_kalts_1", name2="char_2005_weiyw_1", focus=2)]
+
+[name="魏彦吾"]   原来如此。那可真是——
+[name="魏彦吾"]   除了一些不要命的狂人，我还真没亲眼见到过多少人能从天灾中幸存呢。令人尊敬。
+[name="魏彦吾"]   难怪你们对情况那么清楚，凯尔希小姐。
+[name="魏彦吾"]   阿米娅小姐，请继续说，我在听。
+
+[Character(name="char_002_amiya_1")]
+
+[name="阿米娅"]   ......我们与整合运动的领袖交过手。
+
+[Character(name="char_010_chen_1#6")]
+
+[name="陈"]   ——
+
+[Character(name="char_2005_weiyw_1")]
+
+[name="魏彦吾"]   嗯？她的名字是？我记得不太清楚——
+
+[Character(name="char_2005_weiyw_1", focus=-1)]
+
+[Decision(options="整合运动的领袖是塔露拉", values="1")]
+
+[Predicate(references="1")]
+
+[Character(name="char_2005_weiyw_1", name2="char_010_chen_1", focus=1)]
+
+[name="魏彦吾"]   哦，对，塔露拉。陈警官，你认为呢？
+
+[Character(name="char_2005_weiyw_1", name2="char_010_chen_1#5", focus=2)]
+
+[name="陈"]   ————！
+[name="陈"]   我——知道。
+
+[Dialog]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[Character(fadetime=0)]
+[Blocker(a=0, fadetime=0.6, block=true)]
+
+[Character(name="char_002_amiya_1")]
+
+[name="阿米娅"]   ......这就是罗德岛在切尔诺伯格的经历。
+[name="阿米娅"]   罗德岛认为，切城被整合运动渗透已久。
+[name="阿米娅"]   遭受天灾的切城虽然脱离了乌萨斯的控制——
+[name="阿米娅"]   相应的，也陷入了资源匮乏的窘境。
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   这时，整合运动最有可能选择的目标是——
+
+[Character(name="char_2005_weiyw_1")]
+
+[name="魏彦吾"]   龙门，对吗？
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   是，是的。
+
+[Character(name="char_2005_weiyw_1")]
+
+[name="魏彦吾"]   呵......小姑娘，你说服了我。
+[name="魏彦吾"]   但正如我刚才所说——
+[Dialog]
+
+[Character(name="char_003_kalts_1#3")]
+[Delay(time=1)]
+
+[Character(name="char_003_kalts_1", name2="char_2005_weiyw_1", focus=1)]
+
+[name="凯尔希"]   ......罗德岛的要价太高，是吗？
+
+[Character(name="char_003_kalts_1", name2="char_2005_weiyw_1", focus=2)]
+
+[name="魏彦吾"]   正是如此。为了弥补龙门的支出，我有两个额外条件。
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[Image(image="bg_0_rhodes",x=0, y=0, xScale=1, yScale=1, fadetime=0)]
+[Blocker(a=0, fadetime=0.6, block=true)]
+[ImageTween(xFrom=0, yFrom=-0, xTo=0, yTo=0, xScaleFrom=1, yScaleFrom=1, xScaleTo=1.2, yScaleTo=1.2, duration=27, block=false)]
+
+
+[name="魏彦吾"]   第一，罗德岛必须帮助近卫局解除整合运动对龙门的威胁。
+
+[Character(name="char_003_kalts_1", name2="char_2005_weiyw_1", focus=1)]
+
+[name="凯尔希"]   威胁具体的范畴呢？
+
+[Character(name="char_003_kalts_1", name2="char_2005_weiyw_1", focus=2)]
+
+[name="魏彦吾"]   可见范围内。你知道，罗德岛的选择并不多。
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[Image]
+[Blocker(a=0, fadetime=0.6, block=true)]
+
+[Character(name="char_003_kalts_1", name2="char_2005_weiyw_1", focus=1)]
+
+[name="凯尔希"]   ——第二个要求？
+
+[Character(name="char_003_kalts_1", name2="char_2005_weiyw_1", focus=2)]
+
+[name="魏彦吾"]   喔，看来你们已经达到预期目标了。但第二个——要等你们完成首要任务再说。
+
+[name="魏彦吾"]   陈警官，你有什么意见？
+
+[Character(name="char_2005_weiyw_1", name2="char_010_chen_1", focus=2)]
+
+[name="陈"]   ——我认可这次行动。
+
+[Character(name="char_2005_weiyw_1", name2="char_010_chen_1", focus=1)]
+
+[name="魏彦吾"]   呵。看来陈警官也有了她自己的目标。
+
+[Character(name="char_2005_weiyw_1", name2="char_010_chen_1#6", focus=2)]
+
+[name="陈"]   ......
+
+[Character(name="char_2005_weiyw_1")]
+
+[name="魏彦吾"]   恭喜各位，龙门信任你们。陈警官将全权负责和你们的对接事宜。
+
+[Character(name="char_010_chen_1#5")]
+
+[name="陈"]   ——明白。
+
+[Character(name="char_2005_weiyw_1")]
+
+[name="魏彦吾"]   感染者自由行动会引起市民的恐慌，希望你们在执行任务时能服从陈警官的命令。
+
+[Character(name="char_003_kalts_1")]
+
+[name="凯尔希"]   ——阿米娅？
+
+[Character(name="char_002_amiya_1")]
+
+[name="阿米娅"]   ......没问题。我会尽力配合。
+
+[Character(name="char_010_chen_1")]
+
+[name="陈"]   ......
+
+[Character(name="char_2005_weiyw_1")]
+
+[name="魏彦吾"]   当然，只要罗德岛完成首要任务，我就可以向你们兑现承诺。
+[name="魏彦吾"]   龙门的关口将向你们敞开为罗德岛提供无限期的停靠服务与商业渠道。
+[name="魏彦吾"]   只要并非特殊情况，龙门的关口便将向你们敞开。
+
+[Dialog]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[Character(fadetime=0)]
+[Background(image="bg_lungmen_station", width=1, height=1, fadetime=0)]
+[Blocker(a=0, fadetime=0.6, block=true)]
+
+[Character(name="char_003_kalts_1", name2="char_002_amiya_1#5", focus=2)]
+
+[name="阿米娅"]   唔......啊......！那个大叔超难对付的......
+[name="阿米娅"]   讲起话来慢条斯理，却感觉所有话都被他说完了......！
+
+[Character(name="char_003_kalts_1", name2="char_002_amiya_1#5", focus=1)]
+
+[name="凯尔希"]   阿米娅，你总得学会自己与他们交涉。
+
+[Dialog]
+[Delay(time=0.6)]
+
+[Character(name="char_003_kalts_1#3")]
+
+[name="凯尔希"]   说起来——
+[Delay(time=0.6)]
+
+[Character(name="char_003_kalts_1#3")]
+
+[name="凯尔希"]   ......
+[Dialog]
+[Delay(time=0.4)]
+[name="凯尔希"]   ......你......
+[Delay(time=0.4)]
+
+[Character(name="char_003_kalts_1#3", focus=-1)]
+
+[Decision(options="初次见面，Dr.凯尔希", values="1")]
+
+[Predicate(references="1")]
+
+[Character(name="char_003_kalts_1#3", name2="char_002_amiya_1#2", focus=1)]
+
+[name="凯尔希"]   ............
+[Delay(time=0.6)]
+
+[Character(name="char_003_kalts_1#3", name2="char_002_amiya_1#2", focus=2)]
+
+[name="阿米娅"]   凯尔希医生，请别为难博士——
+
+[Character(name="char_003_kalts_1", name2="char_002_amiya_1#4", focus=1)]
+
+[name="凯尔希"]   嘘——
+
+[Character(name="char_003_kalts_1", name2="char_002_amiya_1#4", focus=2)]
+
+[name="阿米娅"]   ......
+
+[Character(name="char_003_kalts_1")]
+
+[name="凯尔希"]   ......呵。
+[Delay(time=0.6)]
+
+[Character(name="char_003_kalts_1#2")]
+
+[name="凯尔希"]   你好，Dr.{@nickname}。
+[name="凯尔希"]   欢迎回来。
+
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(block=true)]
+[Image]

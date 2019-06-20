@@ -1,0 +1,75 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第七关（后）
+
+// Comments
+
+[Background(image="bg_cher_1", width=1, height=1, fadetime=1)]
+[PlayMusic(intro="$chernormal_intro", key="$chernormal_loop", volume=0.8, crossfade=1, delay=0.5)]
+[Delay(time=1)]
+
+[Character(name="char_013_riop", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   侦查的结果......不太妙。
+[name="杜宾"]   前方的整合运动有很大一部分是游荡着的破坏分子——
+[name="杜宾"]   但也有不少是混入其中的训练有素的战斗人员。
+[name="杜宾"]   这些家伙，大概就是整合运动的神经系统。
+
+[Character(name="char_013_riop", name2="char_130_doberm_ex", focus=1)]
+
+[name="罗德岛干员"]   什么意思？
+
+[Character(name="char_013_riop", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   指挥官一旦有所行动，就命令他们将整合运动聚集起来，由他们来带领其他的人。
+
+[Character(name="char_013_riop", name2="char_130_doberm_ex", focus=1)]
+
+[name="罗德岛干员"]   一盘散沙般的暴徒们，真的能做到吗？
+
+[Character(name="char_013_riop", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   凭心而论，原本我并不相信。
+[name="杜宾"]   没有纪律和训练，部队会失去战斗力。
+[name="杜宾"]   但现今有机会仔细观察他们之后.....
+[name="杜宾"]   ......我很确信，控制他们的是恐怖与狂热。
+[name="杜宾"]   毕竟他们从来都不是军队。
+[name="杜宾"]   无论这些人做出什么事、做到什么地步，都是可能的。
+[name="杜宾"]   整合运动的领袖究竟是什么样子，我大概可以想象的到。
+
+[Character(name="char_013_riop", name2="char_130_doberm_ex", focus=1)]
+
+[name="罗德岛干员"]   我们真的还有胜算吗......
+
+[Character(name="char_013_riop", name2="char_002_amiya_1#7", focus=2)]
+
+[name="阿米娅"]   不是有没有，而是能不能。
+[name="阿米娅"]   我们战胜过形形色色的敌人。
+[name="阿米娅"]   没有我们不能打破的困境。
+[name="阿米娅"]   保证博士的安全并撤出切城，这个目标一直没有改变过。
+
+[Character(name="char_013_riop", name2="char_002_amiya_1#2", focus=2)]
+
+[name="阿米娅"]   目标明确，战术合理，加上罗德岛专业的干员们......
+[name="阿米娅"]   我们一定能取得胜利。
+
+[Character(name="char_130_doberm_ex", name2="char_002_amiya_1", focus=1)]
+
+[name="杜宾"]   没错。
+
+[Character(name="char_130_doberm_ex", name2="char_013_riop", focus=2)]
+
+[name="罗德岛干员"]   ——抱歉，说了不过大脑的话。
+
+[Character(name="char_130_doberm_ex", name2="char_013_riop", focus=1)]
+
+[name="杜宾"]   在军队，说这种话是得吃鞭子的。
+[name="杜宾"]   不过我现在可没工夫修理你！走吧！
+[name="杜宾"]   都动起来！再慢吞吞的，天灾就要狠狠踹你们的屁股了！
+
+[Character(name="char_130_doberm_ex", name2="char_013_riop", focus=2)]
+
+[name="罗德岛干员"]   是！
+
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(block=true)]
+[Image]

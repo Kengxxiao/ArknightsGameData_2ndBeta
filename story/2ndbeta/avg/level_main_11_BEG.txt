@@ -1,0 +1,286 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第十一关（前）
+
+// Comments
+
+[PlayMusic(intro="$calamity_intro", key="$calamity_loop", volume=0.8, crossfade=1, delay=0.5)]
+[Delay(time=1)]
+
+[Character(name="char_148_nearl_1#3", focus=1)]
+
+[name="临光"]   阿米娅。
+[name="临光"]   带博士离开。
+[name="临光"]   立刻！
+
+[Character(name="char_002_amiya_1#7", focus=1)]
+
+[name="阿米娅"]   不行！我不能......
+
+[Blocker(a=0.6, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]
+//[PlaySound(key="$e_atk_arrow_h",channel="1", volume=0.1)]
+[PlaySound(key="$flashback",channel="2", volume=0.4)]
+[Blocker(a=0, fadetime=0.2, block=false)]
+[Character(name="char_002_amiya_1#7", name2="char_148_nearl_1#3", focus=2)]
+
+[name="临光"]   你也感觉到了！她很强！！她......
+
+[Character(name="char_002_amiya_1#7", name2="char_148_nearl_1#3", focus=1)]
+
+[name="阿米娅"]   我们一起战斗的话，不会有问题的！
+
+[Character(name="char_002_amiya_1#7", name2="char_148_nearl_1#3", focus=2)]
+
+[name="临光"]   那博士呢？你能保证他的安全吗？
+
+[Character(name="char_002_amiya_1#4", name2="char_148_nearl_1#3", focus=1)]
+
+[name="阿米娅"]   ......唔......
+
+[Character(name="char_002_amiya_1#4", name2="char_148_nearl_1#3", focus=2)]
+
+[name="临光"]   我们留在这里断后！一定要确保阿米娅和{@nickname}博士，以及医疗小队安全撤离！
+
+[Character(name="char_014_riope", name2="char_148_nearl_1#3", focus=1)]
+
+[name="罗德岛精英干员"]   不，交给我和我的小队吧。
+[Blocker(a=0.6, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]
+//[PlaySound(key="$e_atk_arrow_h",channel="1", volume=0.1)]
+[PlaySound(key="$flashback",channel="2", volume=0.4)]
+[Blocker(a=0, fadetime=0.2, block=false)]
+[Character(name="char_014_riope", name2="char_148_nearl_1#3", focus=2)]
+
+[name="临光"]   Ace！现在难道是逞强的时候吗！
+
+[Character(name="char_014_riope", name2="char_002_amiya_1#7", focus=2)]
+
+[name="阿米娅"]   我不会留下你们独自战斗的。
+[name="阿米娅"]   罗德岛......绝不会丢下你们的！
+
+[Character(name="char_130_doberm_ex", name2="char_002_amiya_1#7", focus=1)]
+
+[name="杜宾"]   阿米娅！现在不是任性的时候！
+
+[Character(name="char_130_doberm_ex", name2="char_002_amiya_1#7", focus=2)]
+
+[name="阿米娅"]   我不能看着罗德岛的任何一个人牺牲！
+
+[Character(name="char_014_riope", name2="char_002_amiya_1#7", focus=1)]
+
+[name="罗德岛精英干员"]   你可以信任我们。我一定会成功撤出的，我向你，向杜宾保证。
+
+[Character(name="char_014_riope", name2="char_002_amiya_1#7", focus=2)]
+
+[name="阿米娅"]   不是说这个的时候！
+[Background(image="bg_cher_7", width=1, height=1, fadetime=1)]
+[Character(name="char_148_nearl_1#3")]
+
+[name="临光"]   ——！小心！
+
+[PlaySound(key="$d_gen_thunders_amb", volume=0.5)]
+[PlaySound(key="$b_char_defboost", volume=0.5, Delay=0.4)]
+[PlaySound(key="$d_gen_thunders_amb", volume=0.2, Delay=0.7)]
+
+[PlaySound(key="$flashback", volume=0.2, Delay=0.7)]
+[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, block=false)]
+[Blocker(a=1, r=1, g=0.4, b=0.4, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]
+[Blocker(a=1, r=1, g=0.4, b=0.4, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]
+[Blocker(a=0.8, r=1, g=0.4, b=0.1, afrom=1, rfrom=1, gfrom=0.4, bfrom=0.4, fadetime=0.2, block=true)]
+[Blocker(a=0.8, r=0, g=0, b=0, afrom=0.8, rfrom=1, gfrom=1, bfrom=1, fadetime=0.3, block=true)]
+[delay=0.5]
+[Blocker(a=1, r=0, g=0, b=0, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.3, block=true)]
+[delay=1.5]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Blocker(fadetime=2, block=true)]
+[Character(name="char_011_talula_1")]
+
+[Blocker(a=0, fadetime=2.5, block=true)]
+
+[Background(fadetime=1,block=false)]
+[name="塔露拉"]   ——
+[Delay(time=0.6)]
+[name="塔露拉"]   什么都改变不了你们的命运。
+[Delay(time=0.6)]
+
+[Dialog]
+[Blocker(a=1, r=0.8, g=0.2, b=0.2, fadetime=0.5, block=true)]
+[Character(fadetime=0)]
+[Blocker(a=0, fadetime=0.5, block=true)]
+
+[Character(name="char_148_nearl_1#3")]
+
+[name="临光"]   她要发动攻击了！！
+[name="临光"]   有点不对——
+[name="临光"]   ————小心！！
+[name="临光"]   那一下，我们挡不下来！
+
+[PlaySound(key="$d_gen_thunders_amb", volume=0.3)]
+[PlaySound(key="$b_char_defboost", volume=0.3, Delay=0.4)]
+[Blocker(a=1, initr=2, r=1, g=1, b=1, fadetime=0.5, block=true)]
+[Dialog(time=0.5)]
+[Delay(time=1)]
+
+
+[Blocker(r=0.9, g=0.4, b=0.3, a=1, fadetime=0.1, block=true)]
+[Character]
+[Image(image="avg_11_1",x=0, y=-50,xScale=1.3, yScale=1.3, fadetime=0)]
+[ImageTween(xFrom=-100, yFrom=-50, xTo=0, yTo=0, xScaleFrom=1.3, yScaleFrom=1.3, xScaleTo=1, yScaleTo=1, duration=35, block=false)]
+[Blocker(r=0.7, g=0.4, a=1, fadetime=0.3, block=true)]
+[Blocker(r=0.2, g=0,b=0, a=0.1, fadetime=1.5, block=true)]
+
+
+[name="塔露拉"]   欣然接受吧——战士们。
+[name="塔露拉"]   我将赐予你们一个结局。
+[name="塔露拉"]   ——毁灭。
+[Delay(time=1)]
+[Dialog(fadetime=0)]
+
+[Blocker(r=0.9, g=0.4, b=0.3, a=1, fadetime=0.1, block=true)]
+[Image(fadetime=0)]
+[Blocker(r=0.6, g=0.3, a=0, fadetime=1, block=true)]
+
+[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]
+
+[Character(name="char_130_doberm_ex")]
+
+[name="杜宾"]   糟了！！
+[name="杜宾"]   闪开，别站在她的前方！
+
+[Character(name="char_148_nearl_1#3")]
+
+[name="临光"]   来不及了——！
+[name="临光"]   退后！！！我来阻挡她！！！
+
+[Character(name="char_016_medic")]
+
+[name="医疗干员"]   啊啊啊啊！！！
+
+
+[PlaySound(key="$p_skill_spiritexplo", volume=1)]
+[Character]
+[PlaySound(key="$d_gen_thunders_amb", volume=1)]
+[PlaySound(key="$b_char_defboost", volume=1, Delay=0.4)]
+[Blocker(a=1, initr=2, r=255, g=255, b=255, fadetime=0.3, block=true)]
+[stopmusic(fadetime=1)]
+[delay(time=1)]
+
+[name="医疗干员"]   ......
+[delay(time=1)]
+[name="医疗干员"]   ......嗯？？？
+[PlaySound(key="$p_skill_spiritexplo", volume=1)]
+[Blocker(a=1, initr=2, r=255, g=255, b=255, fadetime=0.3, block=true)]
+[Blocker(a=0, fadetime=0.5, block=true)]
+
+[Character(name="char_002_amiya_1#8")]
+
+[name="阿米娅"]   不会让你伤害他们的......
+[name="阿米娅"]   我不会......允许你这么做的！
+
+[Blocker(a=1, r=0.8, g=0.8, b=0.8, fadetime=0.6, block=true)]
+[PlaySound(key="$p_skill_chimera", volume=1)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.3, block=true)]
+[Blocker(a=1, r=0.8, g=0.8, b=0.8, fadetime=0.3, block=true)]
+[Character(fadetime=0)]
+[Background(image="bg_light")]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.3, rfrom=0.8, bfrom=0.8, gfrom=0.8, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.3, rfrom=0.8, bfrom=0.8, gfrom=0.8, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.2, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.2, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.2, block=false)]
+[Character(name="char_011_talula_1", fadetime=1.4, block=false)]
+[Blocker(a=0, fadetime=2, block=true)]
+
+
+[name="塔露拉"]   ————哦？
+[Delay(time=0.6)]
+
+[Dialog]
+[PlaySound(key="$d_gen_thunders_amb", volume=1)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.2, block=true)]
+[Character(fadetime=0)]
+[Blocker(a=0, fadetime=0.2, block=true)]
+
+[Blocker(a=1, initr=2, r=255, g=255, b=255, fadetime=0.3, block=true)]
+[Blocker(a=0, fadetime=0.5, block=true)]
+
+[CameraShake(duration=5, xstrength=10, ystrength=8, vibrato=20, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[PlaySound(key="$p_skill_spiritexplo", volume=1)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+
+[Character(name="char_002_amiya_1#8")]
+[Blocker(a=1, r=0, g=0, b=0, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.2, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.2, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.2, block=false)]
+[name="阿米娅"]   咕......
+
+[Character(name="char_148_nearl_1#4")]
+
+[name="临光"]   阿米娅她一个人......把那个龙女的攻击挡住了？
+[name="临光"]   不行......那力量太庞大了......！
+
+[Character(name="char_016_medic")]
+
+[name="医疗干员"]   阿米娅！危险！
+[PlaySound(key="$p_skill_chimera", volume=1)]
+[Blocker(a=1, initr=2, r=255, g=255, b=255, fadetime=1, block=true)]
+[Character(fadetime=0)]
+[Blocker(a=0, fadetime=1, block=true)]
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   没问题......我没问题......
+[name="阿米娅"]   我没问题的——！
+[name="阿米娅"]   我要......我要保护大家！
+
+[Character(name="char_130_doberm_ex")]
+
+[name="杜宾"]   不可以！！那样的话，你的<color=#ee4321>戒指</color>会——！
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   哪怕......虽然......
+
+[Character(name="char_002_amiya_1#4")]
+
+[name="阿米娅"]   博士，对不起——
+[name="阿米娅"]   哪怕会带来灾难，哪怕我会......！
+[name="阿米娅"]   我也不能......再看着重要的人......
+[CameraShake(duration=4, xstrength=10, ystrength=8, vibrato=20, randomness=90, fadeout=true, block=false)]
+
+[Character(name="char_002_amiya_1")]
+
+[name="阿米娅"]   唔————？
+
+[Character(name="char_014_riope")]
+
+[name="罗德岛精英干员"]   可以了，阿米娅。
+
+[Character(name="char_002_amiya_1")]
+
+[name="阿米娅"]   ——？！
+
+[Character(name="char_014_riope")]
+
+[name="罗德岛精英干员"]   你已经很了不起了。
+[name="罗德岛精英干员"]   把你的重担，也分给我们一些吧。
+
+[Blocker(a=1, initr=2, r=1, g=1, b=1, fadetime=1, block=true)]
+[Character(fadetime=0)]
+[name="阿米娅"]   我————
+
+[Dialog]
+
+
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[Character(name="char_014_riope")]
+
+[name="罗德岛精英干员"]   保护好她，博士。
+[name="罗德岛精英干员"]   快走吧。
+[name="罗德岛精英干员"]   临光，杜宾，保护好他们。
+[name="罗德岛精英干员"]   祝你们前路无阻。
+
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(block=true)]
+[Image]

@@ -1,0 +1,28 @@
+[HEADER(is_skippable=false, is_tutorial=true)] 商店引导2
+
+[PopupDialog(dialogHead="$avatar_sys")] 你应该已经注意到，在我们招募到新的干员时，会获得不定量的【资质凭证】。
+[PopupDialog(dialogHead="$avatar_sys")] 这些【资质凭证】可以用于在采购中心交换角色和资源。
+
+[GotoPage(dest="home", waitForSignal="home_routed")]
+[Tutorial(target="btn_shop", \
+          animStyle="Highlight", focusStyle="HighlightRect", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_sys")] \
+点击进入采购中心
+
+[GotoPage(dest="shop", waitForSignal="shop_routed")]
+
+//----------- Friend scene ------------
+
+[PopupDialog(dialogHead="$avatar_sys", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] \
+现在展示的是【专业资质凭证】的兑换界面。
+[PopupDialog(dialogHead="$avatar_sys", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] \
+【专业资质凭证】可以在招募到较高稀有度干员时获得。
+
+[Tutorial(target="lgg_unactive_state", waitForSignal="shop_LGG_resumed", \
+          animStyle="Click", focusStyle="HighlightRect", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_sys", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] \
+点击切换到【资质凭证】的兑换界面。
+
+[PopupDialog(dialogHead="$avatar_sys")] 在招募到稀有度较低的干员时可以获得【资质凭证】。请好好利用这些商店来扩充罗德岛的实力。
+
+//--------------------------------------

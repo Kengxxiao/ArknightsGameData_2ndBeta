@@ -1,0 +1,100 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第三十关（后）
+
+// Comments
+
+[PlayMusic(intro="$darkness01_intro", key="$darkness01_loop", volume=0.8, crossfade=1.5, delay=0.5)]
+
+[name="陈"]   ......结束了。
+
+[Image(image="bg_0_coma", fadetime=1)]
+[Delay(time=2)]
+
+[name="陈"]   把那个面具丢掉吧，它已经没有任何意义了。
+[name="阿米娅"]   ......
+[name="陈"]   人会为他们的选择付出代价——
+[name="陈"]   感染者也一样。
+[name="阿米娅"]   但......
+
+[Dialog]
+
+[Delay(time=0.3)]
+
+[Background(image="bg_wild_a", width=1, height=1, fadetime=1)]
+[Delay(time=1)]
+
+[Character(name="char_010_chen_1", name2="char_002_amiya_1", focus=1)]
+
+[name="陈"]   听着，阿米娅。
+[name="陈"]   仁慈是需要付出代价的。
+[name="陈"]   如果感染者愿意倾听你的话语，你当然可以尽你所能帮助他们。
+[name="陈"]   而当他们拒绝，并且做出无可挽回的选择时——
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
+[Image(fadetime=0)]
+[Blocker(a=0, fadetime=0.6, block=true)]
+[Delay(time=0.6)]
+[name="陈"]   没什么好犹豫的。
+[name="陈"]   你理当在这种选择酿成惨剧之前修正它们。
+
+[Character(name="char_010_chen_1", name2="char_002_amiya_1", focus=2)]
+
+[name="阿米娅"]   那本不该是一种罪恶。
+
+[Character(name="char_010_chen_1", name2="char_002_amiya_1", focus=1)]
+
+[name="陈"]   ......是。这不是什么罪恶的下场。
+[name="陈"]   仅仅是因为——那个选择是错的。
+
+[Character(name="char_010_chen_1", name2="char_002_amiya_1", focus=2)]
+
+[name="阿米娅"]   感染者也拥有感情，也拥有......亲人。
+
+[Character(name="char_010_chen_1", name2="char_002_amiya_1", focus=1)]
+
+[name="陈"]   你动摇了？
+[name="陈"]   要知道，也许正是这些，让他们变得更可怕。
+
+[Character(name="char_010_chen_1", name2="char_002_amiya_1", focus=2)]
+
+[name="阿米娅"]   陈长官，你有想过感染者的出路吗？
+
+[Character(name="char_010_chen_1", name2="char_002_amiya_1", focus=1)]
+
+[name="陈"]   我并不关心。
+[name="陈"]   不过我也很好奇，感染者......究竟会走向何方？
+
+[Character(name="char_010_chen_1", name2="char_002_amiya_1", focus=2)]
+
+[name="阿米娅"]   如果我们什么都不做——
+[name="阿米娅"]   那么，感染者不是被敌意杀死，就是自己走向毁灭。
+[name="阿米娅"]   悲剧......只会一次接一次的重演。
+[name="阿米娅"]   作为感染者，只有治愈这种诅咒，才可能真正从中解脱。
+[name="阿米娅"]   假使我们不前进......苦难就没有尽头。
+[name="阿米娅"]   我们只有这条路，而我也绝不会放弃。
+[name="阿米娅"]   抱歉，陈长官......我想单独待一会儿。
+
+[Character(name="char_010_chen_1", name2="char_002_amiya_1", focus=1)]
+
+[name="陈"]   ......
+[name="陈"]   结束后就回去待命吧。
+[name="陈"]   近卫局会在休整之后重新出发，寻找密钥的下落——
+[name="陈"]   至少找到那批整合运动。
+[name="陈"]   我希望罗德岛也提供一些侦查力量。我会联系那个医生的。
+[name="陈"]   ......别拖太久。
+[Character(fadetime=0.5)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0.6, block=true)]
+
+[Character(name="char_002_amiya_1", focus=1)]
+[name="阿米娅"]   ......
+
+[Character(fadetime=1)]
+[Delay(time=0.6)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=1.5, block=true)]
+[Background(image="bg_wild_m", width=1, height=1, fadetime=0)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=2, block=true)]
+
+[Delay(time=0.5)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, ease="InOutCubic", block=true)]
+[Dialog]
+[Blocker(block=true)]
+[Image]

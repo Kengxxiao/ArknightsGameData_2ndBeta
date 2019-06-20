@@ -1,0 +1,356 @@
+{
+  "1": {
+    "ID": 57,
+    "point1": "char_172_svrash",
+    "point2": "char_173_slchan",
+    "lineType": 0
+  },
+  "2": {
+    "ID": 56,
+    "point1": "char_172_svrash",
+    "point2": "char_174_slbell",
+    "lineType": 0
+  },
+  "3": {
+    "ID": 55,
+    "point1": "char_173_slchan",
+    "point2": "char_174_slbell",
+    "lineType": 0
+  },
+  "4": {
+    "ID": 54,
+    "point1": "char_199_yak",
+    "point2": "char_172_svrash",
+    "lineType": 0
+  },
+  "5": {
+    "ID": 53,
+    "point1": "char_185_frncat",
+    "point2": "char_180_amgoat",
+    "lineType": 0
+  },
+  "6": {
+    "ID": 52,
+    "point1": "char_109_fmout",
+    "point2": "char_183_skgoat",
+    "lineType": 0
+  },
+  "7": {
+    "ID": 51,
+    "point1": "char_145_prove",
+    "point2": "char_127_estell",
+    "lineType": 0
+  },
+  "8": {
+    "ID": 50,
+    "point1": "char_145_prove",
+    "point2": "char_187_ccheal",
+    "lineType": 0
+  },
+  "9": {
+    "ID": 49,
+    "point1": "char_145_prove",
+    "point2": "char_126_shotst",
+    "lineType": 0
+  },
+  "10": {
+    "ID": 48,
+    "point1": "char_145_prove",
+    "point2": "char_183_skgoat",
+    "lineType": 0
+  },
+  "11": {
+    "ID": 47,
+    "point1": "char_141_nights",
+    "point2": "char_109_fmout",
+    "lineType": 0
+  },
+  "12": {
+    "ID": 46,
+    "point1": "char_179_cgbird",
+    "point2": "char_147_shining",
+    "lineType": 0
+  },
+  "13": {
+    "ID": 45,
+    "point1": "char_147_shining",
+    "point2": "char_148_nearl",
+    "lineType": 0
+  },
+  "14": {
+    "ID": 44,
+    "point1": "char_129_bluep",
+    "point2": "char_110_deepcl",
+    "lineType": 0
+  },
+  "15": {
+    "ID": 43,
+    "point1": "char_129_bluep",
+    "point2": "char_143_ghost",
+    "lineType": 0
+  },
+  "16": {
+    "ID": 42,
+    "point1": "char_181_flower",
+    "point2": "char_164_nightm",
+    "lineType": 0
+  },
+  "17": {
+    "ID": 41,
+    "point1": "char_117_myrrh",
+    "point2": "char_193_frostl",
+    "lineType": 0
+  },
+  "18": {
+    "ID": 40,
+    "point1": "char_158_milu",
+    "point2": "char_219_meteo",
+    "lineType": 0
+  },
+  "19": {
+    "ID": 39,
+    "point1": "char_123_fang",
+    "point2": "char_130_doberm",
+    "lineType": 0
+  },
+  "20": {
+    "ID": 38,
+    "point1": "char_502_nblade",
+    "point2": "char_130_doberm",
+    "lineType": 0
+  },
+  "21": {
+    "ID": 37,
+    "point1": "char_503_rang",
+    "point2": "char_500_noirc",
+    "lineType": 0
+  },
+  "22": {
+    "ID": 36,
+    "point1": "char_501_durin",
+    "point2": "char_502_nblade",
+    "lineType": 0
+  },
+  "23": {
+    "ID": 35,
+    "point1": "char_503_rang",
+    "point2": "char_502_nblade",
+    "lineType": 0
+  },
+  "24": {
+    "ID": 34,
+    "point1": "char_122_beagle",
+    "point2": "char_123_fang",
+    "lineType": 0
+  },
+  "25": {
+    "ID": 33,
+    "point1": "char_120_hibisc",
+    "point2": "char_122_beagle",
+    "lineType": 0
+  },
+  "26": {
+    "ID": 32,
+    "point1": "char_121_lava",
+    "point2": "char_122_beagle",
+    "lineType": 0
+  },
+  "27": {
+    "ID": 31,
+    "point1": "char_124_kroos",
+    "point2": "char_123_fang",
+    "lineType": 0
+  },
+  "28": {
+    "ID": 30,
+    "point1": "char_155_tiger",
+    "point2": "char_112_siege",
+    "lineType": 0
+  },
+  "29": {
+    "ID": 29,
+    "point1": "char_140_whitew",
+    "point2": "char_102_texas",
+    "lineType": 0
+  },
+  "30": {
+    "ID": 28,
+    "point1": "char_102_texas",
+    "point2": "char_002_amiya",
+    "lineType": 0
+  },
+  "31": {
+    "ID": 27,
+    "point1": "char_102_texas",
+    "point2": "char_101_sora",
+    "lineType": 0
+  },
+  "32": {
+    "ID": 26,
+    "point1": "char_103_angel",
+    "point2": "char_102_texas",
+    "lineType": 0
+  },
+  "33": {
+    "ID": 25,
+    "point1": "char_201_moeshd",
+    "point2": "char_102_texas",
+    "lineType": 0
+  },
+  "34": {
+    "ID": 24,
+    "point1": "char_130_doberm",
+    "point2": "char_107_liskam",
+    "lineType": 0
+  },
+  "35": {
+    "ID": 23,
+    "point1": "char_208_melan",
+    "point2": "char_130_doberm",
+    "lineType": 0
+  },
+  "36": {
+    "ID": 22,
+    "point1": "char_208_melan",
+    "point2": "char_211_adnach",
+    "lineType": 0
+  },
+  "37": {
+    "ID": 21,
+    "point1": "char_211_adnach",
+    "point2": "char_210_stward",
+    "lineType": 0
+  },
+  "38": {
+    "ID": 20,
+    "point1": "char_212_ansel",
+    "point2": "char_211_adnach",
+    "lineType": 0
+  },
+  "39": {
+    "ID": 19,
+    "point1": "char_208_melan",
+    "point2": "char_209_ardign",
+    "lineType": 0
+  },
+  "40": {
+    "ID": 18,
+    "point1": "char_241_panda",
+    "point2": "char_136_hsguma",
+    "lineType": 0
+  },
+  "41": {
+    "ID": 17,
+    "point1": "char_241_panda",
+    "point2": "char_137_brownb",
+    "lineType": 0
+  },
+  "42": {
+    "ID": 16,
+    "point1": "char_118_yuki",
+    "point2": "char_1006_fumizuki",
+    "lineType": 0
+  },
+  "43": {
+    "ID": 15,
+    "point1": "char_136_hsguma",
+    "point2": "char_010_chen",
+    "lineType": 0
+  },
+  "44": {
+    "ID": 14,
+    "point1": "char_010_chen",
+    "point2": "char_1005_weiyenwu",
+    "lineType": 0
+  },
+  "45": {
+    "ID": 13,
+    "point1": "char_1006_fumizuki",
+    "point2": "char_1005_weiyenwu",
+    "lineType": 0
+  },
+  "46": {
+    "ID": 12,
+    "point1": "char_010_chen",
+    "point2": "char_002_amiya",
+    "lineType": 0
+  },
+  "47": {
+    "ID": 11,
+    "point1": "char_003_kalts",
+    "point2": "char_002_amiya",
+    "lineType": 0
+  },
+  "48": {
+    "ID": 10,
+    "point1": "char_003_kalts",
+    "point2": "char_001_master",
+    "lineType": 0
+  },
+  "49": {
+    "ID": 9,
+    "point1": "char_002_amiya",
+    "point2": "char_001_master",
+    "lineType": 0
+  },
+  "50": {
+    "ID": 8,
+    "point1": "char_130_doberm",
+    "point2": "char_002_amiya",
+    "lineType": 0
+  },
+  "51": {
+    "ID": 7,
+    "point1": "char_106_franka",
+    "point2": "char_107_liskam",
+    "lineType": 0
+  },
+  "52": {
+    "ID": 6,
+    "point1": "char_003_kalts",
+    "point2": "char_108_silent",
+    "lineType": 0
+  },
+  "53": {
+    "ID": 5,
+    "point1": "char_134_ifrit",
+    "point2": "char_108_silent",
+    "lineType": 0
+  },
+  "54": {
+    "ID": 4,
+    "point1": "char_242_otter",
+    "point2": "char_108_silent",
+    "lineType": 0
+  },
+  "55": {
+    "ID": 3,
+    "point1": "char_202_demkni",
+    "point2": "char_108_silent",
+    "lineType": 0
+  },
+  "56": {
+    "ID": 2,
+    "point1": "char_128_plosis",
+    "point2": "char_108_silent",
+    "lineType": 0
+  },
+  "57": {
+    "ID": 1,
+    "point1": "char_144_red",
+    "point2": "char_003_kalts",
+    "lineType": 0
+  },
+  "58": {
+    "ID": 59,
+    "point1": "char_172_svrash",
+    "point2": "char_173_slchan",
+    "lineType": 0
+  },
+  "59": {
+    "ID": 60,
+    "point1": "char_199_yak",
+    "point2": "char_198_blackd",
+    "lineType": 0
+  }
+}

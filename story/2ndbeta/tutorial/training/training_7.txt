@@ -1,0 +1,8 @@
+[HEADER(is_skippable=true)] 训练关卡6a
+
+[PopupDialog(dialogHead="$avatar_sys")] 好了，基础的战斗策略已经基本帮你回顾了一遍。
+[PopupDialog(dialogHead="$avatar_sys")] 接下来，我为了你准备了最后一道难题：迎击一波敌人的精英部队。
+[PopupDialog(dialogHead="$avatar_sys")] 不用担心，更多强力的干员们也已经加入了这次模拟行动。
+[PopupDialog(dialogHead="$avatar_sys")] 是时候让我看看，Dr.{@nickname}，你到底能做到什么地步了。
+
+[Blocker(fadetime=0.3, block=true, a=0)]

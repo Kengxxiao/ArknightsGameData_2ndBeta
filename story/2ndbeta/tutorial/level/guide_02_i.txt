@@ -1,0 +1,9 @@
+[HEADER(is_tutorial=true)] 引导关卡2_g
+
+[Battle.Pause]
+
+[PopupDialog(dialogHead="system_100_mys")] 令人震惊。
+[PopupDialog(dialogHead="system_100_mys")] 虽然你现在看上去不堪一击，不过如此短的时间就能够掌握这一切，已经可以说明一些问题。
+[PopupDialog(dialogHead="system_100_mys")] 看来这次阿米娅没有做错，她选择了一个正确的人。
+[PopupDialog(dialogHead="system_100_mys")] 这次的赌博是我输了。
+//[PopupDialog(dialogHead="system_100_mys")] 拿走你的赌注，现在你可以开始学习掌控这艘船了。

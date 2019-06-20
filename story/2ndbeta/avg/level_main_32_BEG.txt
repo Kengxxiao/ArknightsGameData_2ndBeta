@@ -1,0 +1,202 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第三十二关（前）
+
+// Comments
+
+[Background(image="bg_cher_3", width=1, height=1, fadetime=1)]
+[PlayMusic(intro="$chernormal_intro", key="$chernormal_loop", volume=0.8, crossfade=1.5, delay=0.5)]
+[Delay(time=1)]
+
+[Character(name="char_259_Jessica_1")]
+
+[name="杰西卡"]   还，还有两个敌人！正在往东侧建筑物后方逃窜——
+
+[Character(name="char_219_meteo_1")]
+
+[name="陨星"]   已经瞄准。
+[name="陨星"]   ——！
+[Dialog]
+[Character(fadetime=0.6)]
+
+[playsound(key="$p_imp_grenade_n", volume=0.5)]
+[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, block=false)]
+[Character(name="char_1002_nsabr_2")]
+
+[name="整合运动成员"]   啊——！
+
+[Delay(time=0.5)]
+
+[Character(name="char_193_frostl_1", name2="char_219_meteo_1", focus=2)]
+
+[name="陨星"]   中了。
+
+[Character(name="char_193_frostl_1", name2="char_219_meteo_1", focus=1)]
+
+[name="霜叶"]   声音——会不会大了点。
+
+[Character(name="char_193_frostl_1", name2="char_219_meteo_1", focus=2)]
+
+[name="陨星"]   这废城区里爆炸声不断，我想整合运动不会特别在意的。
+[name="陨星"]   至少不能让他们互相联络。
+
+[Character(name="char_259_Jessica_1", name2="char_219_meteo_1", focus=1)]
+
+[name="杰西卡"]   呼......终于解决了......
+
+[Character(name="char_259_Jessica_1", name2="char_219_meteo_1", focus=2)]
+
+[name="陨星"]   还不能懈怠。霜叶，去看看情况。
+
+[Character(name="char_193_frostl_1")]
+
+[name="霜叶"]   了解。
+
+[Character(name="char_259_Jessica_1#3", name2="char_219_meteo_1", focus=1)]
+
+[name="杰西卡"]   这种事情......我还是知道的！
+
+[Character(name="char_259_Jessica_1#3", name2="char_219_meteo_1", focus=2)]
+
+[name="陨星"]   好的，好的。
+[name="陨星"]   凯尔希医生，听得见吗？
+
+[Character(fadetime=0)]
+[CharacterCutin(widgetID="1", name="char_003_kalts_1", style="cutin", fadestyle= "horiz_expand_center", fadetime=0.5, offsetx=0, width=200, block=true)]
+[name="凯尔希"]   一直在听。确实不能懈怠——
+[CharacterCutin(widgetID="1", fadetime=0.5, block=true)]
+
+[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]
+[PlaySound(key="$b_char_rockexplo", volume=0.7)]
+[Blocker(a=0, fadetime=1.5, block=false)]
+[CameraShake(duration=1, xstrength=3, ystrength=5, vibrato=30, randomness=90, block=false)]
+
+[Character(name="char_259_Jessica_1#3")]
+
+[name="杰西卡"]   呜哇！
+
+[Character(name="char_259_Jessica_1#3", focus=-1)]
+
+[name="凯尔希"]   因为敌人可是整合运动。
+
+[Character(name="char_1002_nsabr_2")]
+
+[name="整合运动成员"]   怎，怎么会......背后......
+
+[Character(name="char_193_frostl_1")]
+
+[name="霜叶"]   你太慢了。
+
+[Dialog]
+[Character(fadetime=0)]
+[playsound(key="$p_imp_axe_h", volume=0.5)]
+[CameraShake(duration=1, xstrength=3, ystrength=5, vibrato=30, randomness=90, block=true)]
+
+[Character(name="char_193_frostl_1")]
+
+[name="霜叶"]   暂时没事了，凯尔希医生。我已经解决了。
+
+[Character(name="char_219_meteo_1")]
+
+[name="陨星"]   你的速度真的很快......我甚至都没看清楚你是怎么摸过去的。
+
+[Character(name="char_219_meteo_1", focus=-1)]
+
+[name="凯尔希"]   红联系我了。龙门内部的整合运动还没有活动的迹象，现阶段还是不要打草惊蛇为妙。
+[name="凯尔希"]   综合其它活跃在废城的侦查小队的信息，藏匿在废城的整合运动的规模，远比想象中要大。
+
+[Character(name="char_259_Jessica_1", name2="char_219_meteo_1", focus=2)]
+
+[name="陨星"]   也就是说，中奖可能反而的是我们这边？
+
+[Character(name="char_259_Jessica_1", name2="char_219_meteo_1", focus=1)]
+
+[name="杰西卡"]   到现在为止已经是第二支整合运动小队了......
+
+
+[Character(name="char_259_Jessica_1", name2="char_219_meteo_1", focus=-1)]
+
+[name="凯尔希"]   敌人的数量？
+
+[Character(name="char_219_meteo_1")]
+
+[name="陨星"]   具体还不清楚。战斗的话，只能说是暂时足够对付的程度。霜叶，你那边如何？
+
+[Character(name="char_193_frostl_1")]
+
+[name="霜叶"]   ......
+
+[Character(name="char_219_meteo_1")]
+
+[name="陨星"]   怎么了......？
+
+[Character(name="char_219_meteo_1", focus=-1)]
+
+[name="凯尔希"]   你们去吧，有问题随时反馈。
+
+[Character(name="char_259_Jessica_1", name2="char_219_meteo_1", focus=1)]
+
+[name="杰西卡"]   是。
+[name="杰西卡"]   我们......过去看看吧。
+
+[Character(name="char_259_Jessica_1", name2="char_219_meteo_1", focus=2)]
+
+[name="陨星"]   ......
+
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[Character(fadetime=0)]
+[Background(image="bg_cher_2", width=1, height=1, fadetime=0)]
+[Blocker(a=0, fadetime=0.6, block=true)]
+[Delay(time=0.8)]
+
+
+[Character(name="char_259_Jessica_1", name2="char_219_meteo_1", focus=2)]
+[name="陨星"]   发生什么情况。
+
+[Character(name="char_193_frostl_1", name2="char_219_meteo_1", focus=1)]
+[name="霜叶"]   ......你们没感受到吗？
+
+[Character(name="char_193_frostl_1", name2="char_259_Jessica_1", focus=2)]
+[name="杰西卡"]   嗯？怎么......
+[name="杰西卡"]   这么一说......是有点冷......
+
+[Character(name="char_193_frostl_1", name2="char_259_Jessica_1", focus=1)]
+[name="霜叶"]   温度。
+
+[Character(name="char_193_frostl_1", name2="char_219_meteo_1", focus=2)]
+[name="陨星"]   ......的确，和城区外至少有五度以上的温差。
+
+[Character(name="char_259_Jessica_1", name2="char_219_meteo_1", focus=1)]
+[name="杰西卡"]   平白无故天气就变了......怎么会......
+[Character(name="char_259_Jessica_1", name2="char_193_frostl_1", focus=2)]
+[name="霜叶"]   抬头看。天气没有变。
+[Character(name="char_259_Jessica_1", name2="char_193_frostl_1", focus=1)]
+[name="杰西卡"]   ......啊？
+[Character(name="char_259_Jessica_1", name2="char_193_frostl_1", focus=2)]
+[name="霜叶"]   不是天气。是这里，来，摸一摸。
+[Character(name="char_219_meteo_1", name2="char_193_frostl_1", focus=1)]
+[name="陨星"]   ......墙体？
+[Character(name="char_219_meteo_1", name2="char_193_frostl_1", focus=2)]
+[name="霜叶"]   是的。这堵墙在吸收热量。
+
+[Character(name="char_259_Jessica_1", name2="char_193_frostl_1", focus=1)]
+[name="杰西卡"]   ......怎么会？！
+
+[Character(name="char_259_Jessica_1", name2="char_193_frostl_1", focus=2)]
+
+[name="霜叶"]   这个过程——在我们来之前，可能已经结束了。墙体正在回温。
+[name="霜叶"]   只是——为什么？
+[name="霜叶"]   是什么人留下这种痕迹？
+[Character(name="char_219_meteo_1", name2="char_193_frostl_1", focus=1)]
+[name="陨星"]   ......在这个地方活动的，就只有整合运动了。
+[Character(name="char_219_meteo_1", name2="ch", focus=2)]
+
+[name="杰西卡"]   整合运动？他们......怎么做到的？
+[Character(name="char_193_frostl_1", name2="char_259_Jessica_1", focus=1)]
+[name="霜叶"]   ——我听过一个传说。
+[Blocker(block=true, fadetime=1)]
+[name="霜叶"]   一个有关所到之处都化作冰天雪地的怪物的传说。
+
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(block=true)]
+[Image]

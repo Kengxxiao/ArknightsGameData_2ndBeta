@@ -1,0 +1,6 @@
+[HEADER(is_skippable=true)] 主线014教学
+
+[PopupDialog(dialogHead="$avatar_sys")] 龙门地区为罗德岛提供了部分医疗援助，将干员布置到这些位置即可得到生命恢复。
+[PopupDialog(dialogHead="$avatar_sys")] 长按这些地点可以获得更加详细的情报。请加以合理利用。
+
+[Blocker(fadetime=0.3, block=true, a=0)]

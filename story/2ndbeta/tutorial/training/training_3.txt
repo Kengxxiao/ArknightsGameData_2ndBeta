@@ -1,0 +1,6 @@
+[HEADER(is_skippable=true)] 训练关卡3
+
+[PopupDialog(dialogHead="$avatar_sys", dialogX=-568, dialogY=-217)] \
+请注意部分敌人拥有飞行能力，只有拥有远程攻击能力的干员才能对其造成伤害。
+
+[Blocker(fadetime=0.3, block=true, a=0)]

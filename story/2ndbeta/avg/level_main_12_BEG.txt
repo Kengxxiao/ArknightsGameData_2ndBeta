@@ -1,0 +1,114 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第十二关（前）
+
+// Comments
+
+[Background(image="bg_cher_3", width=1, height=1, fadetime=1)]
+[PlayMusic(intro="$chernormal_intro", key="$chernormal_loop", volume=0.8, crossfade=1, delay=0.5)]
+[Delay(time=1)]
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   再加把劲！
+[name="阿米娅"]   我们已经能看到斜向出口了，马上就能撤出切城。
+
+[Character(name="char_130_doberm_ex")]
+
+[name="杜宾"]   短程通讯已恢复！联系上接应小队了，他们在城外汇合点等候——！
+
+[Character(name="char_148_nearl_1")]
+
+[name="临光"]   可整合运动——未必会轻易放我们出城。
+
+[Character(name="char_1504_cqbw#2")]
+
+[name="？？？"]   是这样。
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   ——是谁？
+
+[Character(name="char_1504_cqbw")]
+
+[name="？？？"]   你不认识我很正常——
+[name="？？？"]   但是我认识你哦。
+
+[Character(name="char_002_amiya_1#7", name2="char_1504_cqbw", focus=1)]
+
+[name="阿米娅"]   ——整合运动！
+
+[Character(name="char_002_amiya_1#7", name2="char_1504_cqbw", focus=2)]
+
+[name="？？？"]   唉唉，别这样。
+[name="？？？"]   我和那个龙女可不怎么合得来，守门不过是例行公事罢了。
+[name="？？？"]   你可以叫我——W.
+[name="W"]   为了见你，我在这里可是等了好久呢。
+
+[Character(name="char_148_nearl_1#8")]
+
+[name="临光"]   你在浪费我们的时间——
+[name="临光"]   狙击小队！射击！
+
+[Character(name="char_002_amiya_1", name2="char_1504_cqbw", focus=2)]
+
+[name="W"]   ——别急嘛。
+
+[Character(name="char_002_amiya_1", name2="char_1504_cqbw", focus=2)]
+
+[name="W"]   其实有不少身手很利落的家伙在暗中保护你们......
+
+[Character(name="char_002_amiya_1#11", name2="char_1504_cqbw", focus=1)]
+
+[name="阿米娅"]   是凯尔希医生的小队
+
+[Character(name="char_002_amiya_1#11", name2="char_1504_cqbw", focus=2)]
+
+[name="W"]   我很想知道，你究竟有什么魔力......
+[name="W"]   能让他们都心甘情愿，为你毫无价值地送命？
+
+[Character(name="char_002_amiya_1#6", name2="char_1504_cqbw", focus=1)]
+
+[name="阿米娅"]   什么？！
+
+[Character(name="char_002_amiya_1#6", name2="char_1504_cqbw", focus=2)]
+
+[name="W"]   你真的......配得上别人的牺牲吗？
+
+[Character(name="char_002_amiya_1#7", name2="char_1504_cqbw", focus=1)]
+
+[name="阿米娅"]   ————
+
+[Character(name="char_002_amiya_1#7", name2="char_1504_cqbw", focus=-1)]
+
+[Decision(options="提醒阿米娅她的使命", values="1")]
+
+[Predicate(references="1")]
+
+[Character(name="char_1504_cqbw")]
+
+[name="W"]   ————
+[name="W"]   是你。
+[name="W"]   是你———你竟然在这里，你竟然......
+[name="W"]   好啊，好啊......
+[name="W"]   来吧。
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   ——你犯下了很多错误。
+[name="阿米娅"]   其中最致命的一个是——
+[name="阿米娅"]   没有人的生命是无价值的！！
+[name="阿米娅"]   出口就在前方！！！
+[name="阿米娅"]   博士！！
+
+[Character(name="char_002_amiya_1#7", focus=-1)]
+
+[Decision(options="指挥战斗", values="1")]
+
+[Predicate(references="1")]
+[Character(name="char_1504_cqbw")]
+
+[name="W"]   ......
+
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(block=true)]
+[Image]

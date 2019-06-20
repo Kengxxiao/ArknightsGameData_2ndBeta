@@ -1,0 +1,40 @@
+[HEADER(key="title_test", is_skippable=true)] 测试脚本
+
+// Comments
+
+[name=""]   ............
+[Delay(time=1)]
+[PlayMusic(intro="$darkness01_intro", key="$darkness01_loop", volume=1, crossfade=1, delay=0.5)]
+
+[Image(image="avg_40_4", fadetime=2, xScale=1.3, yScale=1.3)]
+[ImageTween(image="avg_40_4", tiled=true, xScaleTo=1.0, yScaleTo=1.0, duration=25, block=false)]
+
+[name="？？？"]   你选择现在与我通讯，是不是意味着，你已经成功把他们引了出来？
+[name="陈"]   至少，特别督查组是安全的。
+[name="？？？"]   他们呢？
+[name="陈"]  对整个计划依然一无所知。
+[name="？？？"]   这样就好。
+[name="陈"]  魏大人。目前看来，你的策略除了给龙门造成了巨大损失之外，还没有任何成效。
+[name="魏彦吾"]   不必强压火气。我能理解你对计划的不满。
+[name="陈"]  我的愤怒不是针对计划的，而是针对你的。为了胜利，难道就可以不顾一切吗？
+[name="魏彦吾"]   陈警官，很可惜，我们是同一种人。
+[name="魏彦吾"]   请记住，你我别无选择。
+[name="魏彦吾"]   摆在我们面前的不是胜利和另一种卑微的胜利——
+[name="魏彦吾"]   而是惨痛的胜利或可悲的毁灭。
+[name="魏彦吾"]   在被迫受伤之时不肯留血，只会在捕猎时被猎物撕破喉咙。
+[name="陈"]  你在拿龙门赌博。
+[name="魏彦吾"]   赌徒有后路，却被贪婪冲昏头脑；棋手有胜负，无法赢得战争就只能招致惨败。
+[Delay(time=0.6)]
+[Dialog]
+[name="魏彦吾"]   就让每一颗棋子都发挥他们应有的作用吧。
+[Dialog]
+[Delay(time=0.6)]
+[name="陈"]  ......
+[name="陈"]  希望你能履行，你的诺言。
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.5, block=true)]
+[Dialog]
+[name="陈"]  魏先生。
+
+[Dialog]
+[Stopmusic(fadetime=5)]
+[Blocker(block=true)]

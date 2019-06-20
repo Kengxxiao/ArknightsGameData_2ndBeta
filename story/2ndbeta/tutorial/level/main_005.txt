@@ -1,0 +1,6 @@
+[HEADER(is_tutorial=true)] 主线005为熊猫自动回蓝脚本
+
+[Battle.EnsureMinSp(charId="char_241_panda", sp=100)]
+[InputBlocker(blockInput=false)]
+[PopupDialog(dialogHead="$avatar_sys", animStyle="NoWait")] 一位外来人员进入了战场，请小心提防。
+[Delay(time=4)]

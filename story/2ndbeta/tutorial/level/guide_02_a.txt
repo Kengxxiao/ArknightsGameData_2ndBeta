@@ -1,0 +1,11 @@
+[HEADER(is_tutorial=true)] 引导关卡2_a
+
+[Battle.Pause]
+
+[PopupDialog(dialogHead="$avatar_sys")] 我原以为这个名为“整合运动”只是一些无纪律的破坏团体。
+[PopupDialog(dialogHead="$avatar_sys")] 不过看来他们很清楚他们正在做什么。
+
+[PopupDialog(dialogHead="$avatar_sys")] 好消息是，我们不是他们的主要敌人。
+[PopupDialog(dialogHead="$avatar_sys")] 坏消息是，他们攻击的主要目标是这里的一整个设施。
+
+[PopupDialog(dialogHead="$avatar_sys")] 德克萨斯已经提前在战场上待命，随时准备迎击敌人的先锋部队。

@@ -1,0 +1,90 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第八关（前）
+
+// Comments
+
+[Background(image="bg_cher_1", width=1, height=1, fadetime=1)]
+[PlayMusic(intro="$chernormal_intro", key="$chernormal_loop", volume=0.8, crossfade=1, delay=0.5)]
+[Delay(time=1)]
+
+[Character(name="char_148_nearl_1", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   没时间从其他区域绕行了......
+[name="杜宾"]   必须直接穿过<color=#ee4321>下城区</color>。
+[name="杜宾"]   需要各小队分别行动吗？
+
+[Character(name="char_148_nearl_1", name2="char_130_doberm_ex", focus=1)]
+
+[name="临光"]   万一被各个击破就麻烦了。
+
+[Character(name="char_148_nearl_1", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   以我们现在的规模，团队行动难免会被发觉。
+[name="杜宾"]   在狭窄的街巷中行动，很容易被埋伏包夹......
+
+[Character(name="char_148_nearl_1", name2="char_130_doberm_ex", focus=1)]
+
+[name="临光"]   怎么办？
+
+[Character(name="char_148_nearl_1", name2="char_130_doberm_ex", focus=-1)]
+
+[Decision(options="提出正面突破的战术", values="1")]
+
+[Predicate(references="1")]
+
+[Character(name="char_148_nearl_1", name2="char_130_doberm_ex", focus=1)]
+
+[name="临光"]   ——
+[Delay(time=0.6)]
+
+[name="临光"]   值得赞赏。
+[name="临光"]   就该这样。猛烈冲击，搅乱阵形，破坏火力点，迅速撤退，理所应当。
+
+[Character(name="char_148_nearl_1", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   ......不错。肉眼可见的威胁远比进退两难容易处理的多。
+[name="杜宾"]   我可以把这个看作是{@nickname}博士的命令吗，阿米娅？
+
+[Character(name="char_002_amiya_1#2", name2="char_130_doberm_ex", focus=1)]
+
+[name="阿米娅"]   局势还是比较明了的。我赞成博士的选择。
+
+[Character(name="char_002_amiya_1#2", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   那如果是比较困难的抉择——
+
+[Character(name="char_002_amiya_1", name2="char_130_doberm_ex", focus=1)]
+
+[name="阿米娅"]   要求大家现在就完全信赖博士，确实还太早了。
+
+[Character(name="char_002_amiya_1#2", name2="char_130_doberm_ex", focus=1)]
+
+[name="阿米娅"]   但只要一同战斗上一段时间，我相信，各位都会承认博士的能力的。
+
+[Character(name="char_002_amiya_1#2", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   你这么说的话，我同意。
+[name="杜宾"]   当然，从个人角度出发，我现在就挺看好Dr.{@nickname}。
+
+[Character(name="char_002_amiya_1#2", name2="char_130_doberm_ex", focus=-1)]
+
+[Decision(options="道谢", values="1")]
+
+[Predicate(references="1")]
+
+[Character(name="char_130_doberm_ex")]
+
+[name="杜宾"]   别那么拘谨，现在我们也算是一起滚过战壕的战友了。
+
+[Character(name="char_148_nearl_1", name2="char_130_doberm_ex", focus=1)]
+
+[name="临光"]   闲谈到此为止。我们没更多时间可以浪费。
+[name="临光"]   卡西米尔有句谚语：“喘息时死亡就会追上你。”
+
+[Character(name="char_148_nearl_1", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   抱歉。走吧！去把整合运动的封锁线扯成碎片！
+
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(block=true)]
+[Image]

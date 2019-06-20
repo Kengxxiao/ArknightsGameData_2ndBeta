@@ -1,0 +1,28 @@
+[HEADER(key="title_test", is_skippable=true)] 测试脚本
+
+// Comments
+
+[name=""]   ............
+[Delay(time=1)]
+[PlayMusic(intro="$indust_intro", key="$indust_loop", volume=1, crossfade=1, delay=0.5)]
+[Image(image="bg_abyss_1",fadetime=2, width=1, height=1)]
+
+[name="E"]   这里是\--\--。
+[name="？？？"]   重新连接成功。
+[name="？？？"]   正在返回挂起信息......
+[name="？？？"]  /Vtxz7JKvAMWy8S7qkxEVAlyQ==
+[name="E"]   终于......
+[name="？？？"]   没想到废弃的城市都能被你这样使用。
+[name="？？？"]   Lead one.
+[name="E"]   但这可不是一个好消息啊。
+[name="E"]   总之，处理完这些东西就该出去呼吸点新鲜空气了。
+[name="？？？"]   看上去是OTP......那么其他的......
+[name="E"]   我事先就留在上面了。
+[name="？？？"]   话说这些信息是给谁的？
+[name="E"]   Dr.{@nickname}！
+[name="E"]   都过了这么久，我还没上去看看呢。这家伙头发会变长吗？
+[name="？？？"]   要我发给你Dr.{@nickname}的近照吗？
+[Blocker(block=true)]
+[name="？？？"]  通讯结束。
+[Stopmusic(fadetime=1)]
+[Dialog]

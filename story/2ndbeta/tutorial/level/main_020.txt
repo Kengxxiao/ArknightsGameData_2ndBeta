@@ -1,0 +1,6 @@
+[HEADER(is_skippable=true)] 主线020教学
+
+[PopupDialog(dialogHead="$avatar_sys")] 本次作战地形中有一部分提供了良好的视野，非常适合用于狙击敌方的空中单位。
+[PopupDialog(dialogHead="$avatar_sys")] 安排合适的干员到这些战术地点会我们提供更高的制胜机会。
+
+[Blocker(fadetime=0.3, block=true, a=0)]

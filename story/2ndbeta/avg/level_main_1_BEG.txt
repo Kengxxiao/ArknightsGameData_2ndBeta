@@ -1,0 +1,135 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第一关（前）
+
+// Comments
+
+[PlayMusic(intro="$escape_intro", key="$escape_loop", volume=0.8, crossfade=1.5)]
+[Background(image="bg_indoor_1", width=1, height=1)]
+[Character(name="char_002_amiya_1#1")]
+[name="阿米娅"]   准备出发吧——
+[Character(name="char_002_amiya_1#7")]
+[name="阿米娅"]   ——等等。
+[Character(name="char_002_amiya_1#7", name2="char_016_medic", focus=2)]
+[name="医疗干员"]   怎么了？
+[Character(name="char_002_amiya_1#7", name2="char_016_medic", focus=1)]
+[name="阿米娅"]   ......刚才我们清理掉的，不是唯一的敌人。
+[Blocker(a=1, r=0, g=0, b=0, block=true)]
+[Dialog]
+
+[Background]
+[Character(name="char_1502_crowns")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+
+
+[name="？？？"]   .............
+[name="？？？"]   ————
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   又是整合运动吗！
+
+[Character(name="char_016_medic")]
+[Character(fadetime=0.6, block=true)]
+[Delay(time=0.6)]
+
+[Image(image="avg_1_1",x=0, y=-50, xScale=1.2, yScale=1.2, fadetime=1)]
+[ImageTween(xFrom=0, yFrom=-50, xTo=0, yTo=0, xScaleFrom=1.2, yScaleFrom=1.2, xScaleTo=1, yScaleTo=1, duration=10, block=false)]
+
+[name="医疗干员"]   那是谁？！
+
+[name="医疗干员"]   她......她和其他那些整合运动......不太一样......
+
+
+[name="阿米娅"]   糟糕......他们的数量和刚才相比多上太多了！
+
+[Dialog]
+[Delay(time=0.6)]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[Image(fadetime=0.6, block=true)]
+[Background(image="bg_indoor_1", width=1, height=1)]
+[Blocker(a=0, fadetime=1, block=true)]
+[Delay(time=0.3)]
+
+[Character(name="char_1502_crowns")]
+
+[name="？？？"]   ——————
+[name="？？？"]   撕碎他们。
+
+[Character(name="char_1002_nsabr_2")]
+
+[name="整合运动成员"]   是。
+
+[Character(name="char_013_riop")]
+
+[name="罗德岛干员"]   狙击小队，我们该瞄准她的落脚点！
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   不好！后方隐藏着整合运动！
+[name="阿米娅"]   ——是埋伏！别暴露到掩体之外！
+
+[Character(name="char_002_amiya_1#7", focus=-1)]
+
+[Decision(options="危险！", values="1")]
+
+[Predicate(references="1")]
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   快躲开！！
+
+[Character(name="char_016_medic")]
+
+[name="医疗干员"]   啊！
+
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[PlaySound(key="$e_atk_arrow_h")]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+
+[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]
+
+[name="医疗干员"]   ......好险.......
+
+[Character(name="char_013_riop")]
+
+[name="罗德岛干员"]   另一批伏兵开始攻击了！
+[PlayMusic(intro="$escapebattle_intro", key="$escapebattle_loop", volume=0.8, crossfade=0.6, delay=0.5)]
+[Character(name="char_1002_nsabr_1")]
+
+[name="整合运动成员"]   ——你们不可能活着出去。
+[name="整合运动成员"]   想都别想！
+
+[Character(name="char_002_amiya_1#6")]
+
+[name="阿米娅"]   这个数量和配备......
+[name="阿米娅"]   难道整合运动早就暗中军事化了？
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   博士，你能跑起来吗？
+[name="阿米娅"]   嗯，我明白的。
+[name="阿米娅"]   那么就——
+[Delay(time=0.3)]
+[Dialog]
+
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.2, block=true)]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Character(fadetime=0)]
+[Background(fadetime=0)]
+[Image(image="avg_1_3",x=0, y=-20, xScale=1.1, yScale=1.1, fadetime=1)]
+[ImageTween(xFrom=0, yFrom=-20, xTo=0, yTo=0, xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1, duration=4, block=false)]
+[Blocker(a=0, fadetime=0.5, block=true)]
+[Delay(time=0.6)]
+[name="阿米娅"]   全小队，全力突破！！
+[Delay(time=0.6)]
+[Dialog]
+[Image(image="avg_1_3",x=0, y=0, xScale=1, yScale=1, fadetime=1)]
+[PlaySound(key="$flashback", volume=0.7)]
+
+[ImageTween(xFrom=0, yFrom=0, xTo=0, yTo=-700, xScaleFrom=1, yScaleFrom=1, xScaleTo=8, yScaleTo=8, duration=1.6, block=false)]
+
+[PlaySound(key="$flashback", volume=0.7, Delay=0.3)]
+[PlaySound(key="$flashback", volume=0.7, Delay=0.7)]
+[Delay(time=0.2)]
+[Blocker(a=1,r=255, g=255, b=255, fadetime=0.3, block=true)]
+[Image]
+[Blocker(block=true, fadetime=0.5)]

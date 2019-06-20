@@ -1,0 +1,77 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第一关（后）
+
+// Comments
+// 从室内走向室外白光
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.5, block=true)]
+[Background(image="bg_cher_0", width=1, height=1, fadetime=0)]
+[Delay=1]
+[Blocker(a=1, r=0.81, g=0.85, b=0.86, afrom=1,rfrom=1, gfrom=1, bfrom=1, fadetime=0.5, block=true)]
+[Blocker(a=0, fadetime=2, block=true)]
+
+[PlayMusic(intro="$escape_intro", key="$escape_loop", volume=0.8, crossfade=1.5, delay=0.5)]
+[Delay(time=1)]
+
+[Character(name="char_013_riop")]
+
+[name="罗德岛干员"]   成功撤出核心区！！
+
+[Character(name="char_002_amiya_1#7", name2="char_013_riop", focus=1)]
+
+[name="阿米娅"]   优先确认敌情！
+
+[Character(name="char_002_amiya_1#7", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   我已经清理干净了。
+
+[Character(name="char_002_amiya_1#2", name2="char_130_doberm_ex", focus=1)]
+
+[name="阿米娅"]   杜宾！
+[name="阿米娅"]   你平安无事就好......
+
+[Character(name="char_016_medic", name2="char_130_doberm_ex", focus=1)]
+
+[name="医疗干员"]   损伤状况清点完毕，两名干员轻伤，但还都能行动！
+
+[Character(name="char_016_medic", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   抱歉，是我的失责，没能完整了解整合运动的战术。
+[name="杜宾"]   最开始我以为他们混在普通居民中。
+[name="杜宾"]   但当他们发动进攻时——
+[name="杜宾"]   我才意识到整个人群中连一个普通居民也没有。
+
+[Character(name="char_002_amiya_1#7", name2="char_130_doberm_ex", focus=1)]
+
+[name="阿米娅"]   他们已经......谋划的这么周全了吗？怎么可能......
+
+[Character(name="char_002_amiya_1#7", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   短程通讯设备也彻底失灵了。
+[name="杜宾"]   整合运动，究竟策划了什么？
+
+[Character(name="char_016_medic", name2="char_130_doberm_ex", focus=1)]
+
+[name="医疗干员"]   我，我的天......我们是不是真的要完蛋了......
+[name="医疗干员"]   罗德岛真值得他们如此大动干戈吗.......
+[name="医疗干员"]   闹出这么大动静，切尔诺伯格当局可不会坐视不管啊！
+
+[Character(name="char_016_medic", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   冷静下来。
+
+[Character(name="char_016_medic", name2="char_130_doberm_ex", focus=1)]
+
+[name="医疗干员"]   呃？教官......？
+
+[Character(name="char_016_medic", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   已经没有什么切尔诺伯格当局了。
+
+[Character(name="char_016_medic", name2="char_130_doberm_ex", focus=1)]
+
+[name="医疗干员"]   什么——？！
+
+[Delay(time=0.6)]
+
+[Dialog]
+[Blocker(block=true)]
+[Image]

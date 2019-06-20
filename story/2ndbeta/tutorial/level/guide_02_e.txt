@@ -1,0 +1,11 @@
+[HEADER(is_tutorial=true)] 引导关卡2_e
+
+[Battle.Pause]
+
+
+[PopupDialog(dialogHead="$avatar_amiya")] 博士！敌方的盾兵请交给我来对付！
+
+[PopupDialog(dialogHead="$avatar_sys")] 的确，感染者的法术天赋能够穿透敌人的防御，针对敌方的重甲单位是再好不过了。
+[PopupDialog(dialogHead="$avatar_sys")] 建议立即给阿米娅下达进攻指令。
+
+[Battle.EnsureMinSp(charId="char_002_amiya", sp=100)]

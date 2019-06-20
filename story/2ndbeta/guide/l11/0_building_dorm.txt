@@ -1,0 +1,26 @@
+[HEADER(is_skippable=false, is_tutorial=true)] 基建-宿舍引导
+
+[PopupDialog(dialogHead="$avatar_sys")] 虽然罗德岛有很多干员平时不总在第一线作战，他们也努力在后勤保障着整个基地的运作。
+[PopupDialog(dialogHead="$avatar_sys")] 偶尔去基建看看他们，增进相互之间的信赖是个不错的主意。
+
+[GotoPage(dest="home", waitForSignal="home_routed")]
+[Tutorial(target="btn_building", \
+          animStyle="Highlight", focusStyle="HighlightRect", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_sys")] \
+从这里进入基建系统。
+
+[GotoPage(dest="building", waitForSignal="building_routed")]
+
+//----------- Building scene ------------
+[Building.EnsureOperationMode(mode="ARCHITECTURE")]
+[Building.FocusBRoom(zoomId="slot_28")]
+[Delay(time=0.02)]
+
+[PopupDialog(dialogHead="$avatar_sys")] 身心疲惫的干员只有在宿舍里才能够回复体力。
+
+[Tutorial(target="broom_tutorial_btn", \
+          animStyle="Highlight", focusStyle="HighlightRect", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_sys", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] \
+如果你还没有为干员们建造宿舍的话，建议立即建造比较好。
+
+//--------------------------------------

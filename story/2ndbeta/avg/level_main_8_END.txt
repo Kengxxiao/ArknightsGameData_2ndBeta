@@ -1,0 +1,74 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第八关（后）
+
+// Comments
+[PlayMusic(intro="$chernormal_intro", key="$chernormal_loop", volume=0.8, crossfade=1, delay=0.5)]
+
+[Character(name="char_148_nearl_1#3")]
+
+[name="临光"]   嘶——！
+
+[Character(name="char_1002_nsabr_2")]
+
+[name="整合运动成员"]   ——？！
+
+[CameraShake(duration=1, xstrength=8, ystrength=12, vibrato=30, randomness=90, block=true)]
+
+[Character(name="char_130_doberm_ex")]
+
+[name="杜宾"]   嘁，接招！
+[playsound(key="$p_imp_whip_h", volume=0.7)]
+[Blocker(a=0.7, r=0.95, g=0.3, b=0.3, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+
+
+[Character(name="char_1002_nsabr_2")]
+
+[name="整合运动成员"]   呃啊！！
+
+[Dialog]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[Character(fadetime=0)]
+[Background(image="bg_cher_1", width=1, height=1, fadetime=0)]
+[Blocker(a=0, fadetime=0.6, block=true)]
+
+[Character(name="char_013_riop", name2="char_148_nearl_1", focus=1)]
+
+[name="罗德岛干员"]   整合运动在后方聚集起来了！
+
+[Character(name="char_013_riop", name2="char_148_nearl_1#3", focus=2)]
+
+[name="临光"]   他们跟不上我们的速度！继续冲刺！
+
+[Character(name="char_130_doberm_ex", name2="char_148_nearl_1#3", focus=1)]
+
+[name="杜宾"]   马上就能离开控制区域了！不要停下！！
+
+[Character(name="char_014_riope", name2="char_016_medic", focus=2)]
+
+[name="医疗干员"]   哈......哈......
+
+[Character(name="char_014_riope", name2="char_016_medic", focus=1)]
+
+[name="罗德岛精英干员"]   再坚持一下！
+
+[Character(name="char_014_riope", name2="char_016_medic", focus=2)]
+
+[name="医疗干员"]   明......
+
+[Character(name="char_014_riope", name2="char_016_medic", focus=1)]
+
+[name="罗德岛精英干员"]   别说话。呼吸！
+
+[Character(name="char_014_riope", name2="char_016_medic", focus=2)]
+
+[name="医疗干员"]   ————！
+
+[Character(name="char_148_nearl_1#3")]
+
+[name="临光"]   区区暴徒——
+[name="临光"]   ——怎么阻止得了我们！
+
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(block=true)]
+[Image]

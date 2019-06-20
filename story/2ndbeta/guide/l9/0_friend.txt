@@ -1,0 +1,22 @@
+[HEADER(is_skippable=false, is_tutorial=true)] 好友引导
+
+[PopupDialog(dialogHead="$avatar_sys")] 整合运动的势力发展之迅速，已经远远超出我们的预期。无论是在战场还是在后勤，孤立无援\
+直接意味着毁灭。
+[PopupDialog(dialogHead="$avatar_sys")] 因此，罗德岛需要与其他组织势力建立联系，共通抵御敌人。
+[PopupDialog(dialogHead="$avatar_sys")] 如果你还未通过【好友】功能与其他势力建立联系，我现在可以为你介绍。
+
+[GotoPage(dest="home", waitForSignal="home_routed")]
+[Tutorial(target="btn_friend", \
+          animStyle="Highlight", focusStyle="HighlightRect", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_sys")] \
+从这里进入【好友】界面。
+
+[GotoPage(dest="friend", waitForSignal="friend_routed")]
+
+//----------- Friend scene ------------
+
+[PopupDialog(dialogHead="$avatar_sys")] 我已经预先为你找到一些潜在的友好组织，你可以直接申请与他们建立联系。
+[PopupDialog(dialogHead="$avatar_sys")] 当然，你也可以通过输入组织负责人的名字精确定位你寻找的目标。
+[PopupDialog(dialogHead="$avatar_sys")] 罗德岛本身也会对其他组织伸出援手。将一些强力干员配置到外援位上可以有效增进相互之间的交流。请好好利用这个功能。
+
+//--------------------------------------

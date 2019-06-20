@@ -1,0 +1,140 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第三关（前）
+
+// Comments
+
+[Background(image="bg_cher_5", width=1, height=1, fadetime=1)]
+[PlayMusic(intro="$escape_intro", key="$escape_loop", volume=0.8, crossfade=1.5, delay=0.5)]
+[Delay(time=1)]
+
+[Character(name="char_016_medic")]
+
+[name="医疗干员"]   远处那个，是不是......
+
+[Character(name="char_002_amiya_1")]
+
+[name="阿米娅"]   ......是ace的小队吗？
+[Character(fadetime=1)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Blocker(a=0, fadetime=1, block=true)]
+[Dialog]
+
+
+[Character(name="char_013_riop")]
+
+[name="罗德岛干员"]   头儿，你怎么在这？
+[Character(fadetime=0.5)]
+[Character(name="char_014_riope" ,fadetime=0.6)]
+[delay=0.65]
+[Character(name="char_014_riope")]
+
+[name="罗德岛精英干员"]   我担心你们遭到整合运动封锁，所以赶来支援。
+
+[Character(name="char_014_riope", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   你来了？
+
+[Character(name="char_014_riope", name2="char_130_doberm_ex", focus=1)]
+
+[name="罗德岛精英干员"]   杜宾。
+
+[Character(name="char_014_riope", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   临光那边，不要紧？
+
+[Character(name="char_014_riope", name2="char_130_doberm_ex", focus=1)]
+
+[name="罗德岛精英干员"]   现在还没有能难倒她的事。
+[name="罗德岛精英干员"]   而且，和我想的一样，你们遇到麻烦了。
+
+[Character(name="char_014_riope", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   是的。整合运动发动了突然袭击。
+
+[Character(name="char_014_riope", name2="char_130_doberm_ex", focus=2)]
+
+[name="罗德岛精英干员"]   我们那边也是。幸亏临光指挥得当，省了许多功夫。
+
+[Character(name="char_014_riope", name2="char_013_riop", focus=2)]
+
+[name="罗德岛干员"]   这样......唔......！
+
+[Character(name="char_016_medic", name2="char_013_riop", focus=1)]
+
+[name="医疗干员"]   你受伤了？让我来处理......
+
+[Character(name="char_016_medic", name2="char_013_riop", focus=2)]
+
+[name="罗德岛干员"]   麻烦你了......
+[name="罗德岛干员"]   都怪切城那个感染者诊所，叫什么......阿撒兹勒。
+[name="罗德岛干员"]   如果他们当时肯分享情报，或者愿意合作的话......
+[name="罗德岛干员"]   我们就不会陷入如此被动的境地了！
+
+[Character(name="char_002_amiya_1", name2="char_013_riop", focus=1)]
+
+[name="阿米娅"]   也不全是这样......
+
+[Character(name="char_002_amiya_1", name2="char_013_riop", focus=2)]
+
+[name="罗德岛干员"]   阿米娅，当时和他们交涉时你也在场吧？
+[name="罗德岛干员"]   他们那傲慢冷漠的态度，我真是......
+[name="罗德岛干员"]   气不打一处来！
+
+[Character(name="char_014_riope", name2="char_013_riop", focus=1)]
+
+[name="罗德岛精英干员"]   不能怪罪他们。
+
+[Character(name="char_014_riope", name2="char_013_riop", focus=2)]
+
+[name="罗德岛干员"]   头儿也这么说......
+
+//讲述立绘
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Image(image="bg_0_ori",x=0, y=-20, xScale=1.1, yScale=1.1, fadetime=0)]
+[ImageTween(xFrom=0, yFrom=-20, xTo=0, yTo=0, xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1, duration=7, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+
+[Character(name="char_014_riope", name2="char_013_riop", focus=1)]
+
+[name="罗德岛精英干员"]   感染者本就很难相信别人。
+[name="罗德岛精英干员"]   经历那么多苦难......当然会变得保守与顽固。
+
+[Character(name="char_002_amiya_1", name2="char_013_riop", focus=1)]
+
+[name="阿米娅"]   因为不提防他人，就会被他人伤害。
+[name="阿米娅"]   就连感染者都没法互相信任。
+[name="阿米娅"]   在这片土地上，哪怕只是想依偎取暖、独善其身......都很困难。
+[name="阿米娅"]   至少他们那样做......我能理解，也能原谅。
+
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Image]
+
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+
+[Character(name="char_130_doberm_ex", name2="char_013_riop", focus=1)]
+
+[name="杜宾"]   像罗德岛这样不分彼此，或是整合运动那样狂热的排外拥内，都很少见。
+
+[Character(name="char_130_doberm_ex", name2="char_013_riop", focus=2)]
+
+[name="罗德岛干员"]   杜宾教官。
+
+[Character(name="char_130_doberm_ex", name2="char_013_riop", focus=1)]
+
+[name="杜宾"]   我能理解你的怒气......也能理解那个小诊所的苦衷。
+[name="杜宾"]   任何人都无法逃离这漩涡，想必他们也面临着种种难题。
+[name="杜宾"]   但在解决其他人的难题前——
+[name="杜宾"]   我们先要解决自己的。
+
+[Character(name="char_130_doberm_ex")]
+
+[name="杜宾"]   ——！
+[name="杜宾"]   七点钟方向，整合运动巡逻小队。动作快！
+
+[Character(name="char_014_riope")]
+
+[name="罗德岛精英干员"]   敌人！戒备！
+
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(block=true)]
+[Image]

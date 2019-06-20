@@ -1,0 +1,200 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第二十九关（后）
+
+// Comments
+
+
+[Background(image="bg_cher_3", width=1, height=1, fadetime=1)]
+[PlayMusic(intro="$mist_loop", key="$mist_loop", volume=0.8, crossfade=1.5, delay=0.5)]
+[Delay(time=1)]
+
+[Blocker(a=0.3, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]
+[Blocker(a=0,fadetime=0.1, block=true)]
+[playsound(key="$p_imp_blunt_h", volume=0.7)]
+[playsound(key="$p_imp_sword_n", volume=0.3, delay=0.4)]
+[CameraShake(duration=0.6, xstrength=14, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=true)]
+
+[Character(name="char_010_chen_1")]
+
+[name="陈"]   第二防线突破！
+[name="陈"]   都跟上我！
+
+[Character(fadetime=0)]
+[Dialog]
+
+[name="整合运动"]   别让他们过去！！
+[name="整合运动"]   W应该带走她了——————！
+[name="整合运动"]   不能让这些家伙得逞！！
+
+[Dialog]
+[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]
+
+[name="整合运动"]   啊啊啊！这是碎骨的仇！！死吧！！
+
+
+
+[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]
+[playsound(key="$p_imp_blunt_h")]
+
+[Character(name="char_136_hsguma")]
+[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[name="星熊"]   愚昧！
+[name="星熊"]   ——给我让开！
+
+
+[Character(name="char_106_franka_1", name2="char_107_liskam_1", focus=1)]
+
+[name="芙兰卡"]   哇......把人撞飞了？她让我想到......罗德岛的一个同事呢。
+
+[Character(name="char_106_franka_1", name2="char_107_liskam_1", focus=2)]
+
+[name="雷蛇"]   ——芙兰卡，我们上！
+
+[Character(name="char_102_texas_1", name2="char_103_angel_1", focus=2)]
+
+[name="能天使"]   哈，龙门的传说看来是真的啊......
+
+[Character(name="char_102_texas_1", name2="char_103_angel_1", focus=1)]
+
+[name="德克萨斯"]   别看太入迷。
+
+[Character(name="char_102_texas_1", name2="char_103_angel_1", focus=2)]
+
+[name="能天使"]   二楼的狙击手可是我发现的哦？
+
+[Character(name="char_102_texas_1", name2="char_103_angel_1", focus=1)]
+
+[name="德克萨斯"]   ......我们走。
+
+[Character(name="char_106_franka_1", name2="char_002_amiya_1", focus=2)]
+
+[name="阿米娅"]   芙兰卡，有没有找到米莎？
+
+[Character(name="char_106_franka_1", name2="char_002_amiya_1", focus=1)]
+
+[name="芙兰卡"]   到处都没有她的踪迹。
+[name="芙兰卡"]   W可能已经把她带走了——
+
+[Character(name="char_106_franka_1", name2="char_002_amiya_1#4", focus=2)]
+
+[name="阿米娅"]   ......
+
+[Character(name="char_106_franka_1", name2="char_002_amiya_1#4", focus=1)]
+
+[name="芙兰卡"]   啧，动作也太快了——
+
+[playsound(key="$e_skill_skulsrexplo", volume=0.3)]
+[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true)]
+[Character(name="char_002_amiya_1#7")]
+[StopMusic]
+[name="阿米娅"]   ......？
+[name="阿米娅"]   哪里的......爆炸？
+[name="阿米娅"]   芙兰卡，集合各个小队，我们快过去！
+
+[playsound(key="$e_skill_skulsrexplo", volume=0.5)]
+[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true)]
+
+[Character(name="char_015_lmg", name2="char_002_amiya_1#7", focus=1)]
+[PlayMusic(intro="$epic_intro", key="$epic_loop", volume=0.8, crossfade=1.5, delay=0.5)]
+[name="近卫局队员"]   罗德岛，小心！他们从那边过来了！！
+
+[Character(name="char_002_amiya_1#6")]
+
+[name="阿米娅"]   ......咦？！
+
+[Character(name="char_002_amiya_1#6")]
+
+[name="阿米娅"]   那是......？
+
+[Character(name="char_010_chen_1")]
+
+[name="陈"]   嘁，这是什么把戏？
+
+[playsound(key="$e_skill_skulsrexplo", volume=0.7, delay=0.4)]
+[CameraShake(duration=1, xstrength=14, ystrength=20, vibrato=30, randomness=90, fadeout=true)]
+
+[Character(name="char_010_chen_1#2", name2="char_002_amiya_1#5", focus=1)]
+
+[name="陈"]   别发呆！找掩体！
+
+[Character(name="char_002_amiya_1#5")]
+
+[name="阿米娅"]   ......
+[name="阿米娅"]   ......不......
+
+[Dialog]
+[Delay(time=1)]
+[Blocker(a=1, initr=2, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[Delay(time=1)]
+
+[Blocker(r=0.6, g=0.3, a=1, fadetime=0.1, block=true)]
+[Character]
+[Background]
+[Image(image="bg_1_back", fadetime=0.5, xScale=1.5, yScale=1.5, y=100)]
+[ImageTween(image="bg_1_back", xScaleTo=1, yScaleTo=1, duration=10, yTo=0, ease="InOutCubic", block=false)]
+[Blocker(r=0.6, g=0.3, a=0, fadetime=1, block=true)]
+
+[Blocker(a=0.3, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]
+[Blocker(a=0,fadetime=0.1, block=true)]
+[name="整合运动"]   ————是你吗......是你吗！！！
+
+[delay(time=1)]
+[name="整合运动"]   他没事——他没事！！
+[delay(time=1)]
+[name="整合运动"]   碎骨还活着！！
+[Blocker(a=0.3, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]
+[Blocker(a=0,fadetime=0.1, block=true)]
+[name="整合运动"]   碎骨！真的是碎骨！！
+[delay(time=1)]
+[Blocker(a=0.3, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]
+[Blocker(a=0,fadetime=0.1, block=true)]
+[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=15, randomness=90, fadeout=true, block=false)]
+[name="整合运动"]   好！碎骨！万岁！！碎骨！！
+
+[Dialog]
+[Image(fadetime=0.5, block=true)]
+[Delay(time=1)]
+
+[Character(name="char_1500_skulsr", name2="char_1002_nsabr_2", focus=2)]
+
+[name="整合运动成员"]   ......形势很严峻，碎骨。
+[name="整合运动成员"]   但至少......你回来了。
+[name="整合运动成员"]   ——太好了......真的......太好了。
+
+[Character(name="char_1500_skulsr", name2="char_1002_nsabr_2", focus=1)]
+
+[name="碎骨"]   ——我会在这里挡住他们。
+[name="碎骨"]   你们，快走。
+[name="碎骨"]   我会保护你们——
+
+[Character(name="char_1500_skulsr", name2="char_1002_nsabr_2", focus=2)]
+
+[name="整合运动成员"]   说什么呢碎骨。
+[name="整合运动成员"]   我们不是早说过，要一起回乌萨斯，给那些家伙点颜色看看吗？
+
+[Character(name="char_1500_skulsr")]
+
+[name="碎骨"]   ......
+[name="碎骨"]   别死了。
+[Dialog]
+[Character(fadetime=1)]
+[Delay(time=1)]
+
+[Character(name="char_002_amiya_1#5")]
+
+[name="阿米娅"]   ......
+[Delay(time=1)]
+
+[Character(name="char_010_chen_1#2")]
+
+[name="陈"]   愣在那做什么！
+[Delay(time=1)]
+
+[Character(name="char_002_amiya_1#5")]
+
+[name="阿米娅"]   ——————！
+
+[Delay(time=1)]
+[Dialog]
+[Blocker(block=true)]
+[Image]

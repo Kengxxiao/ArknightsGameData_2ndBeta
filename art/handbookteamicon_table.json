@@ -1,0 +1,313 @@
+{
+  "4": {
+    "teamID": 4,
+    "iconType": 1,
+    "iconPos": {
+      "x": 84.0,
+      "y": -320.2,
+      "z": 0.0
+    },
+    "iconDestination": {
+      "x": 31.06,
+      "y": -4.22,
+      "z": 0.0
+    },
+    "LargeMark": {
+      "x": 139.7,
+      "y": -406.0,
+      "z": 0.0
+    }
+  },
+  "17": {
+    "teamID": 17,
+    "iconType": 1,
+    "iconPos": {
+      "x": 370.7,
+      "y": 153.9,
+      "z": 0.0
+    },
+    "iconDestination": {
+      "x": 20.7,
+      "y": 21.5,
+      "z": 0.0
+    }
+  },
+  "11": {
+    "teamID": 11,
+    "iconType": 0,
+    "iconPos": {
+      "x": -10.2000008,
+      "y": 155.2,
+      "z": 0.0
+    },
+    "iconDestination": {
+      "x": -30.4000015,
+      "y": -2.5,
+      "z": 0.0
+    },
+    "LargeMark": {
+      "x": -107.0,
+      "y": 196.0,
+      "z": 0.0
+    }
+  },
+  "12": {
+    "teamID": 12,
+    "iconType": 1,
+    "iconPos": {
+      "x": 286.9,
+      "y": -204.2,
+      "z": 0.0
+    },
+    "iconDestination": {
+      "x": 45.31,
+      "y": -3.80000019,
+      "z": 0.0
+    },
+    "LargeMark": {
+      "x": 381.1,
+      "y": -261.4,
+      "z": 0.0
+    }
+  },
+  "15": {
+    "teamID": 15,
+    "iconType": 0,
+    "iconPos": {
+      "x": 102.0,
+      "y": 416.7,
+      "z": 0.0
+    },
+    "iconDestination": {
+      "x": -37.9,
+      "y": 18.2,
+      "z": 0.0
+    }
+  },
+  "13": {
+    "teamID": 13,
+    "iconType": 1,
+    "iconPos": {
+      "x": -219.1,
+      "y": -151.2,
+      "z": 0.0
+    },
+    "iconDestination": {
+      "x": 32.08,
+      "y": -2.94,
+      "z": 0.0
+    },
+    "LargeMark": {
+      "x": -187.6,
+      "y": -194.5,
+      "z": 0.0
+    }
+  },
+  "7": {
+    "teamID": 7,
+    "iconType": 0,
+    "iconPos": {
+      "x": -277.9,
+      "y": -382.7,
+      "z": 0.0
+    },
+    "iconDestination": {
+      "x": -32.1,
+      "y": -8.7,
+      "z": 0.0
+    }
+  },
+  "8": {
+    "teamID": 8,
+    "iconType": 1,
+    "iconPos": {
+      "x": 459.2,
+      "y": -105.3,
+      "z": 0.0
+    },
+    "iconDestination": {
+      "x": 29.9,
+      "y": -4.8,
+      "z": 0.0
+    }
+  },
+  "0": {
+    "teamID": 0,
+    "iconType": 1,
+    "iconPos": {
+      "x": -264.9,
+      "y": 286.7,
+      "z": 0.0
+    },
+    "iconDestination": {
+      "x": 72.0,
+      "y": -23.0,
+      "z": 0.0
+    },
+    "LargeMark": {
+      "x": 76.4,
+      "y": -28.4000015,
+      "z": 0.0
+    }
+  },
+  "6": {
+    "teamID": 6,
+    "iconType": 1,
+    "iconPos": {
+      "x": 458.3,
+      "y": 67.3,
+      "z": 0.0
+    },
+    "iconDestination": {
+      "x": 30.3,
+      "y": -4.8,
+      "z": 0.0
+    },
+    "LargeMark": {
+      "x": 600.9,
+      "y": 43.8,
+      "z": 0.0
+    }
+  },
+  "14": {
+    "teamID": 14,
+    "iconType": 1,
+    "iconPos": {
+      "x": -98.8999939,
+      "y": 331.7,
+      "z": 0.0
+    },
+    "iconDestination": {
+      "x": 34,
+      "y": 15.4,
+      "z": 0.0
+    }
+  },
+  "3": {
+    "teamID": 3,
+    "iconType": 0,
+    "iconPos": {
+      "x": -375.6,
+      "y": -201.2,
+      "z": 0.0
+    },
+    "iconDestination": {
+      "x": -34.6,
+      "y": 14.0,
+      "z": 0.0
+    }
+  },
+  "16": {
+    "teamID": 16,
+    "iconType": 0,
+    "iconPos": {
+      "x": -449.8,
+      "y": 281.8,
+      "z": 0.0
+    },
+    "iconDestination": {
+      "x": -32.7,
+      "y": 12.7,
+      "z": 0.0
+    },
+  },
+  "2": {
+    "teamID": 2,
+    "iconType": 0,
+    "iconPos": {
+      "x": -374.6,
+      "y": -25.4000015,
+      "z": 0.0
+    },
+    "iconDestination": {
+      "x": -36.8,
+      "y": 10.3,
+      "z": 0.0
+    }
+  },
+  "9": {
+    "teamID": 9,
+    "iconType": 1,
+    "iconPos": {
+      "x": 236.8,
+      "y": 402.1,
+      "z": 0.0
+    },
+    "iconDestination": {
+      "x": 29.4,
+      "y": 7.7,
+      "z": 0.0
+    },
+    "LargeMark": {
+      "x": 275.1,
+      "y": 478.0,
+      "z": 0.0
+    }
+  },
+  "1": {
+    "teamID": 1,
+    "iconType": 0,
+    "iconPos": {
+      "x": -298.5,
+      "y": 104.2,
+      "z": 0.0
+    },
+    "iconDestination": {
+      "x": -35.0,
+      "y": 14.8000011,
+      "z": 0.0
+    }
+  },
+  "18": {
+    "teamID": 18,
+    "iconType": 1,
+    "iconPos": {
+      "x": 587.3,
+      "y": -293.8,
+      "z": 0.0
+    },
+    "iconDestination": {
+      "x": 31.5,
+      "y": -11.8,
+      "z": 0.0
+    },
+    "LargeMark": {
+      "x": 76.68,
+      "y": -49.9400024,
+      "z": 0.0
+    }
+  },
+  "5": {
+    "teamID": 5,
+    "iconType": 0,
+    "iconPos": {
+      "x": -16.9000015,
+      "y": -359.9,
+      "z": 0.0
+    },
+    "iconDestination": {
+      "x": -26.6,
+      "y": -2.5,
+      "z": 0.0
+    }
+  },
+  "10": {
+    "teamID": 10,
+    "iconType": 0,
+    "iconPos": {
+      "x": 222.3,
+      "y": 152.6,
+      "z": 0.0
+    },
+    "iconDestination": {
+      "x": -30.7,
+      "y": 10.5,
+      "z": 0.0
+    },
+    "LargeMark": {
+      "x": 189.8,
+      "y": 194.7,
+      "z": 0.0
+    }
+  }
+}

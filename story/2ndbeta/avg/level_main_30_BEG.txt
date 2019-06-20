@@ -1,0 +1,131 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第三十关（前）
+
+// Comments
+
+[Background(image="bg_cher_3", width=1, height=1, fadetime=1)]
+[PlayMusic(intro="$epic_intro", key="$epic_loop", volume=0.8, crossfade=1.5, delay=0.5)]
+[Delay(time=1)]
+
+[Character(name="char_1500_skulsr")]
+
+[name="碎骨"]   ............！
+
+[Character(fadetime=0)]
+[Dialog]
+
+[name="整合运动"]   咕——！糟，糟了！
+
+[playsound(key="$e_skill_skulsrexplo", volume=0.5)]
+[CameraShake(duration=1, xstrength=12, ystrength=1, vibrato=30, randomness=90, fadeout=true)]
+
+[name="整合运动"]   呃——
+
+[name="整合运动"]   他们冲破防线了！
+[name="整合运动"]   碎骨！你撤退吧！我们还顶得住！
+[name="整合运动"]   你也走！快走！你还年轻！！跟着碎骨走！
+[playsound(key="$e_skill_skulsrexplo", volume=0.3)]
+[CameraShake(duration=1, xstrength=12, ystrength=1, vibrato=30, randomness=90, fadeout=true)]
+
+[Character(name="char_1002_nsabr_2")]
+
+[name="整合运动成员"]   我......我......安东，我不能————
+[name="整合运动成员"]   ——快走啊！快！
+[name="整合运动成员"]   碎骨——————！
+
+[Character(name="char_1500_skulsr")]
+
+[name="碎骨"]   我不会走的。
+[name="碎骨"]   我必须......
+[name="碎骨"]   我必须————！！
+[name="碎骨"]   ————————————
+[playsound(key="$e_skill_skulsrexplo", volume=0.3)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+
+[playsound(key="$p_imp_sword_n", volume=0.3)]
+[CameraShake(duration=1, xstrength=12, ystrength=1, vibrato=30, randomness=90, fadeout=true, block=true)]
+[Character(name="char_010_chen_1#2", name2="char_136_hsguma", focus=1)]
+
+[name="陈"]   别让敌人重整队形！
+[name="陈"]   星熊，走！
+
+[Character(name="char_010_chen_1#2", name2="char_136_hsguma", focus=2)]
+
+[name="星熊"]   不会给他们机会的！
+
+[Character(name="char_010_chen_1#2", name2="char_015_lmg", focus=2)]
+
+[name="近卫局队员"]   小心敌人的冲锋！
+
+[playsound(key="$p_imp_axe_h", volume=0.3)]
+[CameraShake(duration=1, xstrength=12, ystrength=1, vibrato=30, randomness=90, fadeout=true)]
+
+[Character(name="char_010_chen_1#2", name2="char_015_lmg", focus=-1)]
+
+[Decision(options="指挥狙击小组进行牵制射击", values="1")]
+
+[Predicate(references="1")]
+
+[Dialog]
+[Character(fadetime=0)]
+
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+
+[Character(name="char_002_amiya_1#5", focus=-1)]
+
+[name="阿米娅"]   罗德岛——准备——罗德岛......
+[name="阿米娅"]   我，我不能......我......
+
+[Character(name="char_002_amiya_1#5", focus=-1)]
+
+[Decision(options="别忘了你该做的事", values="1")]
+
+[Predicate(references="1")]
+
+[Character(name="char_1500_skulsr")]
+
+[name="碎骨"]   ............
+
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[playsound(key="$e_skill_skulsrexplo", volume=0.3)]
+[CameraShake(duration=1, xstrength=12, ystrength=18, vibrato=30, randomness=90, fadeout=true, block=true)]
+
+[Character(name="char_002_amiya_1#5")]
+
+[name="阿米娅"]   ......我......
+
+[Character(name="char_002_amiya_1#4")]
+
+[name="阿米娅"]   ............
+
+[Character(name="char_002_amiya_1#4")]
+
+[name="阿米娅"]   ————！
+[name="阿米娅"]   博士——
+[name="阿米娅"]   指挥就——拜托您了。
+
+[Character(name="char_002_amiya_1#4", focus=-1)]
+
+[Decision(options="鼓励阿米娅去取得胜利", values="1")]
+
+[Predicate(references="1")]
+
+[Character(name="char_002_amiya_1#4")]
+
+[name="阿米娅"]   ......嗯。
+
+[Character(name="char_002_amiya_1#4")]
+
+[name="阿米娅"]   罗德岛的各位，这场战斗，让我们......结束它吧。
+
+[Dialog]
+[Delay(time=1)]
+[Blocker(a=1, initr=2, r=255, g=255, b=255, fadetime=0.5, block=true)]
+
+[Delay(time=1)]
+[Blocker(block=true)]
+[Image]

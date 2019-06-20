@@ -1,0 +1,9 @@
+[HEADER(is_skippable=true)] 主线007教学
+
+[PopupDialog(dialogHead="$avatar_sys")] 相信你已经观察到了，这片区域的中央有一个震撼干扰装置。
+[PopupDialog(dialogHead="$avatar_sys")] 看样子已经很陈旧了，似乎是以前战争的残留物。
+[PopupDialog(dialogHead="$avatar_sys")] 装置只要消耗一定的费用就可以开启，伤害并控制周围的敌人。
+[PopupDialog(dialogHead="$avatar_sys")] 不过似乎只能使用一次。建议仔细斟酌使用时机。
+[PopupDialog(dialogHead="$avatar_sys")] 如果错过了机会，可没有人能够帮到你。
+
+[Blocker(fadetime=0.3, block=true, a=0)]

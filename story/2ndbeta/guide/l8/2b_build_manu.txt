@@ -1,0 +1,24 @@
+[HEADER(is_skippable=false, is_tutorial=true)] 基建引导Part6
+
+[GotoPage(dest="building", waitForSignal="building_routed")]
+
+//----------- Building scene ------------
+
+[Building.EnsureOperationMode(mode="ARCHITECTURE")]
+[Building.FocusBRoom(zoomId="slot_25")]
+[Delay(time=0.02)]
+
+[PopupDialog(dialogHead="$avatar_sys")] 现在我们需要建造制造站。
+[PopupDialog(dialogHead="$avatar_sys")] 制造站可以对材料进行加工，使我们主要的资源来源之一。
+
+[Tutorial(target="broom_tutorial_btn", waitForSignal="building_architecture_view_setup", \
+          animStyle="Click", focusStyle="HighlightRect", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_sys", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] \
+点击下一个空房间。
+
+[Tutorial(target="btn_build_confirm", waitForSignal="building_room_build_confirmed", searchBtnInChildren=true, \
+          animStyle="Click", focusStyle="HighlightRect", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_sys")] \
+点击建造制造站。
+
+//--------------------------------------

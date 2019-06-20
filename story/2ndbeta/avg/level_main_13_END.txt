@@ -1,0 +1,80 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第十三关（后）
+
+// Comments
+
+[Background(image="bg_lungmen_station", width=1, height=1, fadetime=1)]
+[PlayMusic(intro="$mist_loop", key="$mist_loop", volume=0.8, crossfade=1.5, delay=0.5)]
+[Delay(time=1)]
+
+[Character(name="char_010_chen_1", name2="char_015_lmg", focus=2)]
+
+[name="近卫局队员"]   已经制服了所有闹事者！
+
+[Character(name="char_010_chen_1", name2="char_015_lmg", focus=1)]
+
+[name="陈"]   全部拘押。立刻疏散人群，半小时后再开放关口。还有，把检疫口向前推四十米。
+
+[Character(name="char_010_chen_1", name2="char_015_lmg", focus=2)]
+
+[name="近卫局队员"]   是！
+
+[Character(name="char_010_chen_1")]
+
+[name="陈"]   你们跟我来。
+[name="陈"]   ——
+
+[Character(name="char_002_amiya_1#5")]
+
+[name="阿米娅"]   ......好......
+[Delay(time=1)]
+[Character(name="char_010_chen_1")]
+
+[name="陈"]   哼......
+[name="陈"]   身手还不错。
+[name="陈"]   切尔诺伯格事件发生之后，什么人都疯了一样往龙门跑。
+[name="陈"]   感染者就该清楚来龙门有什么下场。
+[PlaySound(key="$d_gen_soldiersrun", volume=0.7)]
+[Character]
+
+[Dialog]
+[Delay(time=1)]
+[Character(name="char_002_amiya_1#5")]
+
+[name="阿米娅"]   ......
+[name="阿米娅"]   陈长官真的好严格......
+
+[Dialog]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[Character(fadetime=0)]
+[Background(image="bg_lungmen_o", width=1, height=1, fadetime=0)]
+[Blocker(a=0, fadetime=0.6, block=true)]
+
+[name="？？？"]   我再提醒你一次。
+[name="？？？"]   龙门就是下一个切尔诺伯格。
+
+[Character(name="char_002_amiya_1#2")]
+
+[name="阿米娅"]   是凯尔希医生......！
+
+[Character(name="char_010_chen_1")]
+
+[name="陈"]   你们罗德岛的代表已经和魏长官先行接触了。
+[name="陈"]   在这里等着。
+[name="陈"]   我一会儿通知你们。
+[Dialog(fadetime=0.6)]
+[Character(fadetime=0.6)]
+[Delay(time=1)]
+
+[Character(name="char_002_amiya_1#4")]
+
+[name="阿米娅"]   呼......那个陈警官，真的很难应付呢。
+
+[Character(name="char_002_amiya_1#2")]
+
+[name="阿米娅"]   博士，接下来的交涉就交给凯尔希医生。
+[name="阿米娅"]   请相信她吧。
+
+[Dialog(fadetime=0.6)]
+[Dialog]
+[Blocker(block=true)]
+[Image]

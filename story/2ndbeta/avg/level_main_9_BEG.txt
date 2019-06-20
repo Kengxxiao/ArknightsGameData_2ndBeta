@@ -1,0 +1,141 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第九关（前）
+
+// Comments
+
+[Background(image="bg_cher_1", width=1, height=1, fadetime=1)]
+[PlayMusic(intro="$chernormal_intro", key="$chernormal_loop", volume=0.8, crossfade=1, delay=0.5)]
+[Delay(time=1)]
+
+[Character(name="char_014_riope", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   呼......我们甩开他们了。
+[name="杜宾"]   穿过现在这片区域，就快抵达斜向出口了。
+
+[Character(name="char_014_riope", name2="char_130_doberm_ex", focus=1)]
+
+[name="罗德岛精英干员"]   这个开阔区，曾经是个大广场吧。
+[name="罗德岛精英干员"]   如今......只剩下些废墟。
+
+[Character(name="char_014_riope", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   你似乎——
+[name="杜宾"]   很有感触。
+
+[Character(name="char_014_riope", name2="char_130_doberm_ex", focus=1)]
+
+[name="罗德岛精英干员"]   呵，曾经......
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[name="罗德岛精英干员"]   ————!
+[name="罗德岛精英干员"]   有平民？
+
+[Character(name="char_014_riope", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   ——这个距离，没法确认身份。
+
+[Character(name="char_002_amiya_1#6", name2="char_130_doberm_ex", focus=1)]
+
+[name="阿米娅"]   ——！
+
+[Character(name="char_002_amiya_1#7", name2="char_130_doberm_ex", focus=1)]
+
+[name="阿米娅"]   整合运动在攻击他们——！
+[name="阿米娅"]   我们得......
+
+[Character(name="char_002_amiya_1#7", name2="char_014_riope", focus=2)]
+
+[name="罗德岛精英干员"]   侦查小组在这种地形没有优势。
+
+[Character(name="char_002_amiya_1#7", name2="char_014_riope", focus=1)]
+
+[name="阿米娅"]   直接用火力小组——
+
+[Character(name="char_002_amiya_1#7", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   不。
+
+[Character(name="char_002_amiya_1#6", name2="char_130_doberm_ex", focus=1)]
+
+[name="阿米娅"]   ......教官？
+
+[Character(name="char_002_amiya_1#6", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   哪怕是吸引注意力——也不行。
+
+[Character(name="char_002_amiya_1#7", name2="char_130_doberm_ex", focus=1)]
+
+[name="阿米娅"]   我不能——
+
+[Character(name="char_002_amiya_1#7", name2="char_148_nearl_1", focus=2)]
+
+[name="临光"]   立刻沿建筑外围向广场出口移动。
+
+[Character(name="char_002_amiya_1#6", name2="char_148_nearl_1", focus=1)]
+
+[name="阿米娅"]   ——临光小姐——？
+
+[Character(name="char_002_amiya_1#6", name2="char_148_nearl_1", focus=2)]
+
+[name="临光"]   没错，我是骑士。我为美德而战。
+[name="临光"]   所以我必须提醒你一点。
+[name="临光"]   你的决策将影响整个救援队的命运。
+
+[Character(name="char_002_amiya_1#4", name2="char_148_nearl_1", focus=1)]
+
+[name="阿米娅"]   ——我明白了。
+
+[Character(name="char_002_amiya_1#4", name2="char_148_nearl_1", focus=2)]
+
+[name="临光"]   ......我很抱歉。
+
+[Character(name="char_002_amiya_1#7", name2="char_148_nearl_1", focus=1)]
+
+[name="阿米娅"]   不，你说得对。
+[name="阿米娅"]   我冷静下来了。
+
+[Character(name="char_002_amiya_1#7", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   只要你下命令，我一定会履行。
+[name="杜宾"]   所以我很庆幸你没把话说完。
+[name="杜宾"]   毕竟局势——
+
+[name="杜宾"]   ————
+
+[Delay(time=0.6)]
+
+[Character(name="char_130_doberm_ex")]
+
+[name="杜宾"]   如果我没看错的话，已经来不及了。
+
+[Character(name="char_148_nearl_1")]
+
+[name="临光"]   你没看错。
+
+[Character(name="char_1002_nsabr_1")]
+
+[name="整合运动成员"]   ————
+[name="整合运动成员"]   ——————杀了他们。
+
+[Character(name="char_148_nearl_1#3")]
+
+[name="临光"]   开阔区各个出口同时出现大量整合运动！
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   ————不能把背面暴露给敌人！
+[name="阿米娅"]   博士！
+
+[Character(name="char_002_amiya_1#7", focus=-1)]
+
+[Decision(options="指挥罗德岛干员", values="1")]
+
+[Predicate(references="1")]
+
+[Character(name="char_148_nearl_1#3")]
+
+[name="临光"]   了解！
+
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(block=true)]
+[Image]

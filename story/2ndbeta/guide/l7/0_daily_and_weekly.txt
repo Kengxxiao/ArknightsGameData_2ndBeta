@@ -1,0 +1,54 @@
+[HEADER(is_skippable=false, is_tutorial=true)] 日常和周常引导
+
+[PopupDialog(dialogHead="$avatar_sys")] \
+正好，是时候了解一下【日常】和【周常】任务了。
+
+[GotoPage(dest="HOME", waitForSignal="home_routed")]
+[Tutorial(target="btn_mission", \
+          animStyle="Highlight", focusStyle="HighlightRect", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_sys")] \
+和其他任务一样，【日常】和【周常】任务也被整理在了任务界面。
+
+[GotoPage(dest="mission", waitForSignal="mission_routed")]
+
+//----------- Mission scene ------------
+[Tutorial(target="tab_hotspot_dailymission", waitForSignal="mission_page_switched", \
+          animStyle="Click", focusStyle="HighlightRect", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_sys")] \
+这里整理了所有的【日常】任务
+
+[PopupDialog(dialogHead="$avatar_sys")] 罗德岛每天都会收到大量的零碎委托，因此日常任务每天都会刷新。
+[PopupDialog(dialogHead="$avatar_sys")] 请尽力在当天完成这些任务。
+
+[Tutorial(target="tab_hotspot_weeklymission", waitForSignal="mission_page_switched", \
+          animStyle="Click", focusStyle="HighlightRect", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_sys")] \
+所有的【周常】任务都被整理在了这里
+
+[PopupDialog(dialogHead="$avatar_sys")] \
+周常任务相比日常任务完成所需时间通常更长，但其完成期限也扩展至一周，并且完成后的补给更加丰富。
+
+[PopupDialog(dialogHead="$avatar_sys")] \
+合理安排时间，逐步完成周常任务是一个不错的选择。
+
+[PopupDialog(dialogHead="$avatar_sys")] \
+有关任务的介绍就到此结束，现在还需要你了解一下新开放的资源型作战。
+
+//--------------------------------------
+
+[GotoPage(dest="stage", waitForSignal="stage_routed")]
+
+//----------- Stage scene ------------
+
+[PopupDialog(dialogHead="$avatar_sys")] 为了弥补持续作战的消耗，提高我方干员的作战能力，保障我们资源的补给线是日常活动中重要的一环。
+[PopupDialog(dialogHead="$avatar_sys")] 在资源型作战关卡中，我们可以通过接受特定的委托来补充特定的资源。
+
+[Tutorial(target="pool_btn_zonetab_weekly", waitForSignal="stage_weekly_zonetype_selected", \
+          animStyle="Click", focusStyle="HighlightRect", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_sys")] \
+点击进入资源型作战关卡选择界面
+
+[PopupDialog(dialogHead="$avatar_sys")] 不同于正面战场的行动，各种资源型作战的开放时间会根据日期的不同有所限制。如果遇到当天没有开放的作战行动，请改日再来。
+[PopupDialog(dialogHead="$avatar_sys")] 资源型作战的补给奖励比一般作战更加丰厚，但同时每天也有进入次数的限制。请务必合理安排作战的时机。
+
+//--------------------------------------

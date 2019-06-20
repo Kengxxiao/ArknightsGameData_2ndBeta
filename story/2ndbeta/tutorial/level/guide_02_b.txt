@@ -1,0 +1,62 @@
+[HEADER(is_tutorial=true)] 引导关卡2_b
+
+[Battle.Pause]
+
+[Battle.EnsureMinSp(charId="char_102_texas", sp=100)]
+[Tutorial(focusX=-166, focusY=133, focusWidth=60, focusHeight=60, \
+          animStyle="Highlight", focusStyle="HighlightCircle", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_sys")] \
+德克萨斯已经准备好将她身上备用的源石剑复制品全部投射出去。
+
+[Tutorial(focusX=-166, focusY=133, focusWidth=60, focusHeight=60, \
+          animStyle="Highlight", focusStyle="HighlightCircle", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_sys")] \
+不过一次性启动如此多的武器并不是一件容易的事情。
+
+[Battle.UnlockFunction(mask="CHARACTER_INFO")]
+[Battle.UnlockFunction(mask="CHARACTER_MENU")]
+
+[PopupDialog(dialogHead="$avatar_sys")] 当有足够多的敌人靠近她时，点击她的位置，选择她的技能标签以提醒她使用技能。
+
+[Tutorial(focusX=-166, focusY=45, focusWidth=100, focusHeight=100, \
+          animStyle="Highlight", focusStyle="HighlightCircle", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_sys")] \
+当然，在这个时候你也可以查看她的信息来了解她的数据。
+
+[InputBlocker(blockInput=true, validX=-166, validY=45, validWidth=100, validHeight=80)]
+[Tutorial(waitForSignal="char_info", focusX=-166, focusY=45, focusWidth=100, focusHeight=100, \
+          animStyle="Click", focusStyle="HighlightCircle", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_sys")] \
+你每多知道她的一项指标就能够多为你延长11.45秒的生存时间。
+[InputBlocker(blockInput=true)]
+
+[Tutorial(focusX=60, focusY=-9, focusWidth=100, focusHeight=50, anchor="Left", \
+          animStyle="Highlight", focusStyle="HighlightRect", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_sys")] \
+【阻挡】代表了该单位最多所能阻拦的敌人数量。
+
+[Tutorial(target="btn_withdraw", \
+          animStyle="Highlight", focusStyle="HighlightCircle", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_sys")] \
+【撤退】按钮会召回干员，该干员会回到待命列表中，一定时间后可以再度部署。
+
+[Tutorial(target="btn_withdraw", \
+          animStyle="Highlight", focusStyle="HighlightCircle", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_sys")] \
+【撤退】的同时会返还一定的部署点数。不过如果干员被击败则无法返还。
+
+[Tutorial(target="btn_skill",  waitForSignal="use_skill", \
+          animStyle="Click", focusStyle="HighlightCircle", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_sys")] \
+是时候使用技能了。
+
+[InputBlocker(blockInput=true)]
+[Battle.Pause(pause=false)]
+
+[Delay(time=3)]
+[Battle.Pause]
+
+[PopupDialog(dialogHead="$avatar_sys")] 做得好。
+[PopupDialog(dialogHead="$avatar_sys")] 就像刚才这样，在合适的时机对干员作出指示是指挥作战行动的关键。
+[PopupDialog(dialogHead="$avatar_sys")] 但是还不可放松警惕。
+[PopupDialog(dialogHead="$avatar_sys")] 如果你在这里就倒下的话，这次唤醒就太失败了。

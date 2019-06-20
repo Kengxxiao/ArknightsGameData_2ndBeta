@@ -1,0 +1,83 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第二关（后）
+
+// Comments
+
+[Background(image="bg_cher_0", width=1, height=1, fadetime=1)]
+[PlayMusic(intro="$escape_intro", key="$escape_loop", volume=0.8, crossfade=1.5, delay=0.5)]
+[Delay(time=1)]
+
+[Character(name="char_002_amiya_1", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   ......不错。
+[name="杜宾"]   罗德岛正需要你这样的头脑，可不能让凯尔希过度劳累了。
+
+[Character(name="char_002_amiya_1", name2="char_130_doberm_ex", focus=1)]
+
+[name="阿米娅"]   杜宾......
+
+[Character(name="char_002_amiya_1", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   不是现在。我们还没有驻足休息的余裕。
+
+[name="杜宾"]   ——动起来！快！
+
+[Dialog(fadetime=0)]
+[Character(fadetime=0)]
+
+[Background(fadetime=2)]
+[PlaySound(key="$d_gen_soldiersrun",channel="run", volume=0.8)]
+[delay=1]
+[StopSound(channel="run", fadetime=2)]
+[CameraShake(duration=2, xstrength=0, ystrength=10, vibrato=8, randomness=50, block=true)]
+[Background(image="bg_cher_5", width=1, height=1, fadetime=1, block=true)]
+
+[Character(name="char_002_amiya_1#6")]
+
+[name="阿米娅"]   呼，呼......
+
+[Character(name="char_002_amiya_1#6", focus=-1)]
+
+[Decision(options="向阿米娅道歉", values="1")]
+
+[Predicate(references="1")]
+
+[Character(name="char_002_amiya_1#6")]
+
+[name="阿米娅"]   啊，不，不......博士才是，该道歉的是我......
+[name="阿米娅"]   明明你什么都不清楚......我还强行把你拉进战斗......
+[name="阿米娅"]   甚至把你和罗德岛小队的诸位都卷进危险......
+[Character(name="char_002_amiya_1#4")]
+
+[name="阿米娅"]   我真是......
+
+[Dialog]
+[Delay(time=0.6)]
+
+[Character(name="char_002_amiya_1#6")]
+
+[name="阿米娅"]   博士......唉？不要紧吗？我做的很好了？
+
+[Character(name="char_016_medic", name2="char_130_doberm_ex", focus=1)]
+
+[name="医疗干员"]   作战会议时你就说过，营救{@nickname}博士本身就是相当危险的任务。
+[name="医疗干员"]   但如果是重要的伙伴，肯定不能坐视不理吧？
+
+[Character(name="char_016_medic", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   我参与作战，就是因为已经认可了你的作战计划。
+[name="杜宾"]   阿米娅，挺起胸膛。整个罗德岛小队的安危依然由你把握着。
+
+[Character(name="char_002_amiya_1#3")]
+
+[name="阿米娅"]   ......嗯！
+
+[Character(name="char_002_amiya_1#7")]
+
+
+[name="阿米娅"]   临光小姐还在保证中城区撤退路线的安全。
+[name="阿米娅"]   我们去与他们会合吧，不要让他们等太久！
+
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(block=true)]
+[Image]

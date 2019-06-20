@@ -1,0 +1,40 @@
+[HEADER(is_skippable=false, is_tutorial=true)] 高级干员招募引导
+
+//[PopupDialog(dialogHead="$avatar_sys")] 看看是谁来了。
+//[PopupDialog(dialogHead="$avatar_amiya")] {@nickname}博士，好久……不见，你还好吗？
+//[PopupDialog(dialogHead="$avatar_amiya")] 能清晰听到你的声音，比什么都重要。
+//[PopupDialog(dialogHead="$avatar_sys")] 至少和上次相比……这里已经不一样了。
+//[PopupDialog(dialogHead="$avatar_amiya")] 啊忘了自我介绍。我是，阿米娅。不知道你还是否能回忆起来。
+//[PopupDialog(dialogHead="$avatar_amiya")] 不过没关系，之后你会渐渐习惯的。
+[PopupDialog(dialogHead="$avatar_sys")] 未被损坏的记忆部分可能比想象的少。
+[PopupDialog(dialogHead="$avatar_sys")] 看来你已经懂得了基本的生存技巧，没有白费阿米娅对你的一片期待，以及她为了救你准备的这些干员。
+//[PopupDialog(dialogHead="$avatar_amiya")] 也并不多……之前出动了太多干员导致目标太大被发现……
+
+[PopupDialog(dialogHead="$avatar_amiya")] 无论如何，整合运动造成的影响和破坏都超过了预期。
+[PopupDialog(dialogHead="$avatar_sys")] 如果想要生存下去的话，需要扩充下罗德岛的成员配置。
+[PopupDialog(dialogHead="$avatar_amiya")] 堆积着的档案已经很多了，当中一定有能够成为我们新的伙伴的人，从中招募些有可能加入我们的人吧。
+
+[GotoPage(dest="HOME", waitForSignal="home_routed")]
+[Tutorial(target="btn_advanced_recruit", \
+          animStyle="Highlight", focusStyle="HighlightRect", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_sys")] \
+点击干员寻访按钮
+
+[GotoPage(dest="recruit_advanced", waitForSignal="recruit_advanced_routed")]
+
+[Tutorial(focusX=-209, focusY=-38, focusWidth=156, focusHeight=53, anchor="TopRight", \
+          animStyle="Highlight", focusStyle="HighlightRect", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_sys", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] \
+【合成源石】是一种十分珍贵的资源，但同时也是【干员寻访】的必须品。使用前请务必仔细思考。
+
+//----------- Recruit scene ------------
+// recruitgacha_resumed等待再度回到抽卡页面
+[Tutorial(target="btn_gacha", waitForSignal="recruit_gacha_drawn", \
+          animStyle="Click", focusStyle="HighlightRect", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_sys")] \
+现在点击此从中招募一名干员。
+
+[InputBlocker(blockInput=false)]
+
+[Tutorial(waitForSignal="recruit_gachaeffect_shown")]
+//--------------------------------------

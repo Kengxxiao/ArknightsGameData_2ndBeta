@@ -1,0 +1,28 @@
+[HEADER(key="title_test", is_skippable=true)] 测试脚本
+
+// Comments
+
+[name=""]   ............
+[Delay(time=1)]
+[PlayMusic(intro="$indust_intro", key="$indust_loop", volume=1, crossfade=1, delay=0.5)]
+[Image(image="bg_abyss_1",fadetime=2, width=1, height=1)]
+
+[name="O"]   这里是\--\\-。
+[name="？？？"]   重新连接失败。
+[name="？？？"]   正在尝试重新连接，重试次数：2。
+[name="？？？"]   重新连接失败。
+[name="？？？"]   正在尝试重新连接，重试次数：3。
+
+[name="？？？"]   连接成功。
+[name="？？？"]   正在返回挂起信息......
+[name="？？？"]   n5bqNgQQwMx1FEbdg7Z0dRl2EJlbElrAHCsifXREXEIEkute+uRUTWso/
+[name="？？？"]   DxgOslBtq/
+[name="？？？"]   LUZvm8Fb/
+[name="？？？"]   传输信息已超过MTU。
+
+[Blocker(block=true)]
+[name="？？？"]  通讯中断。
+
+[Stopmusic(fadetime=1)]
+[name="？？？"]  正在尝试重新连接，重试次数：1。
+[Dialog]

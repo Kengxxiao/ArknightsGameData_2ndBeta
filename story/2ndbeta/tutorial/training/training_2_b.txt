@@ -1,0 +1,7 @@
+[HEADER(is_skippable=true)] 训练关卡2b
+
+[PopupDialog(dialogHead="$avatar_sys")] 原来如此，这个敌人身着护甲，普通的物理攻击对其难以造成伤害。
+[PopupDialog(dialogHead="$avatar_sys")] 这种时候，一个常见的对策便是改为使用法术攻击穿透敌人的护甲。
+[PopupDialog(dialogHead="$avatar_sys")] 我已经让术师干员杜林待命，随时可以部署至战场迎击敌人。
+
+[Blocker(fadetime=0.3, block=true, a=0)]

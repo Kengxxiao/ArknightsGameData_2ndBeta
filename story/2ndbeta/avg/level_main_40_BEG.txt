@@ -1,0 +1,144 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第四十关（前）
+
+// Comments
+
+
+[PlayMusic(intro="$frostnova_intro", key="$frostnova_loop", volume=0.8, crossfade=1, delay=0.5)]
+[Delay(time=1)]
+
+[playsound(key="$d_gen_surfacefrozen", volume=0.8)]
+[Image(image="avg_40_2", fadetime=1, block=true)]
+
+[CameraShake(duration=-1, xstrength=5, ystrength=5, vibrato=15, randomness=90, fadeout=true, block=false)]
+[name="杰西卡"]   温度......急剧下降？
+[Blocker(a=0.05, r=1, g=1, b=1, fadetime=0.5, block=true)]
+[name="杰西卡"]   地面结霜了......
+[Blocker(a=0.1, r=1, g=1, b=1, fadetime=0.5, block=true)]
+[name="杰西卡"]   好冷......
+[name="杰西卡"]   怎么会......就连那个标志都被......怎么会......！
+[playsound(key="$d_gen_surfacefrozen", volume=0.8)]
+[name="杰西卡"]   是她......啊啊......是她......！
+[Blocker(a=0.2, r=1, g=1, b=1, fadetime=1, block=true)]
+[name="阿米娅"]   别慌张！
+[name="阿米娅"]   霜叶！回来！
+[name="陨星"]   那就是雪怪小队的指挥官！
+[name="陨星"]   你在做什么，霜叶！快走啊！
+[playsound(key="$d_gen_surfacefrozen", volume=0.8)]
+[Dialog]
+[CameraShake(duration=1, xstrength=5, ystrength=5, vibrato=15, randomness=90, fadeout=true, block=false)]
+[Image(fadetime=1, block=true)]
+[Blocker(a=0, fadetime=0.2, block=true)]
+[Background(image="bg_cher_6", width=1, height=1, fadetime=1, block=true)]
+
+
+[Character(name="char_193_frostl_1")]
+
+[name="霜叶"]   ......哈，雪怪们的公主......
+[name="霜叶"]   头次见到......比我体温还低的人呢。
+
+[Character(name="char_193_frostl_1", name2="char_219_meteo_1", focus=1)]
+
+[name="霜叶"]   我也想通过迂回来给你们创造空间......
+
+[Character(name="char_193_frostl_1", name2="char_219_meteo_1#3", focus=2)]
+
+[name="陨星"]   你......
+
+[Character(name="char_193_frostl_1", name2="char_219_meteo_1#3", focus=1)]
+
+[name="霜叶"]   可是......我的身体......冻僵了。
+[name="霜叶"]   我的脚......已经动不了了。
+
+[Character(name="char_193_frostl_1", name2="char_219_meteo_1#3", focus=2)]
+
+[name="陨星"]   霜叶！！
+
+[Character(name="char_193_frostl_1")]
+
+[name="霜叶"]   阿米娅，带她们突破。
+[name="霜叶"]   再一分钟，她就会冻上整个广场。
+[name="霜叶"]   我的命，可别浪费了。
+[name="霜叶"]   想了想，这法术......我只用过一次呢。
+
+[CameraShake(duration=1, xstrength=8, ystrength=10, vibrato=30, randomness=90, block=true)]
+
+[Character(name="char_002_amiya_1", name2="char_219_meteo_1#3", focus=2)]
+
+[name="陨星"]   阿米娅......我们不能......我不能！
+
+[Character(name="char_002_amiya_1#7", name2="char_219_meteo_1#3", focus=1)]
+
+[name="阿米娅"]   我明白。
+[name="阿米娅"]   我不会丢下霜叶的。
+[name="阿米娅"]   我是不会——丢下任何人的！
+[name="阿米娅"]   我来封锁敌方小队的行动！
+[name="阿米娅"]   陨星——去把霜叶救回来！！
+
+[Character(name="char_002_amiya_1#7", name2="char_219_meteo_1#3", focus=2)]
+
+[name="陨星"]   明白！
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   博士！拜托你了！
+
+[Character(name="char_002_amiya_1#7", focus=-1)]
+
+[Decision(options="（点头）", values="1")]
+
+[Predicate(references="1")]
+
+[Dialog]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.2, block=true)]
+[Character(fadetime=0)]
+[Blocker(a=0, fadetime=0.2, block=true)]
+
+[Character(name="char_193_frostl_1")]
+
+[name="霜叶"]   ————
+[name="霜叶"]   ——“凡有血气......”
+
+[Blocker(a=0.5, r=0, g=0.85, b=0.85, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0, g=0.95, b=0.95, fadetime=0.15, block=true)]
+
+[Character(name="char_1505_frstar_1")]
+
+[name="霜星"]   呵。用冰对抗冰......吗。
+[name="霜星"]   雪怪小队，各自散开就位。
+
+[Character(name="char_1002_nsabr_1")]
+
+[name="整合运动成员"]   是。
+
+[Character(name="char_1505_frstar_1")]
+
+[name="霜星"]   我的兄弟们......去摧毁他们的掩体，冻结他们的血液吧。
+
+[name="霜星"]   ——♪——♬——
+
+[Blocker(a=0.5, r=255, g=255, b=255, fadetime=3, block=true)]
+
+[Character(name="char_002_amiya_1#6")]
+
+[name="阿米娅"]   ——！
+[name="阿米娅"]   ......下雪了？
+
+[Character(name="char_1505_frstar_1")]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=3, block=true)]
+[name="霜星"]   ......♪沉睡啊，沉睡吧，
+[name="霜星"]   刺猬玩偶与小熊们......
+
+[Character(name="char_219_meteo_1#3")]
+
+[name="陨星"]   这个怪异的旋律......
+[name="陨星"]   ——她在施术！
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   别让她唱完！！
+
+[Character(name="char_002_amiya_1#7", focus=-1)]
+
+[Decision(options="发动罗德岛全力进攻", values="1")]
+
+[Predicate(references="1")]

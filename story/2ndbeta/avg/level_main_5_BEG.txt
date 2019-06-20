@@ -1,0 +1,191 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第五关（前）
+
+// Comments
+
+[Background(image="bg_cher_5", width=1, height=1, fadetime=1)]
+[PlayMusic(intro="$escape_intro", key="$escape_loop", volume=0.8, crossfade=1.5, delay=0.5)]
+[Delay(time=1)]
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   果然一直在尾随我们吗，整合运动......！
+
+[Character(name="char_1002_nsabr_2")]
+
+[name="整合运动成员"]   你们挣扎的样子，勾起我们的兴趣了。
+[name="整合运动成员"]   放着不管的话，你们就会像沟渠里的杂碎一样溜走。
+[name="整合运动成员"]   ——一个也别想逃出去。
+
+[Character(name="char_013_riop")]
+
+[name="罗德岛干员"]   我们被包围了......！
+[name="罗德岛干员"]   这个数量......究竟有多少暴徒藏匿在切城？！
+
+[Character(name="char_1502_crowns")]
+
+[name="？？？"]   ——动手。
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   ——狙击小队，瞄准敌方指挥官！
+
+[Character(name="char_014_riope")]
+
+[name="罗德岛精英干员"]   重装干员，防御姿态，向前顶上！
+
+[Character(name="char_1507_Mephisto_1#6")]
+
+[name="？？？"]   等一下，等一下——
+[name="？？？"]   这里已经是我的处理范围咯。
+
+[Character(name="char_1502_crowns", name2="char_1507_Mephisto_1", focus=2)]
+
+[name="？？？"]   该交给我了吧，弑君者？
+[name="？？？"]   你没有拒绝的理由吧？一些小虫子......值得你亲自追击吗？
+
+[Character(name="char_1502_crowns", name2="char_1507_Mephisto_1", focus=1)]
+
+[name="弑君者"]   ————
+[name="弑君者"]   随便你。
+
+[Character(name="char_1502_crowns")]
+
+[name="弑君者"]   收队。
+
+[Dialog(fadetime=0.5)]
+[Character(fadetime=0.5)]
+[Delay(time=0.6)]
+
+[Character(name="char_002_amiya_1#6", name2="char_130_doberm_ex", focus=1)]
+
+[name="阿米娅"]   ......什么......？
+
+[Character(name="char_002_amiya_1#6", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   ......这小子，是来战场上玩闹的吗？
+
+[Character(name="char_002_amiya_1#7", name2="char_130_doberm_ex", focus=1)]
+
+[name="阿米娅"]   你们在盘算什么？
+
+[Character(name="char_1507_Mephisto_1")]
+
+[name="？？？"]   抱歉，我都没来及和你们打招呼。
+[name="？？？"]   毕竟刚开始你们并不是整合运动的目标。
+[name="？？？"]   我叫梅菲斯特，是整合运动的领袖——
+[name="梅菲斯特"]   你们的战斗我看的一清二楚。
+[name="梅菲斯特"]   真的——十分有趣！
+
+[Character(name="char_016_medic")]
+
+[name="医疗干员"]   说战场的厮杀......有趣？
+
+[Character(name="char_1507_Mephisto_1")]
+
+[name="梅菲斯特"]   我决定——要和你们，好好玩上一会儿才行~
+
+[Character(name="char_130_doberm_ex")]
+
+[name="杜宾"]   ......我们没工夫和小孩子浪费时间。
+
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.5, fadetime=0.02, block=true)]
+[PlaySound(key="$d_gen_signalbomb")]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+
+[delay(time=1.5)]
+
+[Blocker(a=0.7, r=1, g=0.1, b=0.3, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+
+
+[Character(name="char_1507_Mephisto_1", name2="char_130_doberm_ex", focus=1)]
+
+[name="梅菲斯特"]   ......刚刚那是什么？信号吗？
+
+[Character(name="char_1507_Mephisto_1", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   与你无关。
+
+[Character(name="char_1507_Mephisto_1", name2="char_130_doberm_ex", focus=1)]
+
+[name="梅菲斯特"]   你们，是叫罗德岛吗。我还以为你们和账面上一样是制药公司呢。
+[name="梅菲斯特"]   都是些企业人士了，连谈话时要注意礼节这个道理都不明白吗？
+
+[Character(name="char_1507_Mephisto_1", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   我没心情正眼看一个混球。
+[name="杜宾"]   就是因为世上你这种混球越来越多，才导致我们不得不提防着点。
+
+[Character(name="char_1507_Mephisto_1")]
+
+[name="梅菲斯特"]   ——
+[name="梅菲斯特"]   是嘛。
+
+[Character(name="char_1507_Mephisto_1#5")]
+
+[name="梅菲斯特"]   但是我不一样。
+[name="梅菲斯特"]   我为之前对你们的轻视而向你道歉。
+[name="梅菲斯特"]   你们战斗的时候十分英勇，又非常懂得怎么取悦我！
+[name="梅菲斯特"]   我们来玩个游戏吧。
+
+[Character(name="char_002_amiya_1#7", name2="char_1507_Mephisto_1", focus=1)]
+
+[name="阿米娅"]   ......你疯了？天灾要来了！再不撤出就逃不掉了——
+
+[Character(name="char_002_amiya_1#7", name2="char_1507_Mephisto_1", focus=2)]
+
+[name="梅菲斯特"]   你在说什么呢，迟钝兔子？
+
+[Character(name="char_002_amiya_1#6", name2="char_1507_Mephisto_1", focus=1)]
+
+[name="阿米娅"]   呜？！
+
+[Character(name="char_002_amiya_1#6", name2="char_1507_Mephisto_1", focus=2)]
+
+[name="梅菲斯特"]   正因为是天灾啊......一个该庆祝的时刻——！现在，狩猎罗德岛的活动，正式开始啦。
+
+[Character(name="char_1507_Mephisto_1#5")]
+
+[name="梅菲斯特"]   就用你们的血，来祝福切尔诺伯格即将焕然一新的绚烂时刻吧！
+
+[Character(fadetime=0)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.1, block=true)]
+[name="整合运动"]  哦哦！！哦哦哦！！！
+
+[Character(name="char_130_doberm_ex")]
+
+[name="杜宾"]   啐，这臭小子，脑袋里的东西搅成一团了吗？
+
+[Character(name="char_1507_Mephisto_1")]
+
+[name="梅菲斯特"]   但我也不是那种冷血的人......
+[name="梅菲斯特"]   所以我会给你们一个机会，一个允许你们暂时逃离命运的机会。
+[name="梅菲斯特"]   接下来的战斗中，我不会出手~
+[name="梅菲斯特"]   很仁慈吧？当然，就算你们现在想投降，也是不可能的哦。
+[name="梅菲斯特"]   因为狩猎——已经开始了！
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   各小队，战斗准备！！
+
+[Character(name="char_1507_Mephisto_1")]
+[Background(fadetime=2)]
+
+[name="梅菲斯特"]   对了对了。
+[name="梅菲斯特"]   那个从核心区石棺里捞出来的家伙......非常、非常令人在意。
+[name="梅菲斯特"]   你看起来......和我们有点不一样。
+
+[Character(name="char_1507_Mephisto_1#5")]
+
+[name="梅菲斯特"]   来吧，罗德岛的虫子们，把这个家伙留给我吧？这样你们说不定还能先逃一会儿呢。
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   博士——
+[name="阿米娅"]   ——退到我身后！！！！
+
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(block=true)]
+[Image]

@@ -1,0 +1,7 @@
+[HEADER(is_tutorial=true)] 引导关卡2_f
+
+[Battle.Pause]
+
+[PopupDialog(dialogHead="system_100_mys")] 就是这样，将干员部署至适合她们的位置也是战术的重要一环。
+[PopupDialog(dialogHead="system_100_mys")] …………
+[PopupDialog(dialogHead="system_100_mys")] 还不是松懈的时候。注意，检测到后方有强力敌人在靠近。

@@ -1,0 +1,15 @@
+[HEADER(is_skippable=true)] 训练关卡6b
+
+[PopupDialog(dialogHead="$avatar_sys")] 敌人似乎已经发现了你人手不足的弱点，准备兵分两路发动进攻。
+[PopupDialog(dialogHead="$avatar_sys")] 所幸我们在附近发现了一些可挪用的障碍物。已经将这些障碍物放置于你的操作面板上。
+
+[ShowItem(image="item_crate_training_6", fadetime=0.1)]
+[PopupDialog(dialogHead="$avatar_sys")] \
+使用这些障碍物可以封锁敌人的前进道路，迫使他们改变行进路线。
+
+[PopupDialog(dialogHead="$avatar_sys")] \
+将它们用在恰当的地方，集中我方的优势兵力，建立更加稳固的防线。
+
+
+
+[Blocker(fadetime=0.3, block=true, a=0)]

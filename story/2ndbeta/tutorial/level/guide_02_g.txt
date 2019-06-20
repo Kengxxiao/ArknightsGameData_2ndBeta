@@ -1,0 +1,6 @@
+[HEADER(is_tutorial=true)] 引导关卡2_g
+
+[Battle.Pause]
+
+[PopupDialog(dialogHead="system_100_mys")] 原来如此。从后方攻来的是敌人的精英部队，拥有不可小觑的杀伤力。
+[PopupDialog(dialogHead="system_100_mys")] 建议立即部署重装干员来阻挡这些难缠的敌人。

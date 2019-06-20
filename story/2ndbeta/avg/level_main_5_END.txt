@@ -1,0 +1,145 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第五关（后）
+
+// Comments
+
+[Background(image="bg_cher_5", width=1, height=1, fadetime=1)]
+[PlayMusic(intro="$escape_intro", key="$escape_loop", volume=0.8, crossfade=1.5, delay=0.5)]
+[Delay(time=1)]
+
+[Character(name="char_013_riop", name2="char_016_medic", focus=2)]
+
+[name="医疗干员"]   咿——！
+
+[Character(name="char_013_riop", name2="char_016_medic", focus=1)]
+
+[name="罗德岛干员"]   快找掩体！
+
+[Character(name="char_013_riop", name2="char_016_medic", focus=2)]
+
+[name="医疗干员"]   我没事，只是擦伤而已，不要紧......
+
+[Character(name="char_002_amiya_1#6", name2="char_016_medic", focus=1)]
+
+[name="阿米娅"]   ......
+[name="阿米娅"]   刚才帮助我们的......是谁？
+
+[Character(name="char_002_amiya_1#6", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   路过的感染者......吗？
+[name="杜宾"]   不管是谁，都成功帮我们争取到了时间！
+
+[Character(name="char_002_amiya_1", name2="char_130_doberm_ex", focus=1)]
+
+[name="阿米娅"]   还不够......再这样下去，包围圈会不断紧缩。
+
+[Character(name="char_002_amiya_1", name2="char_130_doberm_ex", focus=2)]
+
+[name="杜宾"]   {@nickname}博士已经发现了突破口，但没有增援，我们只能采取守势，无法突围......！
+
+[Character(name="char_002_amiya_1#7", name2="char_130_doberm_ex", focus=1)]
+
+[name="阿米娅"]   ......再坚持一下！优先火力压制对方射手！我们来处理先锋！
+
+[Dialog]
+[Character(fadetime=0)]
+
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[PlaySound(key="$d_sp_ballista", volume=0.7)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[PlaySound(key="$d_sp_ballista", volume=0.4, delay=0.5)]
+[PlaySound(key="$d_gen_explo_n",volume=0.2)]
+[CameraShake(duration=1, xstrength=15, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=true)]
+
+
+[Character(name="char_1507_Mephisto_1")]
+
+[name="梅菲斯特"]   没错，没错！再多挣扎一点！再让我多看一看你们挣扎的样子！
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   咕——
+
+[Character(name="char_1507_Mephisto_1#5")]
+
+[name="梅菲斯特"]   然后就去死吧，像雨夜中的火星一样！
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   还没完——还没完——！
+[name="阿米娅"]   可是......
+
+[Character(name="char_130_doberm_ex")]
+
+[name="杜宾"]   偶数干员退列休息！后备干员各自填补位置！不要让整合运动打开哪怕一丁点缺口！
+
+[Character(name="char_002_amiya_1#4")]
+
+[name="阿米娅"]   如果必要的话——
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   ——
+
+[Dialog]
+[Character(fadetime=0)]
+
+[CameraShake( xstrength=5, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0.7, r=0.95, g=0.15, b=0.15, fadetime=0.02, block=true)]
+[PlaySound(key="$b_char_rockexplo", volume=0.7)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+
+[Character(name="char_1002_nsabr_2")]
+[name="整合运动成员"]   什么？什——不唔唔唔唔唔啊啊啊！！！
+[CameraShake(stop=true)]
+
+[Character(name="char_1507_Mephisto_1#4")]
+
+[name="梅菲斯特"]   唔唔？撞飞起来了？发生什么了——
+[name="梅菲斯特"]   这......什么啊......
+
+[Character(name="char_148_nearl_1#5")]
+
+[name="？？？"]   你们比我预期的慢上太多。我可是连平民都顺手安顿好了。
+
+[Character(name="char_002_amiya_1#6")]
+
+[name="阿米娅"]   ——？！！
+
+[Character(name="char_148_nearl_1#5")]
+
+[name="？？？"]   迅速打开通路，别给敌人重整阵形的机会！
+
+[Character(name="char_002_amiya_1#11", name2="char_148_nearl_1", focus=1)]
+
+[name="阿米娅"]   临光小姐！！
+
+[Character(name="char_002_amiya_1#11", name2="char_148_nearl_1", focus=2)]
+
+[name="临光"]   我在。阿米娅你没事就好。
+
+[Character(name="char_130_doberm_ex", name2="char_148_nearl_1", focus=1)]
+
+[name="杜宾"]   幸亏这次作战有你参加。
+
+[Character(name="char_130_doberm_ex", name2="char_148_nearl_1#6", focus=2)]
+
+[name="临光"]   信号定位很有效。看来你们遇到的麻烦确实不小。
+
+[Character(name="char_130_doberm_ex", name2="char_148_nearl_1#6", focus=-1)]
+
+[Dialog]
+[Delay(time=0.6)]
+
+[Character(name="char_148_nearl_1")]
+[name="临光"]   ——
+[Delay(time=1)]
+[name="临光"]   您就是{@nickname}博士吧？
+
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.6, block=true)]
+
+[name="临光"]   耀骑士临光，前来迎接你们了。
+
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(block=true)]
+[Image]

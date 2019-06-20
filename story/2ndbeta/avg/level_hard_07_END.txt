@@ -1,0 +1,24 @@
+[HEADER(key="title_test", is_skippable=true)] 测试脚本
+
+// Comments
+
+[name=""]   ............
+[Delay(time=1)]
+[PlayMusic(intro="$indust_intro", key="$indust_loop", volume=1, crossfade=1, delay=0.5)]
+[Image(image="bg_abyss_1",fadetime=2, width=1, height=1)]
+
+[name="R"]   这里是\-\\\-。
+[name="？？？"]   重新连接成功。
+[name="？？？"]   正在返回挂起信息......
+[name="？？？"]   7pLwCAU9I1eHCRD1tRe7fFk9vBJThQyMAggPe1tGbbcdTI1yZ3iLatu
+[name="？？？"]   XlYSp2j0K+1DaNJ8fD7ojFPj69VaA8/ldsy3bOJ0iQ6HWfrh0B/
+[name="R"]   太好了，就快结束了......
+[name="？？？"]   传输信息已超过MTU。
+[name="R"]   ......
+[name="R"]   你也太不给我面子了。
+[name="？？？"]   没有办法，在这个有天灾的土地上，早就没有办法保证传输信息的稳定性了。
+[Blocker(block=true)]
+[name="？？？"]  通讯中断。
+[Stopmusic(fadetime=1)]
+[name="？？？"]  正在尝试重新连接，重试次数：1。
+[Dialog]

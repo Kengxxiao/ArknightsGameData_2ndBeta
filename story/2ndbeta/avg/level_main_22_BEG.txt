@@ -1,0 +1,73 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第二十二关（前）
+
+// Comments
+
+[Background(image="bg_lungmen_n", width=1, height=1, fadetime=1)]
+[PlayMusic(intro="$normalbattle_intro", key="$normalbattle_loop", volume=0.6, crossfade=1, delay=0.5)]
+[Delay(time=1)]
+
+[Character(name="char_106_franka_1", name2="char_107_liskam_1", focus=1)]
+
+[name="芙兰卡"]   雷蛇！防线还撑得住吗？
+
+[Character(name="char_106_franka_1", name2="char_107_liskam_1", focus=2)]
+
+[name="雷蛇"]   这边没有问题！
+[name="雷蛇"]   芙兰卡，注意敌人侧翼进攻！
+
+[Character(name="char_106_franka_1", name2="char_107_liskam_1", focus=1)]
+
+[name="芙兰卡"]   真是没完没了......！
+[name="芙兰卡"]   医疗组！伤员！
+
+[Character(name="char_1500_skulsr")]
+
+[name="碎骨"]   ————
+[playsound(key="$e_imp_sword_h", volume=0.7)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+[playsound(key="$e_imp_sword_h", volume=0.5)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
+
+[CameraShake(duration=1, xstrength=6, ystrength=10, vibrato=50, randomness=90, fadeout=true, block=true)]
+
+[Character(name="char_1500_skulsr")]
+
+[name="碎骨"]   想藏到哪里去？
+[name="碎骨"]   你们逃不掉的。我会粉碎你们——彻彻底底的粉碎你们。
+
+[playsound(key="$e_skill_skulsrshot", volume=0.5)]
+[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=50, randomness=90, fadeout=true, block=true)]
+
+[Character(name="char_106_franka_1", name2="char_107_liskam_1", focus=1)]
+
+[name="芙兰卡"]   哦~这家伙终于亲自登场了。
+[name="芙兰卡"]   虽然还是蛮寒酸的......呢。
+
+[Character(name="char_106_franka_1", name2="char_107_liskam_1", focus=2)]
+
+[name="雷蛇"]   我们被整合运动逼入死路了。
+[name="雷蛇"]   啧——只能硬上了。重装小组，守住阵地！
+
+[Character(name="char_1500_skulsr")]
+
+[name="碎骨"]   身为感染者，却帮助龙门杀害感染者——
+[name="碎骨"]   多少同胞的性命，你们——得血债血偿！
+
+
+[playsound(key="$e_skill_skulsrshot", volume=0.5)]
+[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=50, randomness=90, fadeout=true, block=false)]
+[name="碎骨"]   全力进攻！
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   ————
+[name="阿米娅"]   整合运动————
+[name="阿米娅"]   先结仇的、先伤害别人的、先使用暴力的——
+[name="阿米娅"]   可是切尔诺伯格的你们！！
+
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(block=true)]
+[Image]

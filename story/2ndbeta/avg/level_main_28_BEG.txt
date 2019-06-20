@@ -1,0 +1,100 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第二十八关（前）
+
+// Comments
+
+[Background(image="bg_wild_a", width=1, height=1, fadetime=1)]
+[PlayMusic(intro="$loading_intro", key="$loading_loop", volume=0.8, crossfade=1.5, delay=0.5)]
+[Delay(time=1)]
+
+[Character(name="char_002_amiya_1#4")]
+
+[name="阿米娅"]   ......
+
+[Character(name="char_010_chen_1", name2="char_002_amiya_1", focus=1)]
+
+[name="陈"]   在战场上发呆是很危险的。
+
+[Character(name="char_010_chen_1", name2="char_002_amiya_1", focus=2)]
+
+[name="阿米娅"]   ......抱歉。
+
+[Character(name="char_010_chen_1", name2="char_002_amiya_1", focus=1)]
+
+[name="陈"]   整合运动龟缩在一个废弃矿场中，那个女人也进去了。
+[name="陈"]   你如果想独自待着，我也会给你点空间。
+[name="陈"]   但近卫局没有能拿来浪费的时间。
+[name="陈"]   星熊，督查组集合。
+
+[Character(name="char_002_amiya_1#4")]
+
+[name="阿米娅"]   （米莎......）
+
+[Character(name="char_010_chen_1", name2="char_002_amiya_1", focus=2)]
+
+[name="阿米娅"]   陈长官——
+[name="阿米娅"]   我有一个疑虑。
+
+[Character(name="char_010_chen_1", name2="char_002_amiya_1", focus=1)]
+
+[name="陈"]   疑虑？
+
+[Character(name="char_010_chen_1", name2="char_002_amiya_1#2", focus=2)]
+
+[name="阿米娅"]   W擅长使用爆炸物——她在战场上散布陷阱几乎是定势。
+[name="阿米娅"]   我担心正面进攻会给我们带来很大损失。
+
+[Character(name="char_010_chen_1", name2="char_002_amiya_1#7", focus=2)]
+
+[name="阿米娅"]   我提议，由罗德岛干员先行潜入矿场，近卫局在外围设置包围网。
+[name="阿米娅"]   任何从中逃出的整合运动，可以由近卫局立刻逮捕——
+[name="阿米娅"]   顽抗的，由我们处理。
+
+[Character(name="char_010_chen_1", name2="char_002_amiya_1", focus=1)]
+
+[name="陈"]   你们对付那个女人，有几成把握？
+
+[Character(name="char_010_chen_1", name2="char_002_amiya_1", focus=2)]
+
+[name="阿米娅"]   我不知道——
+
+[Character(name="char_010_chen_1", name2="char_002_amiya_1#7", focus=2)]
+
+[name="阿米娅"]   ——但我们可以承担相应风险。
+[name="阿米娅"]   我们与她战斗过不止一次，至少对她的作战风格有一定的了解。
+[name="阿米娅"]   有的风险，近卫局是承担不起的。
+
+[Character(name="char_010_chen_1", name2="char_002_amiya_1", focus=1)]
+
+[name="陈"]   ——丢失密钥的风险，近卫局同样承担不起。
+[name="陈"]   准备包围矿场！星熊，去挑几个人。
+[name="陈"]   我们带支小队，和罗德岛一起去。
+[name="陈"]   为了龙门，我必须把米莎夺回来。
+
+[Character(name="char_010_chen_1", name2="char_002_amiya_1", focus=2)]
+
+[name="阿米娅"]   ——明白。
+[name="阿米娅"]   我去召集罗德岛干员。
+
+[Character(name="char_010_chen_1", name2="char_136_hsguma", focus=2)]
+
+[name="星熊"]   老陈，矿场边缘——有波整合运动正向外移动。
+[name="星熊"]   ——动作挺快。
+[name="星熊"]   我先去了，否则会赶不上。
+
+[Character(name="char_010_chen_1", name2="char_136_hsguma", focus=1)]
+
+[name="陈"]   快去。一个也别漏掉。不要逞强，撑不住就立刻撤退。
+
+[Character(name="char_010_chen_1")]
+
+[name="陈"]   阿米娅？
+
+[Character(name="char_002_amiya_1#7")]
+
+[name="阿米娅"]   ——我明白。我们......没时间了。
+[name="阿米娅"]   和切城不一样——现在，轮到我们来阻截整合运动了！
+
+[Delay(time=0.6)]
+[Dialog]
+[Blocker(block=true)]
+[Image]
